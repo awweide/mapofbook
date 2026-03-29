@@ -1,0 +1,139 @@
+:root {
+  color-scheme: dark;
+  --bg: #111522;
+  --surface: #1b2236;
+  --surface-alt: #232b44;
+  --text: #e7ebf9;
+  --muted: #9eaacf;
+  --accent: #7ab7ff;
+  --accent-2: #8dffca;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: radial-gradient(circle at top, #1a2242 0%, var(--bg) 40%);
+  color: var(--text);
+}
+
+.layout {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+  display: grid;
+  gap: 1.25rem;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  margin: 0;
+  color: var(--muted);
+  max-width: 70ch;
+}
+
+.controls {
+  display: inline-flex;
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  width: fit-content;
+  border-radius: 0.8rem;
+  background: var(--surface);
+}
+
+label {
+  font-weight: 600;
+}
+
+select {
+  border: 1px solid #40507d;
+  border-radius: 0.45rem;
+  background: var(--surface-alt);
+  color: var(--text);
+  font: inherit;
+  padding: 0.4rem 0.55rem;
+}
+
+.viz-card,
+.details-card {
+  border-radius: 1rem;
+  background: linear-gradient(180deg, #212b48, #1a2239);
+  border: 1px solid #37456f;
+  padding: 1rem;
+}
+
+.timeline {
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  min-height: 220px;
+  padding: 1rem 0.2rem;
+}
+
+.node-wrap {
+  display: grid;
+  gap: 0.6rem;
+  justify-items: center;
+  min-width: 130px;
+  position: relative;
+}
+
+.node-wrap::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: calc(100% - 1px);
+  width: 130px;
+  height: 2px;
+  background: linear-gradient(90deg, #5b6ea2, #3c4f7f);
+  transform: translateY(-50%);
+  z-index: 0;
+}
+
+.node-wrap:last-child::after {
+  display: none;
+}
+
+.node {
+  position: relative;
+  z-index: 1;
+  border-radius: 999px;
+  border: 2px solid #89c1ff;
+  background: radial-gradient(circle at 30% 20%, var(--accent-2), var(--accent));
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.node:hover,
+.node:focus-visible {
+  transform: translateY(-4px) scale(1.06);
+  box-shadow: 0 8px 20px rgba(122, 183, 255, 0.45);
+  outline: none;
+}
+
+.node-label {
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--muted);
+  line-height: 1.2;
+  max-width: 12ch;
+}
+
+#details-title {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+#details-copy {
+  margin: 0;
+  color: var(--muted);
+}
