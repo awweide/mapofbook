@@ -1,5 +1,23 @@
 const DATA_FILE = "lotr_revised.txt";
 const LABEL_THRESHOLD = 3;
+const FIXED_BAR_WIDTH = 110;
+const SCORE_LEVEL_STEPS = 4;
+
+const PRESENCE_LABELS = {
+  1: "None",
+  2: "Mentioned",
+  3: "Present",
+  4: "Important",
+  5: "Main focus",
+};
+
+const DEVELOPMENT_LABELS = {
+  1: "None",
+  2: "Minor",
+  3: "Significant",
+  4: "Major",
+  5: "Climax",
+};
 
 const select = document.getElementById("character-select");
 const timeline = document.getElementById("timeline");
@@ -136,6 +154,14 @@ function scoreNode(role) {
   return role.presence + role.development;
 }
 
+function scoreToFraction(score) {
+  return Math.max(0, Math.min(1, (score - 1) / SCORE_LEVEL_STEPS));
+}
+
+function scoreLabel(score, labelMap) {
+  return labelMap[Math.round(score)] ?? "Unknown";
+}
+
 function renderTimeline(character) {
   timeline.textContent = "";
 
@@ -155,27 +181,28 @@ function renderTimeline(character) {
       .forEach((entry) => {
         const role = entry.roles[character];
         const total = scoreNode(role);
-        const width = 30 + total * 10;
 
         const wrap = document.createElement("article");
         wrap.className = "chapter-cell";
 
         const bar = document.createElement("button");
         bar.className = "metric-bar";
-        bar.style.width = `${width}px`;
+        bar.style.width = `${FIXED_BAR_WIDTH}px`;
         bar.setAttribute("aria-label", `${book} ${entry.chapter}: ${role.summary}`);
 
         const presencePart = document.createElement("span");
-        presencePart.className = "metric metric-presence";
+        presencePart.className = "metric";
+        const presenceFill = document.createElement("span");
+        presenceFill.className = "metric-fill metric-presence";
+        presenceFill.style.height = `${scoreToFraction(role.presence) * 100}%`;
+        presencePart.append(presenceFill);
 
         const developmentPart = document.createElement("span");
-        developmentPart.className = "metric metric-development";
-
-        const presenceFraction = total > 0 ? role.presence / total : 0;
-        const developmentFraction = total > 0 ? role.development / total : 0;
-
-        presencePart.style.flex = `${presenceFraction}`;
-        developmentPart.style.flex = `${developmentFraction}`;
+        developmentPart.className = "metric";
+        const developmentFill = document.createElement("span");
+        developmentFill.className = "metric-fill metric-development";
+        developmentFill.style.height = `${scoreToFraction(role.development) * 100}%`;
+        developmentPart.append(developmentFill);
 
         bar.append(presencePart, developmentPart);
 
@@ -184,13 +211,13 @@ function renderTimeline(character) {
         label.textContent = total > LABEL_THRESHOLD ? entry.chapter : "";
 
         const showTip = (event) => {
-          updateTooltip(event, book, entry.chapter, character, role, total);
+          updateTooltip(event, book, entry.chapter, character, role);
         };
 
         bar.addEventListener("mouseenter", showTip);
         bar.addEventListener("mousemove", showTip);
         bar.addEventListener("focus", (event) => {
-          updateTooltip(event, book, entry.chapter, character, role, total, true);
+          updateTooltip(event, book, entry.chapter, character, role, true);
         });
         bar.addEventListener("mouseleave", hideTooltip);
         bar.addEventListener("blur", hideTooltip);
@@ -204,12 +231,14 @@ function renderTimeline(character) {
   });
 }
 
-function updateTooltip(event, book, chapter, character, role, total, focusMode = false) {
+function updateTooltip(event, book, chapter, character, role, focusMode = false) {
+  const presenceText = scoreLabel(role.presence, PRESENCE_LABELS);
+  const developmentText = scoreLabel(role.development, DEVELOPMENT_LABELS);
   tooltip.hidden = false;
   tooltip.innerHTML = `
     <strong>${book} · ${chapter} · ${character}</strong><br />
-    P ${role.presence.toFixed(1)} / D ${role.development.toFixed(1)}<br />
-    Total ${total.toFixed(1)}<br />
+    Presence: ${presenceText}<br />
+    Development: ${developmentText}<br />
     ${role.summary}
   `;
 
