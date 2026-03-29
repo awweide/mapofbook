@@ -1,0 +1,271 @@
+## Character Arcs
+
+**Gandalf:** Goes from a seemingly eccentric wizard helping Bilbo to revealing his true power as Gandalf the White after dying and being reborn, ultimately fulfilling his mission as the prime mover of the Quest and returning to the West.
+
+**Aragorn:** Transitions from a mysterious Ranger called "Strider" who is distrusted to claiming his destiny as Isildur's heir, wielding the reforged sword Anduril, and becoming King Elessar of Gondor and Arnor.
+
+**Legolas:** Evolves from a relatively minor elf representative to a key warrior and friend, but undergoes an internal transformation as he hears gulls and feels the "sea-longing," realizing his time in Middle-earth is ending.
+
+**Gimli:** Moves from initial hostility toward Elves (especially Galadriel) to becoming fast friends with Legolas and being moved to tears by Galadriel's beauty, eventually becoming Lord of the Glittering Caves.
+
+## Relationships
+
+**Aragorn:** Guided by Gandalf like a father figure; respected and followed by Legolas and Gimli as their leader; his skill and nobility earn their deep loyalty.
+
+**Gandalf:** Mentor to all, especially Aragorn; trusted authority; his "death" deeply affects everyone, and his return as the White Rider inspires them.
+
+**Legolas & Gimli:** Begin as rivals with ethnic tension (Legolas flinches at mention of Galadriel's name; Gimli resents elf-pride). Transform into inseparable friends who compete playfully in battle, travel together after the war, and eventually sail west together.
+
+---
+
+## Chapter-by-Chapter Analysis
+
+### Book One
+
+**Chapter 1: A Long-expected Party**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Gandalf | 0.7 | 0.3 | Arrives with fireworks, confronts Bilbo about the Ring, senses its evil influence, warns Bilbo to leave it behind |
+| Aragorn | 0 | 0 | Not present |
+| Legolas | 0 | 0 | Not present |
+| Gimli | 0 | 0 | Not present |
+
+**Chapter 2: The Shadow of the Past**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Gandalf | 0.9 | 0.8 | Reveals the Ring's true nature and history, tells the story of Gollum, explains Sauron's return, pushes Frodo toward the quest |
+| Aragorn | 0 | 0 | Not present |
+| Legolas | 0 | 0 | Not present |
+| Gimli | 0 | 0 | Not present |
+
+**Chapter 10: Strider**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Aragorn | 0.9 | 0.6 | Introduced as mysterious "Strider," proves his identity through Gandalf's letter, reveals himself as Aragorn son of Arathorn, shows broken sword Narsil |
+| Gandalf | 0.3 | 0 | Only appears via letter, not present in person |
+| Legolas | 0 | 0 | Not present |
+| Gimli | 0 | 0 | Not present |
+
+**Chapter 11: A Knife in the Dark**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Aragorn | 0.8 | 0.2 | Leads hobbits through wilderness, shows tracking skill, reveals more of his Ranger knowledge and experience |
+| Gandalf | 0 | 0 | Not present (absent from Weathertop) |
+| Legolas | 0 | 0 | Not present |
+| Gimli | 0 | 0 | Not present |
+
+**Chapter 12: Flight to the Ford**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Aragorn | 0.6 | 0.1 | Helps carry Frodo, fights rearguard, demonstrates loyalty and courage |
+| Gandalf | 0 | 0 | Not present (arrives after Frodo crosses) |
+| Legolas | 0 | 0 | Not present |
+| Gimli | 0 | 0 | Not present |
+
+---
+
+### Book Two
+
+**Chapter 1: Many Meetings**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Gandalf | 0.8 | 0.2 | Revealed alive, explains his capture by Saruman and escape, sets stage for Council |
+| Aragorn | 0.2 | 0 | Appears in Hall of Fire, stands with Arwen, shows his elven heritage |
+| Legolas | 0 | 0 | Not present (introduced at Council) |
+| Gimli | 0 | 0 | Not present |
+
+**Chapter 2: The Council of Elrond**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Aragorn | 0.7 | 0.7 | Revealed as heir of Isildur, shows reforged sword will happen, volunteers to go to Minas Tirith, accepts his destiny |
+| Gandalf | 0.9 | 0.5 | Tells full story of Saruman's betrayal, imprisonment, and escape; establishes himself as primary mover |
+| Legolas | 0.3 | 0.1 | Introduced as messenger from Mirkwood, brings news of Gollum's escape |
+| Gimli | 0.3 | 0.1 | Introduced, represents dwarves, brings news of Sauron's messenger to Dain |
+
+**Chapter 3: The Ring Goes South**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Gandalf | 0.6 | 0.1 | Leads Company, chosen as leader, shows concern for Frodo's welfare |
+| Aragorn | 0.5 | 0.2 | Formally joins Fellowship, sword Anduril is reforged, accepts role as companion |
+| Legolas | 0.4 | 0.1 | Formally joins Fellowship as Elf representative, shows skill with bow |
+| Gimli | 0.4 | 0.1 | Formally joins Fellowship as Dwarf representative, shows stout courage |
+
+**Chapter 4: A Journey in the Dark**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Gandalf | 0.8 | 0.3 | Guides through Moria, reveals knowledge of dwarf-roads, recites Durin's song, makes fateful decision to enter |
+| Aragorn | 0.5 | 0.1 | Reluctant to enter Moria, defers to Gandalf, shows wisdom in caution |
+| Legolas | 0.3 | 0 | Shows elf-senses in darkness, hears stones lament |
+| Gimli | 0.6 | 0.2 | Eager to enter Moria, shows dwarf-pride, sings song of Durin |
+
+**Chapter 5: The Bridge of Khazad-dûm**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Gandalf | 0.9 | 0.9 | Faces Balrog, sacrifices himself, speaks iconic "You shall not pass," falls into abyss—critical pivot for his arc (death and rebirth) |
+| Aragorn | 0.6 | 0.3 | Takes leadership after Gandalf's fall, cries "Elendil!" in battle, commands retreat |
+| Legolas | 0.4 | 0.1 | Shoots at Balrog, recognizes it as "elf-bane," shows elf-lore |
+| Gimli | 0.5 | 0.2 | Shouts "Khazad ai-menu!" in battle, mourns Balin, devastated by Gandalf's loss |
+
+**Chapter 6: Lothlórien**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Aragorn | 0.6 | 0.2 | Leads Company to Lothlórien, knows secret paths, shows familiarity with elf-realm |
+| Gandalf | 0 | 0 | Dead (presumed) |
+| Legolas | 0.5 | 0.1 | Guides through elf-realm, sings song of Nimrodel and Amroth, shows connection to elven heritage |
+| Gimli | 0.5 | 0.3 | Tension with elves, blindfolded, first encounter with Galadriel plants seeds of transformation |
+
+**Chapter 7: The Mirror of Galadriel**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Aragorn | 0.2 | 0 | Present but minor |
+| Gandalf | 0 | 0 | Dead |
+| Legolas | 0.1 | 0 | Present but minor |
+| Gimli | 0.4 | 0.6 | Transformed by Galadriel's kindness, receives gift of her hair, becomes Elf-friend—critical pivot |
+
+**Chapter 8: Farewell to Lórien**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Aragorn | 0.5 | 0.3 | Receives sheath for Anduril from Galadriel, named Elessar, given elfstone, shows kingly aspect emerging |
+| Gandalf | 0 | 0 | Dead |
+| Legolas | 0.3 | 0.1 | Receives Galadhrim bow, shows elf-skill |
+| Gimli | 0.3 | 0.2 | Receives Galadriel's gift of hair, pledges friendship to Legolas, deeply moved |
+
+---
+
+### Book Three
+
+**Chapter 1: The Departure of Boromir**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Aragorn | 0.8 | 0.4 | Takes command after Boromir's death, decides to pursue orcs rather than follow Frodo, shows leadership under pressure |
+| Gandalf | 0 | 0 | Dead (presumed) |
+| Legolas | 0.4 | 0.1 | Hunts orcs with Aragorn, shows elf-speed and tracking |
+| Gimli | 0.4 | 0.1 | Hunts orcs, shows dwarf-endurance |
+
+**Chapter 2: The Riders of Rohan**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Aragorn | 0.7 | 0.3 | Meets Éomer, reveals his identity as heir of Elendil, shows authority, earns respect of Rohirrim |
+| Gandalf | 0 | 0 | Dead |
+| Legolas | 0.5 | 0.2 | Demonstrates elf-sight, counts Riders, begins friendship with Gimli in earnest |
+| Gimli | 0.5 | 0.2 | Defends Galadriel's honor against Éomer, shows dwarf-pride, bonds with Legolas |
+
+**Chapter 5: The White Rider**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Gandalf | 0.9 | 0.9 | Returns as Gandalf the White, reveals transformation, explains battle with Balrog, assumes leadership—critical pivot for arc |
+| Aragorn | 0.5 | 0.2 | Relieved to see Gandalf, defers to his authority, receives message from Galadriel |
+| Legolas | 0.4 | 0.1 | Greets Gandalf joyfully, hears prophecy about sea-longing |
+| Gimli | 0.4 | 0.1 | Initially mistakes Gandalf for Saruman, rejoices at his return, receives Galadriel's message |
+
+**Chapter 6: The King of the Golden Hall**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Gandalf | 0.7 | 0.4 | Heals Théoden, breaks Saruman's spell, reveals power as White Rider, demonstrates wisdom and authority |
+| Aragorn | 0.6 | 0.2 | Stands with Gandalf, shows kingly bearing, first meets Éowyn, remains loyal to his path |
+| Legolas | 0.3 | 0.1 | Shows elf-grace, observes Éowyn |
+| Gimli | 0.3 | 0.1 | Shows dwarf-courage, stands firm |
+
+**Chapter 7: Helm's Deep**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Aragorn | 0.7 | 0.3 | Leads defense, fights valiantly, shows martial skill and leadership, begins earning trust of Rohirrim |
+| Gandalf | 0.4 | 0.2 | Arrives with Erkenbrand at dawn, turns tide of battle, demonstrates strategic genius |
+| Legolas | 0.4 | 0.2 | Counts kills, competes with Gimli, shows elf-archery skill |
+| Gimli | 0.4 | 0.2 | Counts kills (42), competes with Legolas, shows dwarf-fighting prowess, saves Éomer |
+
+**Chapter 8: The Road to Isengard**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Gandalf | 0.5 | 0.1 | Leads to Isengard, shows knowledge of Ents |
+| Aragorn | 0.4 | 0.1 | Observes, supports Gandalf |
+| Legolas | 0.3 | 0 | Observes Ents, expresses wonder |
+| Gimli | 0.3 | 0 | Observes Ents, expresses wonder |
+
+**Chapter 10: The Voice of Saruman**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Gandalf | 0.8 | 0.5 | Confronts Saruman, breaks his staff, casts him from Order, shows moral authority and power |
+| Aragorn | 0.3 | 0 | Present, supports Gandalf |
+| Legolas | 0.2 | 0 | Present |
+| Gimli | 0.2 | 0 | Present |
+
+---
+
+### Book Five
+
+**Chapter 1: Minas Tirith**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Gandalf | 0.6 | 0.2 | Arrives at Minas Tirith with Pippin, confronts Denethor, begins preparing defense |
+| Aragorn | 0 | 0 | Not present (in Rohan) |
+| Legolas | 0 | 0 | Not present |
+| Gimli | 0 | 0 | Not present |
+
+**Chapter 2: The Passing of the Grey Company**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Aragorn | 0.8 | 0.6 | Decides to take Paths of the Dead, shows courage and destiny, reveals he looked in palantír, embraces his role as heir of Isildur |
+| Gandalf | 0 | 0 | Not present (already in Minas Tirith) |
+| Legolas | 0.3 | 0.1 | Follows Aragorn into Paths, shows elf-courage (not afraid of dead) |
+| Gimli | 0.3 | 0.2 | Follows Aragorn despite fear, admits terror, shows loyalty overcoming weakness |
+
+**Chapter 6: The Battle of the Pelennor Fields**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Aragorn | 0.7 | 0.5 | Arrives with black fleet, unfurls Arwen's standard, turns tide of battle, claims kingship by deed |
+| Gandalf | 0.5 | 0.2 | Defends Gate against Witch-king, saved by Rohirrim arrival |
+| Legolas | 0.2 | 0 | Fights in battle, mentioned with Gimli |
+| Gimli | 0.2 | 0 | Fights in battle, mentioned with Legolas |
+
+**Chapter 8: The Houses of Healing**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Aragorn | 0.7 | 0.4 | Heals Faramir, Éowyn, and Merry, fulfills prophecy "hands of the king are hands of a healer," demonstrates kingly grace |
+| Gandalf | 0.3 | 0 | Advises, brings Aragorn |
+| Legolas | 0 | 0 | Not present |
+| Gimli | 0 | 0 | Not present |
+
+**Chapter 9: The Last Debate**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Aragorn | 0.6 | 0.3 | Leads debate, accepts plan to march on Black Gate as diversion, shows strategic wisdom |
+| Gandalf | 0.7 | 0.4 | Proposes desperate plan, explains need to draw Sauron's eye, shows wisdom and courage |
+| Legolas | 0.2 | 0 | Present, commits to follow |
+| Gimli | 0.2 | 0 | Present, commits to follow |
+
+---
+
+### Book Six
+
+**Chapter 4: The Field of Cormallen**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Aragorn | 0.6 | 0.3 | Crowned king, honors Frodo and Sam, shows kingly grace and humility |
+| Gandalf | 0.4 | 0.1 | Present, joyful, begins transition to departure |
+| Legolas | 0.2 | 0.1 | Present, sings of sea-longing, foreshadows departure |
+| Gimli | 0.2 | 0.1 | Present, reunites with companions |
+
+**Chapter 5: The Steward and the King**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Aragorn | 0.8 | 0.5 | Crowned king, weds Arwen, plants White Tree, establishes reign—arc completion |
+| Gandalf | 0.3 | 0.1 | Places crown on Aragorn's head, acknowledges new age |
+| Legolas | 0 | 0 | Not present |
+| Gimli | 0 | 0 | Not present |
+
+**Chapter 6: Many Partings**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Aragorn | 0.5 | 0.2 | Bids farewell to companions, shows warmth, promises to visit Shire |
+| Gandalf | 0.4 | 0.2 | Prepares to depart to West, final conversations |
+| Legolas | 0.3 | 0.3 | Feels sea-longing, plans to sail west with Gimli—completes his internal arc |
+| Gimli | 0.3 | 0.3 | Plans to go with Legolas to see Galadriel again—completes his transformation to Elf-friend |
+
+**Chapter 9: The Grey Havens**
+| Character | Presence | Development | Role |
+|-----------|----------|-------------|------|
+| Gandalf | 0.8 | 0.8 | Departs to the West, mission complete, wears Narya openly—final resolution |
+| Aragorn | 0 | 0 | Not present |
+| Legolas | 0.2 | 0.2 | Departs with Gimli, mentioned as going west |
+| Gimli | 0.2 | 0.2 | Departs with Legolas to see Galadriel—arc complete |
