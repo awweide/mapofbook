@@ -1,7 +1,12 @@
 const DATA_FILE = "lotr_revised.txt";
 const LABEL_THRESHOLD = 3;
-const FIXED_BAR_WIDTH = 110;
+const FIXED_BAR_WIDTH = 55;
 const SCORE_LEVEL_STEPS = 4;
+const CHARACTER_LABELS = {
+  "L&G": "Legolas and Gimli",
+  "F&S": "Frodo and Sam",
+  "M&P": "Merry and Pippin",
+};
 
 const PRESENCE_LABELS = {
   1: "None",
@@ -140,7 +145,7 @@ function populateCharacterSelect(names) {
   names.forEach((name) => {
     const option = document.createElement("option");
     option.value = name;
-    option.textContent = name;
+    option.textContent = CHARACTER_LABELS[name] ?? name;
     select.append(option);
   });
 
