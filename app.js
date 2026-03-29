@@ -1,7 +1,12 @@
 const DATA_FILE = "lotr_revised.txt";
 const LABEL_THRESHOLD = 3;
-const FIXED_BAR_WIDTH = 110;
+const FIXED_BAR_WIDTH = 55;
 const SCORE_LEVEL_STEPS = 4;
+const CHARACTER_LABELS = {
+  "L&G": "Legolas and Gimli",
+  "F&S": "Frodo and Sam",
+  "M&P": "Merry and Pippin",
+};
 
 const PRESENCE_LABELS = {
   1: "None",
@@ -140,7 +145,7 @@ function populateCharacterSelect(names) {
   names.forEach((name) => {
     const option = document.createElement("option");
     option.value = name;
-    option.textContent = name;
+    option.textContent = CHARACTER_LABELS[name] ?? name;
     select.append(option);
   });
 
@@ -178,7 +183,7 @@ function renderTimeline(character) {
 
     chapters
       .filter((entry) => entry.book === book)
-      .forEach((entry) => {
+      .forEach((entry, index) => {
         const role = entry.roles[character];
         const total = scoreNode(role);
 
@@ -209,6 +214,7 @@ function renderTimeline(character) {
         const label = document.createElement("div");
         label.className = "chapter-label";
         label.textContent = total > LABEL_THRESHOLD ? entry.chapter : "";
+        const isLabelAbove = index % 2 === 0;
 
         const showTip = (event) => {
           updateTooltip(event, book, entry.chapter, character, role);
@@ -222,7 +228,11 @@ function renderTimeline(character) {
         bar.addEventListener("mouseleave", hideTooltip);
         bar.addEventListener("blur", hideTooltip);
 
-        wrap.append(bar, label);
+        if (isLabelAbove) {
+          wrap.append(label, bar);
+        } else {
+          wrap.append(bar, label);
+        }
         chapterStrip.append(wrap);
       });
 
