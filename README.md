@@ -1,6 +1,6 @@
 # Map of Book
 
-Static GitHub Pages visualization for chapter-level character importance in `lotr.txt`.
+Static GitHub Pages visualization for chapter-level character-group importance parsed from `lotr_revised.txt` (`lotr.txt` is kept only as deprecated source text).
 
 ## Local preview
 
