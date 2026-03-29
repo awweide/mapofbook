@@ -183,7 +183,7 @@ function renderTimeline(character) {
 
     chapters
       .filter((entry) => entry.book === book)
-      .forEach((entry, index) => {
+      .forEach((entry) => {
         const role = entry.roles[character];
         const total = scoreNode(role);
 
@@ -214,7 +214,6 @@ function renderTimeline(character) {
         const label = document.createElement("div");
         label.className = "chapter-label";
         label.textContent = total > LABEL_THRESHOLD ? entry.chapter : "";
-        const isLabelAbove = index % 2 === 0;
 
         const showTip = (event) => {
           updateTooltip(event, book, entry.chapter, character, role);
@@ -228,11 +227,7 @@ function renderTimeline(character) {
         bar.addEventListener("mouseleave", hideTooltip);
         bar.addEventListener("blur", hideTooltip);
 
-        if (isLabelAbove) {
-          wrap.append(label, bar);
-        } else {
-          wrap.append(bar, label);
-        }
+        wrap.append(bar, label);
         chapterStrip.append(wrap);
       });
 
