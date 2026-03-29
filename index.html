@@ -11,10 +11,10 @@
       <header>
         <h1>Map of Book</h1>
         <p>
-          Explore chapter importance for each character in <em>The Lord of the
-          Rings</em>. Node size reflects chapter importance (presence ×
-          development). Hover a node to read that character's role in the
-          chapter.
+          Explore chapter importance for each character group in <em>The Lord of
+          the Rings</em>. Books are arranged vertically and chapters horizontally.
+          Each rectangle's area tracks presence + development, split into
+          colored fractions for each metric. Hover for details.
         </p>
       </header>
 
@@ -26,14 +26,7 @@
       <section class="viz-card">
         <div id="timeline" class="timeline" aria-live="polite"></div>
       </section>
-
-      <section class="details-card" aria-live="polite">
-        <h2 id="details-title">Hover a chapter node</h2>
-        <p id="details-copy">
-          Move your cursor over any node in the timeline to inspect that
-          chapter's role for the selected character.
-        </p>
-      </section>
+      <div id="tooltip" class="tooltip" hidden></div>
     </main>
 
     <script src="app.js"></script>
