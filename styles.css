@@ -112,11 +112,12 @@ select {
 }
 
 .metric-bar {
-  height: 28px;
+  height: 68px;
   border: 2px solid #9fcbff;
   border-radius: 0.55rem;
   overflow: hidden;
   display: flex;
+  align-items: flex-end;
   background: #1a2744;
   cursor: pointer;
   transition: transform 0.16s ease, box-shadow 0.16s ease;
@@ -131,6 +132,16 @@ select {
 
 .metric {
   min-width: 2px;
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  border: 1px solid rgba(159, 203, 255, 0.45);
+  background: rgba(122, 183, 255, 0.08);
+}
+
+.metric-fill {
+  width: 100%;
 }
 
 .metric-presence {
