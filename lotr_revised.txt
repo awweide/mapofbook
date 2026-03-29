@@ -1,0 +1,127 @@
+## Character Arcs (Groups)
+
+**Gandalf:** Begins as a mysterious wizard arranging Bilbo’s farewell, reveals the truth of the Ring, guides the Fellowship, “dies” fighting the Balrog, returns as Gandalf the White, heals Théoden, leads the defence of Minas Tirith, and finally departs to the West, his mission complete.
+
+**Legolas & Gimli:** Start as wary representatives of elf and dwarf kind, with mutual suspicion. Through shared trials, they become fast friends, competing playfully in battle. Legolas develops sea‑longing; Gimli becomes Lord of the Glittering Caves and sails west with Legolas.
+
+**Frodo & Sam:** Frodo inherits the Ring, accepts the burden of the Quest, resists its temptations, is wounded physically and spiritually, and finally destroys the Ring (with Gollum’s intervention). Sam proves his loyalty beyond measure, becomes a Ring‑bearer briefly, and returns to the Shire to live a full life.
+
+**Merry & Pippin:** Begin as carefree young hobbits who insist on joining Frodo. They are captured by Orcs, escape, and help rouse the Ents. Merry rides with the Rohirrim and helps kill the Witch‑king; Pippin serves Denethor and fights in the Battle of the Black Gate. Both return as heroes and leaders of the Shire.
+
+**Gollum:** Introduced as a pitiful, treacherous creature obsessed with the Ring. He guides Frodo and Sam toward Mordor while plotting betrayal. At the Crack of Doom, he seizes the Ring and falls into the fire, unintentionally saving the Quest.
+
+**Aragorn:** Transitions from a distrustful Ranger called Strider to the rightful heir of Isildur, wielding Anduril, leading the Army of the West, healing the wounded, and becoming King Elessar of the Reunited Kingdom.
+
+---
+
+## Relationships (within groups and across)
+
+**Gandalf:** Mentor to all, especially Aragorn and Frodo. Trusted by Legolas and Gimli. His death and return bind the Company together.
+
+**Legolas & Gimli:** Begin with elf‑dwarf tension; after Gimli’s encounter with Galadriel, they become inseparable friends, competing in battle and travelling together after the war.
+
+**Frodo & Sam:** Deeply loyal; Sam’s devotion keeps Frodo going. Frodo is the Ring‑bearer; Sam is his protector and, briefly, a Ring‑bearer himself.
+
+**Merry & Pippin:** Close cousins and co‑conspirators; they support each other through capture, escape, and war, returning as heroes of the Shire.
+
+**Gollum:** Antagonist to Frodo and Sam, but also an unwitting guide. His obsession drives the final destruction of the Ring.
+
+**Aragorn:** Guided by Gandalf, respected by Legolas and Gimli, and a protector of the hobbits. He is the leader of the Company after Gandalf’s fall.
+
+---
+
+## Chapter‑by‑Chapter Table
+
+*Key: P = Presence, D = Development (1–5). Summary column highlights each group’s role.*
+
+### Book One
+
+| Chapter | Gandalf | L&G | F&S | M&P | Gollum | Aragorn | Summary |
+|---------|---------|-----|-----|-----|--------|---------|---------|
+| 1: A Long‑expected Party | 4/3 | 1/1 | 4/2 | 4/2 | 1/1 | 1/1 | Gandalf plans Bilbo’s disappearance; Frodo inherits the Ring; Merry & Pippin introduced as friends. |
+| 2: The Shadow of the Past | 5/5 | 1/1 | 5/3 | 1/1 | 2/2 | 1/1 | Gandalf reveals the Ring’s history; Frodo learns of Sauron and Gollum; Sam overhears. |
+| 3: Three is Company | 2/1 | 1/1 | 5/2 | 4/2 | 1/1 | 1/1 | Frodo, Sam, Pippin leave Hobbiton; encounter a Black Rider; meet Elves. |
+| 4: A Short Cut to Mushrooms | 1/1 | 1/1 | 5/2 | 4/2 | 1/1 | 1/1 | Frodo, Sam, Pippin meet Farmer Maggot; reach Ferry. |
+| 5: A Conspiracy Unmasked | 1/1 | 1/1 | 5/3 | 5/3 | 1/1 | 1/1 | Merry and Pippin reveal they know about the Ring; they all decide to go together. |
+| 6: The Old Forest | 1/1 | 1/1 | 5/2 | 5/2 | 1/1 | 1/1 | Hobbits get lost, attacked by Old Man Willow; rescued by Tom Bombadil. |
+| 7: In the House of Tom Bombadil | 1/1 | 1/1 | 5/2 | 4/2 | 1/1 | 1/1 | Frodo, Sam, Merry, Pippin rest with Tom and Goldberry. |
+| 8: Fog on the Barrow‑downs | 1/1 | 1/1 | 5/3 | 5/3 | 1/1 | 1/1 | Hobbits captured by Barrow‑wight; Frodo calls Tom Bombadil for rescue. |
+| 9: At the Sign of The Prancing Pony | 1/1 | 1/1 | 4/2 | 4/2 | 1/1 | 5/3 | Aragorn introduced as Strider; watches over hobbits; Frodo accidentally vanishes. |
+| 10: Strider | 2/1 | 1/1 | 4/2 | 3/1 | 1/1 | 5/5 | Aragorn reveals himself as heir of Isildur, shows Gandalf’s letter; joins the hobbits. |
+| 11: A Knife in the Dark | 1/1 | 1/1 | 4/2 | 3/1 | 1/1 | 5/2 | Aragorn leads to Weathertop; Frodo wounded by Witch‑king. |
+| 12: Flight to the Ford | 2/1 | 1/1 | 5/3 | 2/1 | 1/1 | 4/2 | Glorfindel and Aragorn rescue Frodo; Gandalf appears at the Ford. |
+
+### Book Two
+
+| Chapter | Gandalf | L&G | F&S | M&P | Gollum | Aragorn | Summary |
+|---------|---------|-----|-----|-----|--------|---------|---------|
+| 1: Many Meetings | 5/2 | 1/1 | 4/2 | 3/1 | 1/1 | 3/1 | Gandalf recounts his escape from Orthanc; Frodo recovers; Aragorn seen with Arwen. |
+| 2: The Council of Elrond | 5/4 | 3/2 | 5/3 | 3/1 | 1/1 | 4/4 | Council decides the Ring must be destroyed; Aragorn reveals his heritage; Frodo volunteers. |
+| 3: The Ring Goes South | 4/2 | 3/2 | 4/2 | 4/2 | 1/1 | 4/2 | Fellowship formed; Legolas and Gimli join; Gandalf leads. |
+| 4: A Journey in the Dark | 5/3 | 3/2 | 3/1 | 2/1 | 2/1 | 3/1 | Gandalf leads into Moria; Gimli sings of Durin; Gollum begins following. |
+| 5: The Bridge of Khazad‑dûm | 5/5 | 4/3 | 3/2 | 2/1 | 1/1 | 4/3 | Gandalf falls fighting Balrog; Aragorn takes command; Legolas and Gimli fight. |
+| 6: Lothlórien | 1/1 | 4/3 | 4/2 | 3/1 | 2/1 | 3/2 | Legolas guides; Gimli blindfolded; Frodo and Sam meet Galadriel. |
+| 7: The Mirror of Galadriel | 1/1 | 3/2 | 5/4 | 2/1 | 1/1 | 2/1 | Galadriel tests the Fellowship; Frodo sees the Eye; Gimli transformed by her kindness. |
+| 8: Farewell to Lórien | 1/1 | 4/3 | 4/2 | 3/1 | 1/1 | 4/3 | Galadriel gives gifts; Aragorn receives Elfstone; Gimli gets her hair; Legolas gets bow. |
+| 9: The Great River | 1/1 | 3/1 | 4/2 | 2/1 | 3/2 | 3/1 | Gollum follows on a log; Frodo and Sam sense him; Company travels by boat. |
+| 10: The Breaking of the Fellowship | 1/1 | 4/2 | 5/3 | 4/2 | 1/1 | 5/4 | Boromir tries to take Ring; Frodo decides to go alone; Sam follows; Aragorn chooses to hunt Orcs. |
+
+### Book Three
+
+| Chapter | Gandalf | L&G | F&S | M&P | Gollum | Aragorn | Summary |
+|---------|---------|-----|-----|-----|--------|---------|---------|
+| 1: The Departure of Boromir | 1/1 | 4/2 | 1/1 | 1/1 | 1/1 | 5/3 | Aragorn finds Boromir dead; he, Legolas, and Gimli pursue the Orcs. |
+| 2: The Riders of Rohan | 1/1 | 5/3 | 1/1 | 1/1 | 1/1 | 5/2 | Legolas and Gimli track with Aragorn; meet Éomer; Legolas counts Riders. |
+| 3: The Uruk‑hai | 1/1 | 1/1 | 1/1 | 5/4 | 1/1 | 1/1 | Merry and Pippin escape; Pippin drops brooch; Ugluk leads them toward Isengard. |
+| 4: Treebeard | 1/1 | 1/1 | 1/1 | 5/5 | 1/1 | 1/1 | Merry and Pippin meet Treebeard; rouse the Ents; critical for their arc. |
+| 5: The White Rider | 5/5 | 4/3 | 1/1 | 1/1 | 1/1 | 4/2 | Gandalf returns as the White Rider; tells of his fight with Balrog; reunites with Aragorn, Legolas, Gimli. |
+| 6: The King of the Golden Hall | 5/4 | 3/2 | 1/1 | 1/1 | 1/1 | 4/2 | Gandalf heals Théoden; Aragorn stands with him; Legolas and Gimli witness. |
+| 7: Helm’s Deep | 2/1 | 5/3 | 1/1 | 1/1 | 1/1 | 5/3 | Legolas and Gimli compete in kills (42 vs 41); Aragorn leads defence; Gandalf arrives at dawn. |
+| 8: The Road to Isengard | 3/1 | 4/2 | 1/1 | 1/1 | 1/1 | 3/1 | Gandalf, Aragorn, Legolas, Gimli meet Merry and Pippin at Isengard. |
+| 9: Flotsam and Jetsam | 1/1 | 4/2 | 1/1 | 5/2 | 1/1 | 3/1 | Merry and Pippin recount their adventures; Gimli gets a pipe from Pippin. |
+| 10: The Voice of Saruman | 5/4 | 2/1 | 1/1 | 2/1 | 1/1 | 3/1 | Gandalf breaks Saruman’s staff; Wormtongue throws palantír; Pippin picks it up. |
+| 11: The Palantír | 4/3 | 1/1 | 1/1 | 5/5 | 1/1 | 3/1 | Pippin looks into palantír, sees Sauron; Gandalf explains; critical for Pippin’s arc. |
+
+### Book Four
+
+| Chapter | Gandalf | L&G | F&S | M&P | Gollum | Aragorn | Summary |
+|---------|---------|-----|-----|-----|--------|---------|---------|
+| 1: The Taming of Sméagol | 1/1 | 1/1 | 5/3 | 1/1 | 5/5 | 1/1 | Frodo and Sam capture Gollum; Gollum swears on the Ring; Frodo shows pity. |
+| 2: The Passage of the Marshes | 1/1 | 1/1 | 5/2 | 1/1 | 5/3 | 1/1 | Gollum guides through Dead Marshes; Frodo and Sam see dead faces; Nazgûl flies over. |
+| 3: The Black Gate is Closed | 1/1 | 1/1 | 5/3 | 1/1 | 4/2 | 1/1 | Frodo decides to take Cirith Ungol path; Gollum offers alternative. |
+| 4: Of Herbs and Stewed Rabbit | 1/1 | 1/1 | 5/2 | 1/1 | 4/2 | 1/1 | Sam cooks rabbits; Faramir’s men capture them. |
+| 5: The Window on the West | 1/1 | 1/1 | 5/3 | 1/1 | 2/1 | 1/1 | Faramir questions Frodo; learns of the Ring; lets them go. |
+| 6: The Forbidden Pool | 1/1 | 1/1 | 5/3 | 1/1 | 5/4 | 1/1 | Frodo saves Gollum from Faramir’s men; Gollum swears loyalty. |
+| 7: Journey to the Cross‑roads | 1/1 | 1/1 | 5/2 | 1/1 | 3/1 | 1/1 | Frodo, Sam, Gollum pass the Cross‑roads; see fallen statue with crown of flowers. |
+| 8: The Stairs of Cirith Ungol | 1/1 | 1/1 | 5/3 | 1/1 | 5/4 | 1/1 | Gollum leads up the stairs; Frodo sees Minas Morgul; Gollum sneaks away to Shelob. |
+| 9: Shelob’s Lair | 1/1 | 1/1 | 5/4 | 1/1 | 5/5 | 1/1 | Frodo uses Phial of Galadriel; Shelob stings Frodo; Gollum attacks Sam. |
+| 10: The Choices of Master Samwise | 1/1 | 1/1 | 5/5 | 1/1 | 2/1 | 1/1 | Sam takes the Ring, believes Frodo dead, then learns Frodo is alive; Orcs take Frodo. |
+
+### Book Five
+
+| Chapter | Gandalf | L&G | F&S | M&P | Gollum | Aragorn | Summary |
+|---------|---------|-----|-----|-----|--------|---------|---------|
+| 1: Minas Tirith | 5/3 | 1/1 | 1/1 | 4/2 | 1/1 | 1/1 | Gandalf and Pippin arrive; Pippin swears fealty to Denethor. |
+| 2: The Passing of the Grey Company | 1/1 | 4/3 | 1/1 | 2/1 | 1/1 | 5/4 | Aragorn takes Paths of the Dead; Legolas and Gimli follow despite fear; Merry stays with Rohirrim. |
+| 3: The Muster of Rohan | 1/1 | 1/1 | 1/1 | 3/2 | 1/1 | 1/1 | Merry rides with Dernhelm (Éowyn); Rohirrim march to Gondor. |
+| 4: The Siege of Gondor | 5/4 | 1/1 | 1/1 | 3/2 | 1/1 | 1/1 | Gandalf leads defence; Faramir wounded; Denethor despairs; Pippin witnesses. |
+| 5: The Ride of the Rohirrim | 1/1 | 1/1 | 1/1 | 4/3 | 1/1 | 1/1 | Merry with Éowyn; Rohirrim charge; Merry feels battle‑fury. |
+| 6: The Battle of the Pelennor Fields | 3/2 | 2/1 | 1/1 | 5/5 | 1/1 | 5/5 | Merry helps kill Witch‑king; Aragorn arrives with black fleet; Legolas and Gimli fight. |
+| 7: The Pyre of Denethor | 4/3 | 1/1 | 1/1 | 4/2 | 1/1 | 1/1 | Gandalf saves Faramir; Denethor burns himself; Pippin tells Gandalf. |
+| 8: The Houses of Healing | 3/2 | 1/1 | 1/1 | 3/2 | 1/1 | 5/4 | Aragorn heals Faramir, Éowyn, Merry; fulfills “hands of a king”. |
+| 9: The Last Debate | 5/4 | 2/1 | 1/1 | 1/1 | 1/1 | 4/3 | Gandalf proposes march on Black Gate; Aragorn agrees; Legolas and Gimli will go. |
+| 10: The Black Gate Opens | 4/3 | 3/2 | 1/1 | 4/3 | 1/1 | 3/2 | Pippin fights troll; Gandalf confronts Mouth of Sauron; Eagles arrive. |
+
+### Book Six
+
+| Chapter | Gandalf | L&G | F&S | M&P | Gollum | Aragorn | Summary |
+|---------|---------|-----|-----|-----|--------|---------|---------|
+| 1: The Tower of Cirith Ungol | 1/1 | 1/1 | 5/4 | 1/1 | 1/1 | 1/1 | Sam rescues Frodo from orcs; Frodo takes back the Ring. |
+| 2: The Land of Shadow | 1/1 | 1/1 | 5/3 | 1/1 | 3/2 | 1/1 | Frodo and Sam struggle through Mordor; Gollum follows. |
+| 3: Mount Doom | 1/1 | 1/1 | 5/5 | 1/1 | 5/5 | 1/1 | Gollum bites off Frodo’s finger, falls into Cracks of Doom; Ring destroyed. |
+| 4: The Field of Cormallen | 3/2 | 4/2 | 5/3 | 4/2 | 1/1 | 4/3 | Aragorn honors Frodo and Sam; Legolas and Gimli present; Merry and Pippin reunited. |
+| 5: The Steward and the King | 3/2 | 1/1 | 1/1 | 2/1 | 1/1 | 5/5 | Aragorn crowned king; weds Arwen; plants White Tree; arc complete. |
+| 6: Many Partings | 4/3 | 5/4 | 3/2 | 4/2 | 1/1 | 4/2 | Legolas and Gimli plan to visit Fangorn and then go west; Gandalf prepares to leave. |
+| 7: Homeward Bound | 3/2 | 1/1 | 3/1 | 3/1 | 1/1 | 1/1 | Gandalf leaves hobbits at Bree; they learn of troubles in the Shire. |
+| 8: The Scouring of the Shire | 1/1 | 1/1 | 4/2 | 5/4 | 1/1 | 1/1 | Merry and Pippin lead uprising; Frodo shows mercy to Saruman; Wormtongue kills Saruman. |
+| 9: The Grey Havens | 5/5 | 4/4 | 5/5 | 3/2 | 1/1 | 1/1 | Gandalf departs to West; Frodo and Bilbo go with him; Sam returns home; Legolas and Gimli later sail. |
