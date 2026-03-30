@@ -395,7 +395,7 @@ function renderTimeline() {
     const phaseLabel = document.createElement("button");
     phaseLabel.className = "phase-label";
     phaseLabel.type = "button";
-    phaseLabel.textContent = `${phaseItem.phase}: ${phaseItem.name}`;
+    phaseLabel.innerHTML = `<span class="phase-label-phase">${phaseItem.phase}</span><span class="phase-label-name">${phaseItem.name}</span>`;
     phaseLabel.title = `Phase: ${phaseItem.description}`;
     phaseLabel.addEventListener("click", (event) => {
       openInfoPopup(
