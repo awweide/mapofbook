@@ -141,17 +141,21 @@ body {
   line-height: 1.25;
 }
 
-.phase-prefix,
-.phase-name {
-  display: block;
-}
-
 .chapter-strip {
   min-width: max-content;
   border-top: 3px solid #506797;
   padding-top: 0.65rem;
   display: flex;
   gap: 0.5rem;
+}
+
+.chapter-strips {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.chapter-strip-split {
+  min-width: 0;
 }
 
 .chapter-node {
@@ -177,6 +181,12 @@ body {
 }
 
 .chapter-highlight {
+  outline: 3px solid #ffe08a;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 3px rgba(255, 224, 138, 0.2);
+}
+
+.popup-highlight {
   outline: 3px solid #ffe08a;
   outline-offset: 2px;
   box-shadow: 0 0 0 3px rgba(255, 224, 138, 0.2);
