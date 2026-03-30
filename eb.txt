@@ -1,0 +1,378 @@
+## Author, Importance, Themes, and Message
+
+**Author**  
+Theodor Fontane (1819–1898) – German novelist and poet, leading figure of literary realism in Germany.
+
+**Importance in literature today**  
+*Effi Briest* is considered Fontane's masterpiece and one of the most important German novels of the 19th century. It is a classic of world literature, frequently taught in German schools and universities, and widely admired for its psychological depth, social criticism, and narrative technique.
+
+**Themes**  
+- Rigid Prussian code of honor and its destructive consequences  
+- Repression of women in bourgeois and aristocratic society  
+- Adultery and guilt  
+- The conflict between personal happiness and social convention  
+- Fate, coincidence, and responsibility  
+- Loneliness and isolation  
+- The illusion of love versus social ambition  
+
+**Overall message**  
+Fontane critiques a society that values outward honor and social appearances more than genuine human feeling. Effi is destroyed not primarily by her own guilt, but by a rigid, hypocritical moral code that leaves no room for forgiveness, compassion, or the passage of time. The novel suggests that such a society is itself guilty.
+
+## Phases of the Novel
+
+| Phase | Brief Description |
+|-------|-------------------|
+| **Phase 1: Engagement and Wedding (Chapters I–V)** | Effi, a lively 17-year-old, becomes engaged to Baron Innstetten, a much older district councillor. They marry and leave for their wedding journey to Italy. |
+| **Phase 2: Life in Kessin and the Affair (Chapters VI–XX)** | The couple settles in Innstetten's isolated, allegedly haunted house in Kessin. Effi grows lonely and begins a secret affair with Major von Crampas. |
+| **Phase 3: Discovery, Duel, and Divorce (Chapters XXI–XXIX)** | After moving to Berlin, Innstetten discovers old love letters from Crampas. He challenges Crampas to a duel, kills him, divorces Effi, and takes custody of their daughter Annie. |
+| **Phase 4: Effi's Final Years and Death (Chapters XXX–XXXVI)** | Effi lives in small Berlin apartments, then returns to her parents' home in Hohen-Cremmen. She falls ill, reconciles with her fate, and dies. She is buried under her maiden name. |
+
+---
+
+## Chapter-by-Chapter Table
+
+**Categories legend:**  
+- **Exp** = Exposition  
+- **Comp** = Complication  
+- **Int** = Introspection  
+- **Turn** = Turning point  
+- **Res** = Resolution  
+- **Dig** = Digression  
+
+| Chapter | Phase | Category | Summary |
+|---------|-------|----------|---------|
+| I | Phase 1 | Exp | Introduces Hohen-Cremmen manor, the von Briest family, mother Luise and daughter Effi (17). Effi plays with her friends Bertha, Hertha, and Hulda. Background about Innstetten as an old suitor of Luise is revealed. |
+| II | Phase 1 | Comp | The girls play hide-and-seek. Effi's mother tells her that Baron Innstetten has asked for her hand. Effi is startled but does not refuse. The Jahnke twins interrupt. |
+| III | Phase 1 | Comp | Innstetten and Effi become betrothed. A dinner follows with toasts. Effi visits her friends and says she is happy, though she feels a bit awkward. Innstetten leaves, promising to write daily. |
+| IV | Phase 1 | Exp | Effi and her mother go to Berlin to buy a trousseau, accompanied by Cousin Dagobert. Effi reveals she wants furs, a Japanese bed screen, and a red-shaded lamp. Her mother warns her against being too fanciful. |
+| V | Phase 1 | Exp | The wedding takes place. The couple departs for their wedding journey (Italy). Effi's parents discuss whether she truly loves Innstetten. Her mother worries about Effi's need for amusement and ambition. |
+| VI | Phase 2 | Exp | The couple returns from Italy to Kessin. On the drive, Innstetten tells Effi about the town's exotic residents (a Chinese grave, a Scotchman, a Portuguese barber, etc.). They arrive at their house, which is filled with nautical curiosities (shark, crocodile, ship model). |
+| VII | Phase 2 | Exp | Effi wakes in her new home. She hears strange noises from upstairs. Johanna explains it is wind blowing long curtains. Innstetten shows her the house. They find a small picture of a Chinaman pasted on a chair. |
+| VIII | Phase 2 | Exp | Gieshübler, the apothecary, visits. He is deformed but charming. Effi befriends him. She learns that Kessin has many "consuls" who are merely tradesmen. |
+| IX | Phase 2 | Comp | Effi and Innstetten make social calls on the local nobility (Borckes, Grasenabbs, Güldenklees). Effi finds them mediocre and judgmental; Sidonie von Grasenabb calls her an atheist. Effi prefers Gieshübler. Innstetten is often invited to Bismarck's estate in Varzin. |
+| X | Phase 2 | Comp | Innstetten dines at Varzin. Effi stays home alone, reads a ghost story about the "Lady in White," and has a nightmare. She sees or imagines the Chinaman. Johanna comforts her. Innstetten returns and dismisses her fears but admits the house may have a ghost. |
+| XI | Phase 2 | Dig | (Bracketed summary) Innstetten and Effi dine at Golchowski's hotel. A train passes, making Effi homesick. At Gieshübler's musical soirée, Miss Trippelli sings and discusses ghosts. |
+| XII | Phase 2 | Comp | Miss Trippelli sends a telegram from St. Petersburg. Christmas preparations. Effi writes a long letter to her mother confessing that the house is haunted and she is afraid. She is expecting a baby. |
+| XIII | Phase 2 | Comp | New Year's Eve ball. Effi is admired. The winter is long and boring. Only Gieshübler provides amusement. Innstetten is kind but not a lover. Effi longs for diversion. A new district commander, Major von Crampas, arrives. |
+| XIV | Phase 2 | Comp | Effi gives birth to a daughter, Annie. Roswitha, a Catholic maid, is hired as nurse. The christening banquet. Crampas sits beside Effi; they flirt. Effi plans to visit Hohen-Cremmen with Annie. |
+| XV | Phase 2 | Comp | Effi spends six weeks in Hohen-Cremmen with her parents. She is homesick for Kessin but also afraid to return. Back in Kessin, she and Innstetten have a friendly conversation. Crampas visits; he has been swimming in cold water. |
+| XVI | Phase 2 | Comp | (Bracketed summary) Crampas rides with Effi and Innstetten. He makes cynical remarks about petty laws. He tells Effi that Innstetten uses the haunted house as a pedagogical tool to control her. |
+| XVII | Phase 2 | Comp | Effi is disturbed by Crampas's insinuations. A storm floods Kessin. Effi and Crampas ride alone to the beach. Crampas recites Heine, tells a gruesome story about Don Pedro and a dog named Rollo, and keeps a wine glass as a souvenir. |
+| XVIII | Phase 2 | Comp | (Bracketed summary) Effi's peace is disturbed. Amateur theatricals are planned with Crampas as coach. Innstetten warns Effi that Crampas is untrustworthy with women. A sleighing party is arranged. |
+| XIX | Phase 2 | Turn | (Bracketed summary) After dinner, Innstetten drives another sleigh. Crampas is left alone with Effi in the dark forest. He takes her hand, kisses it, and she feels herself fainting. The sleigh then drives home. |
+| XX | Phase 2 | Int | The morning after the sleigh ride, Innstetten expresses suspicion. Effi defends herself. Innstetten warns her again about Crampas. Effi accompanies Innstetten partway to social calls but then walks alone on the beach – secretly meeting Crampas. |
+| XXI | Phase 3 | Turn | Innstetten returns from Berlin with news of a promotion. Effi breaks down, saying "Thank God!" and admits she was afraid in the haunted house. She does not confess the affair but her emotion alarms Innstetten. He suppresses his suspicion. |
+| XXII | Phase 3 | Comp | Innstetten plans to move to Berlin. Effi goes to Berlin to find an apartment, supposedly to meet her mother. Before leaving, she writes a farewell letter to Crampas, saying she is not coming back. On the boat, she sees Crampas on the quay; they exchange a pleading look. |
+| XXIII | Phase 3 | Comp | (Bracketed summary) Effi meets her mother and Cousin Dagobert in Berlin. She finds an apartment on Keith Street. She feigns illness to delay returning to Kessin, then finally tells Innstetten she will await him in Berlin. |
+| XXIV | Phase 3 | Exp | Innstetten arrives in Berlin. They settle into the new apartment. Effi feels liberated. They discuss old acquaintances. Innstetten mentions that Crampas sent regards. Effi turns pale. |
+| XXV | Phase 3 | Int | (Bracketed summary) Effi becomes a lady of honor at court and seems happy. Years pass. She goes to Ems for treatment. Roswitha stays with Annie. Innstetten plans a welcome home for Effi. |
+| XXVI | Phase 3 | Comp | (Bracketed summary) Annie falls and cuts her forehead. While searching for a bandage, Roswitha and Johanna break open Effi's sewing table and find a packet of old letters tied with a red cord. |
+| XXVII | Phase 3 | Turn | Innstetten finds the letters from Crampas. He reads them and realizes Effi had an affair. He sends for his friend Wüllersdorf and announces he will challenge Crampas to a duel. Wüllersdorf questions whether it is necessary after so many years, but Innstetten insists that honor and society demand it. |
+| XXVIII | Phase 3 | Turn | Innstetten and Wüllersdorf travel to Kessin. The duel takes place among the dunes. Crampas is shot and dies. His last words are cut off; he looks at Innstetten with a resigned, almost friendly expression. |
+| XXIX | Phase 3 | Int | Innstetten returns to Berlin. He is tormented by doubt: was the duel necessary after so many years? He feels he acted for the sake of an idea, not revenge. He tells Johanna that Effi is not coming back and asks her to break the news to Annie. |
+| XXX | Phase 4 | Comp | (Bracketed summary) Effi is in Ems with Mrs. Zwicker. She receives a registered letter from Hohen-Cremmen. She faints after reading the beginning. |
+| XXXI | Phase 4 | Turn | Effi reads her mother's letter: her parents condemn her actions and will not let her return to Hohen-Cremmen. She is an outcast. She decides to live alone in Berlin. |
+| XXXII | Phase 4 | Res | Effi moves to a small apartment on Königgrätz Street. Dr. Rummschüttel visits her. Roswitha comes back to serve her. Rollo is also there. Effi takes painting lessons. |
+| XXXIII | Phase 4 | Int | Effi, through the minister's wife, arranges to see her daughter Annie. Annie visits but is cold and repeatedly says "if I am allowed to." Effi realizes Innstetten has taught the child to reject her. She has a breakdown and prays for forgiveness, but also curses Innstetten's cruelty. |
+| XXXIV | Phase 4 | Res | Rummschüttel writes to Effi's parents urging them to take her back. They relent. Effi returns to Hohen-Cremmen. She recovers somewhat, walks in the park, and swings again. Niemeyer tells her she will go to heaven. |
+| XXXV | Phase 4 | Int | Effi's health declines. Innstetten receives a letter from Roswitha asking for Rollo to be sent to Effi. He reflects on his unhappiness. Wüllersdorf advises him to accept "false work" and small pleasures. |
+| XXXVI | Phase 4 | Res | Rollo arrives. Effi enjoys the summer. She falls ill again after watching meteor showers. On her deathbed, she tells her mother she has forgiven Innstetten and recognizes he was right in everything. She asks to be buried under her maiden name: "Effi Briest." She dies. The novel ends with her parents wondering if they are to blame, and Briest says, "Oh, Luise, don't – that is too wide a field." |
+
+Below is the final glossary of canonical entities from *Effi Briest*. Each entry includes:
+
+- **Canonical name** (bold, used for linking)
+- **Representations** (all variant forms found in the novel or summaries)
+- **Explanation** (concise, why important in the book)
+- **See also** (links to other glossary entries using canonical names)
+- **Appearances** (chapter numbers where the entity appears or is significantly mentioned)
+
+## Glossary
+
+### Characters
+
+**Effi**  
+*Representations:* Effi, Effi Briest, Baroness von Innstetten, Effi von Innstetten, Effi Briest (on gravestone)  
+*Explanation:* Protagonist; a lively, imaginative, somewhat vain 17-year-old from an aristocratic Brandenburg family. She marries Innstetten, has an affair with Crampas, is divorced, and dies young.  
+*See also:* Innstetten, Crampas, Luise von Briest, Briest, Annie, Roswitha  
+*Appearances:* All chapters (I–XXXVI)
+
+**Innstetten**  
+*Representations:* Geert von Innstetten, Baron von Innstetten, District Councillor von Innstetten, Privy Councillor von Innstetten, Geert  
+*Explanation:* Effi's husband; an ambitious, principled, somewhat cold civil servant. He kills Crampas in a duel and raises their daughter alone. He is a "pedagogue" who believes in honor and social convention.  
+*See also:* Effi, Crampas, Wüllersdorf, Annie  
+*Appearances:* I–XXIX, XXXV–XXXVI (mentioned)
+
+**Crampas**  
+*Representations:* Major von Crampas, Major Crampas  
+*Explanation:* Landwehr district commander in Kessin; a charming, cynical womanizer with a damaged arm from a previous duel. He has an affair with Effi, is later killed by Innstetten in a duel.  
+*See also:* Effi, Innstetten  
+*Appearances:* XIII–XXII, XXVII–XXVIII
+
+**Luise von Briest**  
+*Representations:* Mrs. von Briest, Luise, mama (from Effi's perspective)  
+*Explanation:* Effi's mother, née von Belling. She is beautiful, dignified, and practical. She loves Effi but ultimately supports the social condemnation of her daughter.  
+*See also:* Effi, Briest  
+*Appearances:* I–V, XV, XXIII–XXV, XXX–XXXVI
+
+**Briest**  
+*Representations:* Councillor von Briest, father, papa  
+*Explanation:* Effi's father; a jovial, somewhat frivolous country squire who often says "that is too wide a field" to avoid difficult discussions. He is affectionate but passive.  
+*See also:* Effi, Luise von Briest  
+*Appearances:* I–V, XV, XXIII–XXV, XXXIV–XXXVI
+
+**Roswitha**  
+*Representations:* Roswitha Gellenhagen, Roswitha  
+*Explanation:* Effi's devoted Catholic maid from Eichsfeld. She has a difficult past (illegitimate child). She remains loyal to Effi after the divorce and cares for her until death.  
+*See also:* Effi, Annie  
+*Appearances:* XIII–XVI, XX–XXII, XXV–XXVI, XXXII–XXXVI
+
+**Annie**  
+*Representations:* Annie, little Annie  
+*Explanation:* Effi and Innstetten's daughter. After the divorce, Innstetten raises her to be cold toward her mother. She visits Effi once but repeats "if I am allowed to," devastating Effi.  
+*See also:* Effi, Innstetten, Roswitha  
+*Appearances:* XIV–XV, XXI–XXII, XXV–XXVII, XXXIII
+
+**Gieshübler**  
+*Representations:* Alonzo Gieshübler, Apothecary Gieshübler  
+*Explanation:* Kessin apothecary; a deformed but gentle, cultured man of Spanish-German descent. He is Effi's only true friend in Kessin, sending her flowers, newspapers, and sweets.  
+*See also:* Effi, Trippelli  
+*Appearances:* VI–XIV, XVI, XVIII, XX–XXII, XXVIII
+
+**Johanna**  
+*Representations:* Johanna  
+*Explanation:* The Innstettens' maid; pretty, blonde, proud, of possible aristocratic birth. She is efficient but cold toward Effi. After the divorce, she stays with Innstetten.  
+*See also:* Effi, Innstetten  
+*Appearances:* VI–VII, IX–X, XII–XIII, XX–XXII, XXIV–XXIX, XXXV
+
+**Rollo**  
+*Representations:* Rollo  
+*Explanation:* The Innstettens' Newfoundland dog. He is loyal to Effi, protects her, and later is sent to her in Hohen-Cremmen. He dies of grief after her death.  
+*See also:* Effi  
+*Appearances:* VI–X, XV–XVII, XX–XXI, XXV, XXXV–XXXVI
+
+**Wüllersdorf**  
+*Representations:* Privy Councillor Wüllersdorf  
+*Explanation:* Innstetten's colleague and confidant in Berlin. He acts as Innstetten's second in the duel and advises him, though he questions whether the duel is necessary after so many years.  
+*See also:* Innstetten  
+*Appearances:* XXIV, XXVII–XXVIII, XXXV
+
+**Cousin Dagobert**  
+*Representations:* Cousin von Briest, Dagobert  
+*Explanation:* Effi's cousin; a lieutenant in the Alexander Regiment in Berlin. He is jolly, amusing, and helps Effi during her trousseau shopping.  
+*See also:* Effi  
+*Appearances:* IV–VI, XXIII–XXIV
+
+**Sidonie von Grasenabb**  
+*Representations:* Sidonie von Grasenabb, Sidonie  
+*Explanation:* An old maid of the local nobility; pious, judgmental, and harsh. She calls Effi an atheist and represents the unforgiving social code.  
+*See also:* Effi  
+*Appearances:* IX, XII–XIV, XVIII–XX
+
+**Hulda Niemeyer**  
+*Representations:* Hulda Niemeyer, Hulda  
+*Explanation:* Pastor Niemeyer's daughter; Effi's friend in Hohen-Cremmen. She is sentimental, slightly affected, and dreams of love.  
+*See also:* Effi, Niemeyer  
+*Appearances:* I–V, XV, XIX, XXXIV
+
+**Bertha and Hertha Jahnke**  
+*Representations:* Bertha, Hertha, the Jahnke twins  
+*Explanation:* Twin daughters of Precentor Jahnke; Effi's childhood friends. They are plump, red-haired, good-natured, and speak Low German.  
+*See also:* Jahnke, Effi  
+*Appearances:* I–V, XV, XXXIV
+
+**Niemeyer**  
+*Representations:* Pastor Niemeyer, old Mr. Niemeyer  
+*Explanation:* The elderly pastor in Hohen-Cremmen. He is wise, modest, and kind. He tells Effi she will go to heaven.  
+*See also:* Effi, Hulda Niemeyer  
+*Appearances:* I–V, XV, XXXIV
+
+**Jahnke**  
+*Representations:* Precentor Jahnke  
+*Explanation:* Schoolteacher and choirmaster in Hohen-Cremmen; an admirer of Fritz Reuter and Scandinavian culture. He is a minor but friendly figure.  
+*See also:* Bertha and Hertha Jahnke, Effi  
+*Appearances:* I–V, XV, XXXIV
+
+**Golchowski**  
+*Representations:* Golchowski  
+*Explanation:* Half-Polish innkeeper of the "Prince Bismarck" hotel near Kessin. He is a local electioneer and usurer.  
+*Appearances:* VI, X
+
+**Trippelli**  
+*Representations:* Marietta Trippelli, Miss Trippelli  
+*Explanation:* Singer; daughter of Pastor Trippel (former Kessin pastor). She Italianized her name. She is a friend of Gieshübler and performs in Kessin.  
+*See also:* Gieshübler  
+*Appearances:* X–XII, XV
+
+**Dr. Rummschüttel**  
+*Representations:* Dr. Rummschüttel, Rummschüttel  
+*Explanation:* Effi's physician in Berlin. He is kind, perceptive, and sees through her feigned illness. He later urges her parents to take her back.  
+*See also:* Effi  
+*Appearances:* XXIII–XXV, XXVII, XXXII, XXXIV
+
+**Dr. Hannemann**  
+*Representations:* Dr. Hannemann  
+*Explanation:* Danish doctor in Kessin; wrote about Icelandic volcanoes. He attends Effi's childbirth and the duel.  
+*Appearances:* VI, XIV, XX, XXIV, XXVIII
+
+**Mrs. Kruse**  
+*Representations:* Mrs. Kruse  
+*Explanation:* Coachman Kruse's wife; she sits in an overheated room holding a black chicken and knows ghost stories.  
+*Appearances:* VI, IX, XII–XIII, XXI
+
+**Kruse**  
+*Representations:* Kruse  
+*Explanation:* Innstetten's coachman in Kessin. He drives the sleigh and carriage.  
+*Appearances:* VI, X, XVII, XIX, XXI, XXIV
+
+**Mrs. von Padden**  
+*Representations:* Mrs. von Padden, Baronial Councillor's wife  
+*Explanation:* Elderly noblewoman who advises Effi about temptation and self-conquest. She is kind and wise.  
+*Appearances:* XX, XXIV, XXXIV
+
+**Captain Thomsen**  
+*Representations:* Captain Thomsen  
+*Explanation:* Former China-voyager; original owner of the haunted house in Kessin. He brought back the Chinaman.  
+*See also:* The Chinaman  
+*Appearances:* X, XXI
+
+**The Chinaman**  
+*Representations:* Chinaman, the Chinaman (ghost)  
+*Explanation:* A Chinese servant/friend of Captain Thomsen. He died after Thomsen's niece vanished. His ghost is said to haunt the house. A small picture of him is pasted on a chair.  
+*See also:* Captain Thomsen  
+*Appearances:* VI, VIII–X, XII, XXI, XXIV
+
+---
+
+### Places
+
+**Hohen-Cremmen**  
+*Representations:* Hohen-Cremmen  
+*Explanation:* The von Briest family manor in Brandenburg, where Effi grows up and where she returns to die. It has a garden, pond, swing, and churchyard.  
+*Appearances:* I–V, XV, XXIII–XXV, XXXIV–XXXVI
+
+**Kessin**  
+*Representations:* Kessin  
+*Explanation:* Fictional small coastal town in Further Pomerania where Innstetten is district councillor. It has a haunted house, dunes, a beach, and a "Plantation" (grove).  
+*Appearances:* VI–XXII, XXIV, XXVIII
+
+**Berlin**  
+*Representations:* Berlin  
+*Explanation:* The capital; where Effi buys her trousseau and later moves with Innstetten (Keith Street), and where she lives after the divorce (Königgrätz Street).  
+*Appearances:* IV–VI, XXI–XXVII, XXIX, XXXII–XXXIII, XXXV
+
+**Varzin**  
+*Representations:* Varzin  
+*Explanation:* Otto von Bismarck's estate in Pomerania, near Kessin. Innstetten is often invited there.  
+*Appearances:* VI, IX–X
+
+**The Plantation**  
+*Representations:* Plantation, the "Plantation"  
+*Explanation:* A grove near the Innstetten house in Kessin where Effi walks.  
+*Appearances:* VI, VIII, X, XIII, XV, XVII, XX, XXII
+
+**Keith Street**  
+*Representations:* Keith Street, Keith St.  
+*Explanation:* Street in Berlin's Tiergarten district where the Innstettens live after leaving Kessin.  
+*Appearances:* XXIII–XXIV, XXVII, XXXV
+
+**Königgrätz Street**  
+*Representations:* Königgrätz Street, Königgrätz St.  
+*Explanation:* Berlin street where Effi lives in a small apartment after her divorce.  
+*Appearances:* XXXII
+
+**The Broad**  
+*Representations:* the "Broad"  
+*Explanation:* A wide lake-like stretch of the Kessine river.  
+*Appearances:* XIII, XXII, XXVIII
+
+---
+
+### Historical / Literary / Cultural References
+
+**Bismarck**  
+*Representations:* Prince Bismarck, the Prince, Bismarck  
+*Explanation:* Otto von Bismarck (1815–1898), German Chancellor. He owns the estate Varzin near Kessin and favors Innstetten. A central symbol of Prussian power and honor.  
+*Appearances:* VI, IX–X, XIII, XV, XXIV, XXXV
+
+**The Franco-Prussian War (1870–71)**  
+*Representations:* war of seventy, war of 1870  
+*Explanation:* War between France and Prussia. Innstetten served and wears the Iron Cross. Referenced as the context for his career and for Crampas's earlier duel.  
+*Appearances:* III, IX
+
+**The duel**  
+*Representations:* duel  
+*Explanation:* A formal pistol fight to settle affairs of honor. Innstetten challenges Crampas to a duel after discovering the letters; Crampas is killed. Central to the novel's critique of the honor code.  
+*Appearances:* XXVII–XXVIII
+
+**The haunted house**  
+*Representations:* haunted house, ghost  
+*Explanation:* The Innstetten residence in Kessin, formerly owned by Captain Thomsen. It is said to be haunted by the Chinaman. Effi is afraid of it; Crampas claims Innstetten uses it to control her.  
+*Appearances:* VI, X, XII, XVI, XXI, XXIV, XXVIII
+
+**Heine**  
+*Representations:* Heine  
+*Explanation:* Heinrich Heine (1797–1856), German poet. Crampas recites his poems "Sea Ghosts" (about Vineta) and tells the story of Vitzliputzli.  
+*Appearances:* XVII
+
+**Wagner**  
+*Representations:* Wagner, Richard Wagner  
+*Explanation:* Composer (1813–1883). Innstetten is a Wagner enthusiast, preferring *Lohengrin* and *Walküre*.  
+*Appearances:* XIII
+
+**Fritz Reuter**  
+*Representations:* Fritz Reuter  
+*Explanation:* Low German writer (1810–1874). Jahnke admires him and names his twins after characters from Reuter's works (Lining and Mining).  
+*Appearances:* I, IV
+
+**Kleist**  
+*Representations:* Kleist  
+*Explanation:* Heinrich von Kleist (1777–1811), playwright. His *Käthchen von Heilbronn* is performed at Effi's wedding-eve celebration.  
+*Appearances:* IV
+
+**Vineta**  
+*Representations:* Vineta  
+*Explanation:* Legendary sunken city on the Baltic coast. Crampas refers to Heine's poem about it.  
+*Appearances:* XVII
+
+**Vitzliputzli**  
+*Representations:* Vitzliputzli  
+*Explanation:* Aztec war god (Huitzilopochtli). Crampas tells a gruesome story about human sacrifice from Heine's poem.  
+*Appearances:* XVII
+
+**The Lady in White**  
+*Representations:* Lady in white  
+*Explanation:* A ghost said to haunt Hohenzollern palaces. Effi reads about her in a tourist handbook and becomes frightened.  
+*Appearances:* IX
+
+**Hertha Lake**  
+*Representations:* Hertha Lake  
+*Explanation:* A lake on the island of Rügen, associated with Germanic pagan legends (Hertha goddess). Effi visits it and finds it melancholy.  
+*Appearances:* XXIV, XXXIV
+
+**The Chinaman (ghost)** – see under Characters
+
+---
+
+### Other Notable Terms
+
+**"Too wide a field"**  
+*Representations:* that is too wide a field, wide field  
+*Explanation:* Briest's catchphrase, used to avoid difficult conversations. It symbolizes the evasion of moral responsibility and the failure to confront problems directly.  
+*Appearances:* I, V, XV, XXI, XXXVI
+
+**The red cord**  
+*Representations:* red cord, red silk cord  
+*Explanation:* The cord tying Crampas's love letters together. Its discovery leads to the duel. A symbol of hidden guilt and fate.  
+*Appearances:* XXVI–XXVII
+
+**Rollo (the dog)** – see under Characters
+
+**The sundial**  
+*Representations:* sundial  
+*Explanation:* A garden feature at Hohen-Cremmen. After Effi's death, it is replaced by a white marble slab with her name. Symbolizes the passage of time and fate.  
+*Appearances:* I, IV, XXXIV, XXXVI
+
+**The swing**  
+*Representations:* swing  
+*Explanation:* A swing in the Hohen-Cremmen garden where Effi plays as a child and again before her death. Symbolizes her youthful spirit and her longing for freedom.  
+*Appearances:* I, IV, XV, XXXIV
