@@ -110,32 +110,44 @@ function parsePhases(lines) {
 
 function parseChapters(lines) {
   const chapters = [];
-  const chapterRegex = /^\|\s*([^|]+?)\s*\|\s*(Phase\s+\d+)\s*\|\s*([^|]+?)\s*\|\s*(.+)\|$/;
+  let inChapterSection = false;
 
-  let inTable = false;
   for (const line of lines) {
     const trimmed = line.trim();
+    if (trimmed === "## Chapter-by-Chapter Table") {
+      inChapterSection = true;
+      continue;
+    }
+    if (!inChapterSection) continue;
+    if (trimmed.startsWith("## ") && trimmed !== "## Chapter-by-Chapter Table") break;
+    if (!trimmed.startsWith("|")) continue;
+    if (/^\|\s*-+/.test(trimmed)) continue;
 
-    if (trimmed.startsWith("| Chapter |")) {
-      inTable = true;
+    const cells = trimmed.split("|").slice(1, -1).map((cell) => cell.trim());
+    if (cells.length < 4) continue;
+
+    const first = (cells[0] ?? "").toLowerCase();
+    if (first === "chapter" || first === "ch") continue;
+
+    if (cells.length >= 5) {
+      const [chapter, title, phase, category, ...summaryParts] = cells;
+      chapters.push({
+        chapter,
+        title,
+        phase,
+        category,
+        summary: summaryParts.join(" | ").trim(),
+      });
       continue;
     }
 
-    if (!inTable) continue;
-    if (!trimmed.startsWith("|")) {
-      if (chapters.length) break;
-      continue;
-    }
-    if (trimmed.startsWith("|---------")) continue;
-
-    const match = trimmed.match(chapterRegex);
-    if (!match) continue;
-
+    const [chapter, phase, category, ...summaryParts] = cells;
     chapters.push({
-      chapter: match[1].trim(),
-      phase: match[2].trim(),
-      category: match[3].trim(),
-      summary: match[4].trim(),
+      chapter,
+      title: chapter,
+      phase,
+      category,
+      summary: summaryParts.join(" | ").trim(),
     });
   }
 
@@ -355,6 +367,7 @@ function renderTimeline() {
     phaseLabel.className = "phase-label";
     phaseLabel.type = "button";
     phaseLabel.textContent = `${phaseItem.phase}: ${phaseItem.name}`;
+    phaseLabel.title = `Phase: ${phaseItem.description}`;
     phaseLabel.addEventListener("click", (event) => {
       openInfoPopup(
         `${phaseItem.phase}: ${phaseItem.name}`,
@@ -402,14 +415,16 @@ function buildChapterNode(chapter) {
   node.className = "chapter-node";
   node.dataset.category = chapter.category.toLowerCase();
   node.dataset.chapter = chapter.chapter;
-  node.textContent = chapter.chapter;
-  node.title = chapter.title;
+  node.title = `Chapter ${chapter.chapter}: ${chapter.summary}`;
+
+  const chapterNumber = document.createElement("span");
+  chapterNumber.className = "chapter-number";
+  chapterNumber.textContent = chapter.chapter;
 
   const title = document.createElement("span");
   title.className = "chapter-title";
-  title.textContent = chapter.chapter;
-  node.textContent = "";
-  node.append(title);
+  title.textContent = chapter.title;
+  node.append(chapterNumber, title);
 
   node.addEventListener("click", (event) => {
     openInfoPopup(
@@ -457,7 +472,9 @@ function openInfoPopup(title, content, anchor) {
   const popup = buildPopup(title, content);
   popupLayer.append(popup);
   popupStack.push(popup);
+  refreshGlossaryPopupActiveState();
   layoutPopups(anchor);
+  refreshChapterHighlights();
 }
 
 function buildPopup(title, content) {
@@ -552,6 +569,10 @@ function linkGlossaryTerms(text) {
     button.type = "button";
     button.className = "glossary-link";
     button.textContent = token.text;
+    const entry = model.glossaryMap.get(token.canonical);
+    if (entry?.explanation) {
+      button.title = `Hyperlink: ${entry.explanation}`;
+    }
     button.addEventListener("click", (event) => {
       event.stopPropagation();
       openGlossaryPopup(token.canonical, event.currentTarget);
@@ -573,7 +594,7 @@ function openGlossaryPopup(canonical, anchor) {
   if (!entry) return;
 
   const popup = document.createElement("article");
-  popup.className = "popup glossary-popup popup-highlight";
+  popup.className = "popup glossary-popup";
 
   const closeButton = document.createElement("button");
   closeButton.type = "button";
@@ -608,15 +629,16 @@ function openGlossaryPopup(canonical, anchor) {
   popup.append(closeButton, heading, body);
   popupLayer.append(popup);
   popupStack.push(popup);
+  refreshGlossaryPopupActiveState();
   layoutPopups(anchor);
-
-  highlightChapters(entry.chapterSet);
+  refreshChapterHighlights();
 }
 
 function closeTopPopup() {
   const popup = popupStack.pop();
   if (!popup) return;
   popup.remove();
+  refreshGlossaryPopupActiveState();
   layoutPopups();
   refreshChapterHighlights();
 }
@@ -625,6 +647,7 @@ function closeSpecificPopup(target) {
   const index = popupStack.indexOf(target);
   if (index !== -1) popupStack.splice(index, 1);
   target.remove();
+  refreshGlossaryPopupActiveState();
   layoutPopups();
   refreshChapterHighlights();
 }
@@ -633,8 +656,17 @@ function closeAllPopups() {
   while (popupStack.length) {
     popupStack.pop().remove();
   }
+  refreshGlossaryPopupActiveState();
   layoutPopups();
   refreshChapterHighlights();
+}
+
+function refreshGlossaryPopupActiveState() {
+  popupStack.forEach((popup) => popup.classList.remove("popup-highlight"));
+  const newest = popupStack[popupStack.length - 1];
+  if (newest?.classList.contains("glossary-popup")) {
+    newest.classList.add("popup-highlight");
+  }
 }
 
 function refreshChapterHighlights() {
