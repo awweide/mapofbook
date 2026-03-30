@@ -1,9 +1,12 @@
-## Author, Importance, Themes, and Message
+## Main infoboxes
+
+**Summary**
+Effi Briest is a lively seventeen-year-old who marries Baron Geert von Innstetten, an ambitious older civil servant. Moved to his isolated, reportedly haunted house in the Pomeranian town of Kessin, she grows lonely and begins an affair with Major Crampas. Years later, Innstetten discovers the affair through old letters, challenges Crampas to a duel, and kills him. He divorces Effi, who loses custody of her daughter and eventually dies of illness, reconciled with her fate, in her parents' home.
 
 **Author**  
 Theodor Fontane (1819–1898) – German novelist and poet, leading figure of literary realism in Germany.
 
-**Importance in literature today**  
+**Importance**  
 *Effi Briest* is considered Fontane's masterpiece and one of the most important German novels of the 19th century. It is a classic of world literature, frequently taught in German schools and universities, and widely admired for its psychological depth, social criticism, and narrative technique.
 
 **Themes**  
@@ -15,10 +18,10 @@ Theodor Fontane (1819–1898) – German novelist and poet, leading figure of li
 - Loneliness and isolation  
 - The illusion of love versus social ambition  
 
-**Overall message**  
+**Message**  
 Fontane critiques a society that values outward honor and social appearances more than genuine human feeling. Effi is destroyed not primarily by her own guilt, but by a rigid, hypocritical moral code that leaves no room for forgiveness, compassion, or the passage of time. The novel suggests that such a society is itself guilty.
 
-## Phases of the Novel
+## Phases
 
 | Phase | Brief Description |
 |-------|-------------------|
