@@ -19,6 +19,15 @@ let model = {
   termPatterns: [],
 };
 
+const CATEGORY_LEGEND = [
+  { key: "exp", label: "Exposition" },
+  { key: "comp", label: "Complication" },
+  { key: "int", label: "Introspection" },
+  { key: "turn", label: "Turning point" },
+  { key: "res", label: "Resolution" },
+  { key: "dig", label: "Digression" },
+];
+
 init();
 
 async function init() {
@@ -351,8 +360,28 @@ function renderInfoboxes() {
     body.append(linksWrap);
   }
 
-  card.append(heading, body);
+  const summaryLayout = document.createElement("div");
+  summaryLayout.className = "summary-layout";
+  summaryLayout.append(body, buildLegend());
+
+  card.append(heading, summaryLayout);
   infoGrid.append(card);
+}
+
+function buildLegend() {
+  const aside = document.createElement("aside");
+  aside.className = "legend";
+  aside.setAttribute("aria-label", "Chapter category legend");
+
+  const list = document.createElement("ul");
+  CATEGORY_LEGEND.forEach((item) => {
+    const li = document.createElement("li");
+    li.innerHTML = `<span class="legend-swatch legend-${item.key}"></span> ${item.label}`;
+    list.append(li);
+  });
+
+  aside.append(list);
+  return aside;
 }
 
 function renderTimeline() {
@@ -419,11 +448,11 @@ function buildChapterNode(chapter) {
 
   const chapterNumber = document.createElement("span");
   chapterNumber.className = "chapter-number";
-  chapterNumber.textContent = chapter.chapter;
+  chapterNumber.textContent = `${chapter.chapter}: `;
 
   const title = document.createElement("span");
   title.className = "chapter-title";
-  title.textContent = chapter.title;
+  title.textContent = wrapChapterTitle(chapter.title);
   node.append(chapterNumber, title);
 
   node.addEventListener("click", (event) => {
@@ -435,6 +464,13 @@ function buildChapterNode(chapter) {
   });
 
   return node;
+}
+
+function wrapChapterTitle(title) {
+  return title
+    .split(/\s+/)
+    .map((part) => part.replace(/([-/])/g, "$1\u200b"))
+    .join(" \n");
 }
 
 function wirePopupControls() {
