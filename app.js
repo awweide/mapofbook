@@ -446,14 +446,10 @@ function buildChapterNode(chapter) {
   node.dataset.chapter = chapter.chapter;
   node.title = `Chapter ${chapter.chapter}: ${chapter.summary}`;
 
-  const chapterNumber = document.createElement("span");
-  chapterNumber.className = "chapter-number";
-  chapterNumber.textContent = `${chapter.chapter}: `;
-
   const title = document.createElement("span");
   title.className = "chapter-title";
-  title.textContent = wrapChapterTitle(chapter.title);
-  node.append(chapterNumber, title);
+  title.textContent = chapter.title;
+  node.append(title);
 
   node.addEventListener("click", (event) => {
     openInfoPopup(
@@ -464,13 +460,6 @@ function buildChapterNode(chapter) {
   });
 
   return node;
-}
-
-function wrapChapterTitle(title) {
-  return title
-    .split(/\s+/)
-    .map((part) => part.replace(/([-/])/g, "$1\u200b"))
-    .join(" \n");
 }
 
 function wirePopupControls() {
