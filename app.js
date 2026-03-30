@@ -1,49 +1,32 @@
-const DATA_FILE = "lotr_revised.txt";
-const LABEL_THRESHOLD = 3;
-const FIXED_BAR_WIDTH = 55;
-const SCORE_LEVEL_STEPS = 4;
-const CHARACTER_LABELS = {
-  "L&G": "Legolas and Gimli",
-  "F&S": "Frodo and Sam",
-  "M&P": "Merry and Pippin",
-};
+const DATA_FILE = "eb.txt";
 
-const PRESENCE_LABELS = {
-  1: "None",
-  2: "Mentioned",
-  3: "Present",
-  4: "Important",
-  5: "Main focus",
-};
-
-const DEVELOPMENT_LABELS = {
-  1: "None",
-  2: "Minor",
-  3: "Significant",
-  4: "Major",
-  5: "Climax",
-};
-
-const select = document.getElementById("character-select");
 const timeline = document.getElementById("timeline");
-const tooltip = document.getElementById("tooltip");
+const phaseRows = document.getElementById("phase-rows");
+const infoGrid = document.getElementById("info-grid");
+const closeAllButton = document.getElementById("close-all-tooltips");
+const popupLayer = document.getElementById("popup-layer");
 
-let chapters = [];
-let books = [];
-let characters = [];
+const chapterToNode = new Map();
+const popupStack = [];
+
+let model = {
+  infoboxes: [],
+  phases: [],
+  chapters: [],
+  glossary: [],
+  glossaryMap: new Map(),
+  termPatterns: [],
+};
 
 init();
 
 async function init() {
   try {
     const source = await loadSourceText(DATA_FILE);
-    const parsed = parseChapterTable(source);
-    chapters = parsed.chapters;
-    books = parsed.books;
-    characters = parsed.characters;
-
-    populateCharacterSelect(characters);
-    renderTimeline(select.value);
+    model = parseEffiData(source);
+    renderInfoboxes();
+    renderTimeline();
+    wirePopupControls();
   } catch (error) {
     timeline.innerHTML = `<p class="error">Could not load ${DATA_FILE}: ${error.message}</p>`;
   }
@@ -54,210 +37,591 @@ async function loadSourceText(path) {
   if (!response.ok) {
     throw new Error(`HTTP ${response.status}`);
   }
-
   return response.text();
 }
 
-function parseChapterTable(text) {
+function parseEffiData(text) {
   const lines = text.split(/\r?\n/);
-  const parsedChapters = [];
-  const bookNames = [];
-  let headers = [];
-  let currentBook = "Unknown Book";
+  const infoboxes = parseInfoboxes(lines);
+  const phases = parsePhases(lines);
+  const chapters = parseChapters(lines);
+  const glossary = parseGlossary(lines);
 
-  for (const rawLine of lines) {
-    const line = rawLine.trim();
-
-    const bookMatch = line.match(/^###\s+Book\s+(.+)$/i);
-    if (bookMatch) {
-      currentBook = `Book ${bookMatch[1].trim()}`;
-      if (!bookNames.includes(currentBook)) {
-        bookNames.push(currentBook);
-      }
-      headers = [];
-      continue;
-    }
-
-    if (line.startsWith("| Chapter |")) {
-      headers = splitMarkdownRow(line);
-      continue;
-    }
-
-    if (!line.startsWith("|") || !headers.length || line.startsWith("|---------")) {
-      continue;
-    }
-
-    const columns = splitMarkdownRow(line);
-    if (columns.length !== headers.length) {
-      continue;
-    }
-
-    const chapterName = columns[0];
-    const summary = columns[headers.length - 1];
-    const roles = {};
-
-    for (let index = 1; index < headers.length - 1; index += 1) {
-      const character = headers[index];
-      const [presence, development] = parseScore(columns[index]);
-      roles[character] = {
-        presence,
-        development,
-        summary,
-      };
-    }
-
-    parsedChapters.push({
-      book: currentBook,
-      chapter: chapterName,
-      roles,
-    });
-  }
-
-  const foundCharacters = parsedChapters.length
-    ? Object.keys(parsedChapters[0].roles)
-    : [];
+  const glossaryMap = new Map(glossary.map((entry) => [entry.name, entry]));
+  const termPatterns = buildTermPatterns(glossary);
 
   return {
-    books: bookNames,
-    chapters: parsedChapters,
-    characters: foundCharacters,
+    infoboxes,
+    phases,
+    chapters,
+    glossary,
+    glossaryMap,
+    termPatterns,
   };
 }
 
-function splitMarkdownRow(line) {
-  return line
-    .split("|")
-    .slice(1, -1)
-    .map((value) => value.trim());
-}
+function parseInfoboxes(lines) {
+  const labels = ["Summary", "Author", "Importance", "Themes", "Message"];
+  const out = [];
 
-function parseScore(cell) {
-  const match = cell.match(/(\d+(?:\.\d+)?)\s*\/\s*(\d+(?:\.\d+)?)/);
-  if (!match) {
-    return [0, 0];
+  for (const label of labels) {
+    const headerIndex = lines.findIndex((line) => line.trim() === `**${label}**` || line.trim() === `**${label}**  `);
+    if (headerIndex === -1) continue;
+
+    const body = [];
+    for (let i = headerIndex + 1; i < lines.length; i += 1) {
+      const current = lines[i];
+      const trimmed = current.trim();
+
+      if (labels.some((name) => trimmed === `**${name}**` || trimmed === `**${name}**  `)) {
+        break;
+      }
+      if (trimmed === "## Phases") {
+        break;
+      }
+      body.push(current);
+    }
+
+    out.push({ label, content: body.join("\n").trim() });
   }
 
-  return [Number.parseFloat(match[1]), Number.parseFloat(match[2])];
+  return out;
 }
 
-function populateCharacterSelect(names) {
-  select.textContent = "";
-  names.forEach((name) => {
-    const option = document.createElement("option");
-    option.value = name;
-    option.textContent = CHARACTER_LABELS[name] ?? name;
-    select.append(option);
+function parsePhases(lines) {
+  const phases = [];
+  const phaseRegex = /^\|\s*\*\*(Phase\s+\d+):\s*([^*]+)\*\*\s*\|\s*(.+)\|$/;
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+    const match = trimmed.match(phaseRegex);
+    if (!match) continue;
+
+    phases.push({
+      phase: match[1],
+      name: match[2].trim(),
+      description: match[3].trim(),
+    });
+  }
+
+  return phases;
+}
+
+function parseChapters(lines) {
+  const chapters = [];
+  const chapterRegex = /^\|\s*([^|]+?)\s*\|\s*(Phase\s+\d+)\s*\|\s*([^|]+?)\s*\|\s*(.+)\|$/;
+
+  let inTable = false;
+  for (const line of lines) {
+    const trimmed = line.trim();
+
+    if (trimmed.startsWith("| Chapter |")) {
+      inTable = true;
+      continue;
+    }
+
+    if (!inTable) continue;
+    if (!trimmed.startsWith("|")) {
+      if (chapters.length) break;
+      continue;
+    }
+    if (trimmed.startsWith("|---------")) continue;
+
+    const match = trimmed.match(chapterRegex);
+    if (!match) continue;
+
+    chapters.push({
+      chapter: match[1].trim(),
+      phase: match[2].trim(),
+      category: match[3].trim(),
+      summary: match[4].trim(),
+    });
+  }
+
+  return chapters;
+}
+
+function parseGlossary(lines) {
+  const glossaryStart = lines.findIndex((line) => line.trim() === "## Glossary");
+  if (glossaryStart === -1) return [];
+
+  const entries = [];
+  let i = glossaryStart + 1;
+
+  while (i < lines.length) {
+    const line = lines[i].trim();
+    const canonicalMatch = line.match(/^\*\*(.+)\*\*$/);
+
+    if (!canonicalMatch) {
+      i += 1;
+      continue;
+    }
+
+    const name = canonicalMatch[1].trim();
+    let representations = [];
+    let explanation = "";
+    let seeAlso = [];
+    let appearances = "";
+
+    i += 1;
+    while (i < lines.length) {
+      const detail = lines[i].trim();
+      if (!detail) {
+        i += 1;
+        continue;
+      }
+      if (detail.startsWith("**") && detail.endsWith("**")) {
+        break;
+      }
+      if (detail.startsWith("### ")) {
+        break;
+      }
+
+      if (detail.startsWith("*Representations:*")) {
+        representations = detail
+          .replace("*Representations:*", "")
+          .split(",")
+          .map((term) => term.trim())
+          .filter(Boolean);
+      } else if (detail.startsWith("*Explanation:*")) {
+        explanation = detail.replace("*Explanation:*", "").trim();
+      } else if (detail.startsWith("*See also:*")) {
+        seeAlso = detail
+          .replace("*See also:*", "")
+          .split(",")
+          .map((term) => term.trim())
+          .filter(Boolean);
+      } else if (detail.startsWith("*Appearances:*")) {
+        appearances = detail.replace("*Appearances:*", "").trim();
+      }
+      i += 1;
+    }
+
+    entries.push({
+      name,
+      representations,
+      explanation,
+      seeAlso,
+      appearances,
+      chapterSet: parseAppearances(appearances),
+    });
+  }
+
+  return entries;
+}
+
+function parseAppearances(text) {
+  const chapterSet = new Set();
+  const raw = text.replace(/\(.*?\)/g, "").trim();
+
+  if (/all chapters/i.test(raw)) {
+    const all = [
+      "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX",
+      "XXI", "XXII", "XXIII", "XXIV", "XXV", "XXVI", "XXVII", "XXVIII", "XXIX", "XXX", "XXXI", "XXXII", "XXXIII", "XXXIV", "XXXV", "XXXVI",
+    ];
+    all.forEach((chapter) => chapterSet.add(chapter));
+    return chapterSet;
+  }
+
+  const tokens = raw.split(/,\s*/).filter(Boolean);
+  for (const token of tokens) {
+    const rangeMatch = token.match(/^([IVXLCDM]+)\s*[-–]\s*([IVXLCDM]+)$/i);
+    if (rangeMatch) {
+      expandRomanRange(rangeMatch[1], rangeMatch[2]).forEach((chapter) => chapterSet.add(chapter));
+      continue;
+    }
+
+    const direct = token.match(/^([IVXLCDM]+)$/i);
+    if (direct) {
+      chapterSet.add(direct[1].toUpperCase());
+    }
+  }
+
+  return chapterSet;
+}
+
+function expandRomanRange(startRoman, endRoman) {
+  const start = romanToInt(startRoman.toUpperCase());
+  const end = romanToInt(endRoman.toUpperCase());
+  if (!start || !end || end < start) return [];
+
+  const result = [];
+  for (let i = start; i <= end; i += 1) {
+    result.push(intToRoman(i));
+  }
+  return result;
+}
+
+function romanToInt(roman) {
+  const values = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
+  let total = 0;
+  let prev = 0;
+  for (let i = roman.length - 1; i >= 0; i -= 1) {
+    const current = values[roman[i]] ?? 0;
+    if (current < prev) total -= current;
+    else total += current;
+    prev = current;
+  }
+  return total;
+}
+
+function intToRoman(num) {
+  const mapping = [
+    [1000, "M"], [900, "CM"], [500, "D"], [400, "CD"], [100, "C"], [90, "XC"], [50, "L"], [40, "XL"],
+    [10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"],
+  ];
+
+  let n = num;
+  let result = "";
+  for (const [value, symbol] of mapping) {
+    while (n >= value) {
+      result += symbol;
+      n -= value;
+    }
+  }
+  return result;
+}
+
+function buildTermPatterns(glossary) {
+  const terms = [];
+  for (const entry of glossary) {
+    const all = [entry.name, ...entry.representations].filter(Boolean);
+    for (const rawTerm of all) {
+      const term = rawTerm.trim();
+      if (!term) continue;
+      terms.push({
+        term,
+        canonical: entry.name,
+      });
+    }
+  }
+
+  const dedup = new Map();
+  for (const item of terms) {
+    const key = item.term.toLowerCase();
+    if (!dedup.has(key) || item.term.length > dedup.get(key).term.length) {
+      dedup.set(key, item);
+    }
+  }
+
+  return [...dedup.values()].sort((a, b) => b.term.length - a.term.length);
+}
+
+function renderInfoboxes() {
+  infoGrid.textContent = "";
+  model.infoboxes.forEach((box) => {
+    const card = document.createElement("article");
+    card.className = "info-card";
+
+    const heading = document.createElement("h3");
+    heading.textContent = box.label;
+
+    const body = document.createElement("div");
+    body.className = "rich-text";
+    body.append(renderRichText(box.content));
+
+    card.append(heading, body);
+    infoGrid.append(card);
   });
-
-  select.value = names[0] ?? "";
-  select.addEventListener("change", (event) => {
-    renderTimeline(event.target.value);
-  });
 }
 
-function scoreNode(role) {
-  return role.presence + role.development;
-}
+function renderTimeline() {
+  phaseRows.textContent = "";
+  chapterToNode.clear();
 
-function scoreToFraction(score) {
-  return Math.max(0, Math.min(1, (score - 1) / SCORE_LEVEL_STEPS));
-}
+  model.phases.forEach((phaseItem) => {
+    const row = document.createElement("section");
+    row.className = "phase-row";
 
-function scoreLabel(score, labelMap) {
-  return labelMap[Math.round(score)] ?? "Unknown";
-}
+    const phaseLabel = document.createElement("button");
+    phaseLabel.className = "phase-label";
+    phaseLabel.type = "button";
+    phaseLabel.textContent = `${phaseItem.phase}: ${phaseItem.name}`;
+    phaseLabel.addEventListener("click", (event) => {
+      openInfoPopup(
+        `${phaseItem.phase}: ${phaseItem.name}`,
+        phaseItem.description,
+        event.currentTarget,
+      );
+    });
 
-function renderTimeline(character) {
-  timeline.textContent = "";
+    const strip = document.createElement("div");
+    strip.className = "chapter-strip";
 
-  books.forEach((book) => {
-    const bookRow = document.createElement("section");
-    bookRow.className = "book-row";
+    model.chapters
+      .filter((chapter) => chapter.phase === phaseItem.phase)
+      .forEach((chapter) => {
+        const node = document.createElement("button");
+        node.type = "button";
+        node.className = "chapter-node";
+        node.dataset.category = chapter.category.toLowerCase();
+        node.dataset.chapter = chapter.chapter;
+        node.textContent = chapter.chapter;
+        node.title = chapter.title;
 
-    const bookLabel = document.createElement("h3");
-    bookLabel.className = "book-label";
-    bookLabel.textContent = book;
+        const title = document.createElement("span");
+        title.className = "chapter-title";
+        title.textContent = chapter.chapter;
+        node.textContent = "";
+        node.append(title);
 
-    const chapterStrip = document.createElement("div");
-    chapterStrip.className = "chapter-strip";
-
-    chapters
-      .filter((entry) => entry.book === book)
-      .forEach((entry) => {
-        const role = entry.roles[character];
-        const total = scoreNode(role);
-
-        const wrap = document.createElement("article");
-        wrap.className = "chapter-cell";
-
-        const bar = document.createElement("button");
-        bar.className = "metric-bar";
-        bar.style.width = `${FIXED_BAR_WIDTH}px`;
-        bar.setAttribute("aria-label", `${book} ${entry.chapter}: ${role.summary}`);
-
-        const presencePart = document.createElement("span");
-        presencePart.className = "metric";
-        const presenceFill = document.createElement("span");
-        presenceFill.className = "metric-fill metric-presence";
-        presenceFill.style.height = `${scoreToFraction(role.presence) * 100}%`;
-        presencePart.append(presenceFill);
-
-        const developmentPart = document.createElement("span");
-        developmentPart.className = "metric";
-        const developmentFill = document.createElement("span");
-        developmentFill.className = "metric-fill metric-development";
-        developmentFill.style.height = `${scoreToFraction(role.development) * 100}%`;
-        developmentPart.append(developmentFill);
-
-        bar.append(presencePart, developmentPart);
-
-        const label = document.createElement("div");
-        label.className = "chapter-label";
-        label.textContent = total > LABEL_THRESHOLD ? entry.chapter : "";
-
-        const showTip = (event) => {
-          updateTooltip(event, book, entry.chapter, character, role);
-        };
-
-        bar.addEventListener("mouseenter", showTip);
-        bar.addEventListener("mousemove", showTip);
-        bar.addEventListener("focus", (event) => {
-          updateTooltip(event, book, entry.chapter, character, role, true);
+        node.addEventListener("click", (event) => {
+          openInfoPopup(
+            `${chapter.chapter} · ${chapter.category}`,
+            chapter.summary,
+            event.currentTarget,
+          );
         });
-        bar.addEventListener("mouseleave", hideTooltip);
-        bar.addEventListener("blur", hideTooltip);
 
-        wrap.append(bar, label);
-        chapterStrip.append(wrap);
+        strip.append(node);
+        chapterToNode.set(chapter.chapter, node);
       });
 
-    bookRow.append(bookLabel, chapterStrip);
-    timeline.append(bookRow);
+    row.append(phaseLabel, strip);
+    phaseRows.append(row);
   });
 }
 
-function updateTooltip(event, book, chapter, character, role, focusMode = false) {
-  const presenceText = scoreLabel(role.presence, PRESENCE_LABELS);
-  const developmentText = scoreLabel(role.development, DEVELOPMENT_LABELS);
-  tooltip.hidden = false;
-  tooltip.innerHTML = `
-    <strong>${book} · ${chapter} · ${character}</strong><br />
-    Presence: ${presenceText}<br />
-    Development: ${developmentText}<br />
-    ${role.summary}
-  `;
+function wirePopupControls() {
+  closeAllButton.addEventListener("click", () => {
+    closeAllPopups();
+  });
 
-  if (focusMode) {
-    const rect = event.currentTarget.getBoundingClientRect();
-    tooltip.style.left = `${rect.left + window.scrollX}px`;
-    tooltip.style.top = `${rect.bottom + window.scrollY + 8}px`;
+  document.addEventListener("click", (event) => {
+    if (!popupStack.length) return;
+    const latest = popupStack[popupStack.length - 1];
+    if (latest.contains(event.target)) return;
+    if (event.target.closest(".glossary-link")) return;
+    if (event.target.closest(".chapter-node") || event.target.closest(".phase-label")) return;
+    if (event.target.closest("#close-all-tooltips")) return;
+
+    closeTopPopup();
+  });
+}
+
+function openInfoPopup(title, content, anchor) {
+  const popup = buildPopup(title, content);
+  popupLayer.append(popup);
+  positionPopupNearAnchor(popup, anchor);
+  popupStack.push(popup);
+}
+
+function buildPopup(title, content) {
+  const popup = document.createElement("article");
+  popup.className = "popup";
+
+  const heading = document.createElement("h4");
+  heading.textContent = title;
+
+  const closeButton = document.createElement("button");
+  closeButton.type = "button";
+  closeButton.className = "popup-close";
+  closeButton.setAttribute("aria-label", "Close this");
+  closeButton.textContent = "×";
+  closeButton.addEventListener("click", () => {
+    closeSpecificPopup(popup);
+  });
+
+  const body = document.createElement("div");
+  body.className = "popup-body rich-text";
+  body.append(renderRichText(content));
+
+  popup.append(closeButton, heading, body);
+  return popup;
+}
+
+function renderRichText(text) {
+  const fragment = document.createDocumentFragment();
+  const blocks = text.split(/\n{2,}/).filter(Boolean);
+
+  blocks.forEach((block) => {
+    const trimmed = block.trim();
+    if (!trimmed) return;
+
+    if (trimmed.startsWith("- ")) {
+      const ul = document.createElement("ul");
+      trimmed
+        .split("\n")
+        .map((line) => line.replace(/^-\s*/, "").trim())
+        .filter(Boolean)
+        .forEach((item) => {
+          const li = document.createElement("li");
+          li.append(...linkGlossaryTerms(item));
+          ul.append(li);
+        });
+      fragment.append(ul);
+      return;
+    }
+
+    const p = document.createElement("p");
+    trimmed.split("\n").forEach((line, index) => {
+      if (index > 0) p.append(document.createElement("br"));
+      p.append(...linkGlossaryTerms(line));
+    });
+    fragment.append(p);
+  });
+
+  return fragment;
+}
+
+function linkGlossaryTerms(text) {
+  const nodes = [];
+  let cursor = 0;
+  const matches = [];
+
+  for (const pattern of model.termPatterns) {
+    const escaped = escapeRegex(pattern.term);
+    const regex = new RegExp(`\\b${escaped}\\b`, "gi");
+    let match = regex.exec(text);
+    while (match) {
+      matches.push({ start: match.index, end: match.index + match[0].length, text: match[0], canonical: pattern.canonical });
+      match = regex.exec(text);
+    }
+  }
+
+  matches.sort((a, b) => a.start - b.start || b.end - a.end);
+
+  const accepted = [];
+  for (const candidate of matches) {
+    const overlap = accepted.some((item) => !(candidate.end <= item.start || candidate.start >= item.end));
+    if (!overlap) accepted.push(candidate);
+  }
+
+  accepted.sort((a, b) => a.start - b.start);
+
+  for (const token of accepted) {
+    if (token.start > cursor) {
+      nodes.push(document.createTextNode(text.slice(cursor, token.start)));
+    }
+
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "glossary-link";
+    button.textContent = token.text;
+    button.addEventListener("click", (event) => {
+      event.stopPropagation();
+      openGlossaryPopup(token.canonical, event.currentTarget);
+    });
+
+    nodes.push(button);
+    cursor = token.end;
+  }
+
+  if (cursor < text.length) {
+    nodes.push(document.createTextNode(text.slice(cursor)));
+  }
+
+  return nodes.length ? nodes : [document.createTextNode(text)];
+}
+
+function openGlossaryPopup(canonical, anchor) {
+  const entry = model.glossaryMap.get(canonical);
+  if (!entry) return;
+
+  const popup = document.createElement("article");
+  popup.className = "popup glossary-popup";
+
+  const closeButton = document.createElement("button");
+  closeButton.type = "button";
+  closeButton.className = "popup-close";
+  closeButton.setAttribute("aria-label", "Close this");
+  closeButton.textContent = "×";
+  closeButton.addEventListener("click", () => {
+    closeSpecificPopup(popup);
+  });
+
+  const heading = document.createElement("h4");
+  heading.textContent = entry.name;
+
+  const body = document.createElement("div");
+  body.className = "popup-body rich-text";
+
+  const reps = document.createElement("p");
+  reps.innerHTML = "<strong>Representations:</strong> ";
+  reps.append(...linkGlossaryTerms(entry.representations.join(", ")));
+
+  const expl = document.createElement("p");
+  expl.innerHTML = "<strong>Explanation:</strong> ";
+  expl.append(...linkGlossaryTerms(entry.explanation));
+
+  const see = document.createElement("p");
+  see.innerHTML = "<strong>See also:</strong> ";
+  see.append(...linkGlossaryTerms(entry.seeAlso.join(", ")));
+
+  const appears = document.createElement("p");
+  appears.textContent = `Appears in: ${entry.appearances}`;
+
+  body.append(reps, expl, see, appears);
+  popup.append(closeButton, heading, body);
+  popupLayer.append(popup);
+  positionPopupNearAnchor(popup, anchor);
+  popupStack.push(popup);
+
+  highlightChapters(entry.chapterSet);
+}
+
+function closeTopPopup() {
+  const popup = popupStack.pop();
+  if (!popup) return;
+  popup.remove();
+  refreshChapterHighlights();
+}
+
+function closeSpecificPopup(target) {
+  const index = popupStack.indexOf(target);
+  if (index !== -1) popupStack.splice(index, 1);
+  target.remove();
+  refreshChapterHighlights();
+}
+
+function closeAllPopups() {
+  while (popupStack.length) {
+    popupStack.pop().remove();
+  }
+  refreshChapterHighlights();
+}
+
+function refreshChapterHighlights() {
+  const topGlossary = [...popupStack].reverse().find((node) => node.classList.contains("glossary-popup"));
+  if (!topGlossary) {
+    highlightChapters(new Set());
     return;
   }
 
-  tooltip.style.left = `${event.pageX + 12}px`;
-  tooltip.style.top = `${event.pageY + 12}px`;
+  const title = topGlossary.querySelector("h4")?.textContent ?? "";
+  const entry = model.glossaryMap.get(title);
+  highlightChapters(entry?.chapterSet ?? new Set());
 }
 
-function hideTooltip() {
-  tooltip.hidden = true;
+function highlightChapters(chapterSet) {
+  chapterToNode.forEach((node, chapter) => {
+    if (chapterSet.has(chapter)) {
+      node.classList.add("chapter-highlight");
+    } else {
+      node.classList.remove("chapter-highlight");
+    }
+  });
+}
+
+function positionPopupNearAnchor(popup, anchor) {
+  const rect = anchor.getBoundingClientRect();
+  const popupRect = popup.getBoundingClientRect();
+
+  let left = rect.left + window.scrollX + 12;
+  let top = rect.bottom + window.scrollY + 12;
+
+  const maxLeft = window.scrollX + window.innerWidth - popupRect.width - 16;
+  if (left > maxLeft) left = Math.max(16 + window.scrollX, maxLeft);
+
+  const maxTop = window.scrollY + window.innerHeight - popupRect.height - 16;
+  if (top > maxTop) {
+    top = rect.top + window.scrollY - popupRect.height - 12;
+  }
+
+  popup.style.left = `${Math.max(16 + window.scrollX, left)}px`;
+  popup.style.top = `${Math.max(16 + window.scrollY, top)}px`;
+}
+
+function escapeRegex(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
