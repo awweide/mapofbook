@@ -70,6 +70,13 @@ body {
   min-height: 120px;
 }
 
+.summary-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 170px;
+  gap: 0.9rem;
+  align-items: start;
+}
+
 .info-card h3 {
   margin: 0 0 0.4rem;
   color: var(--accent);
@@ -114,12 +121,7 @@ body {
   padding: 1rem;
 }
 
-.viz-layout {
-  display: grid;
-  grid-template-columns: 1fr 240px;
-  gap: 1rem;
-  align-items: start;
-}
+.viz-layout { display: block; }
 
 .timeline {
   overflow: auto;
@@ -149,11 +151,12 @@ body {
 }
 
 .chapter-strip {
-  min-width: max-content;
+  min-width: 0;
   border-top: 3px solid #506797;
   padding-top: 0.65rem;
   display: flex;
   gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .chapter-strips {
@@ -168,15 +171,15 @@ body {
 .chapter-node {
   border: 1px solid #5372ab;
   border-radius: 0.5rem;
-  min-width: 118px;
+  width: 112px;
+  flex: 0 0 112px;
   min-height: 76px;
   color: #eff4ff;
   cursor: pointer;
   padding: 0.4rem 0.45rem;
   text-align: left;
-  display: grid;
-  gap: 0.25rem;
-  align-content: start;
+  display: flex;
+  align-items: flex-start;
 }
 
 .chapter-node[data-category='exp'] { background: #2f5f8f; }
@@ -187,7 +190,7 @@ body {
 .chapter-node[data-category='dig'] { background: #545d6d; }
 
 .chapter-number {
-  font-size: 0.7rem;
+  font-size: 0.76rem;
   font-weight: 700;
   opacity: 0.9;
 }
@@ -197,6 +200,8 @@ body {
   font-size: 0.76rem;
   line-height: 1.2;
   overflow-wrap: anywhere;
+  hyphens: auto;
+  white-space: pre-line;
 }
 
 .chapter-highlight {
@@ -284,14 +289,8 @@ body {
 .legend {
   border: 1px solid var(--border);
   border-radius: 0.7rem;
-  padding: 0.7rem;
+  padding: 0.55rem;
   background: #1a233a;
-}
-
-.legend h3 {
-  margin: 0 0 0.5rem;
-  color: var(--accent);
-  font-size: 0.9rem;
 }
 
 .legend ul {
@@ -299,14 +298,15 @@ body {
   margin: 0;
   padding: 0;
   display: grid;
-  gap: 0.38rem;
-  font-size: 0.84rem;
+  gap: 0.3rem;
+  font-size: 0.78rem;
 }
 
 .legend li {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  line-height: 1.2;
 }
 
 .legend-swatch {
@@ -338,6 +338,10 @@ body {
   }
 
   .viz-layout {
+    display: block;
+  }
+
+  .summary-layout {
     grid-template-columns: 1fr;
   }
 }
