@@ -194,7 +194,13 @@ body {
   font-weight: 600;
   font-size: 0.76rem;
   line-height: 1.2;
-  white-space: nowrap;
+  white-space: normal;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-clamp: 3;
+  word-break: break-word;
 }
 
 .chapter-highlight {
