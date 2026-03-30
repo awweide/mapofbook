@@ -134,8 +134,8 @@ body {
 
 .phase-row {
   display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 0.8rem;
+  grid-template-columns: 150px 1fr;
+  gap: 0.65rem;
   align-items: center;
 }
 
@@ -144,10 +144,23 @@ body {
   background: #22335c;
   color: #d6e6ff;
   border-radius: 0.55rem;
-  padding: 0.55rem;
+  padding: 0.45rem 0.5rem;
   text-align: left;
   cursor: pointer;
-  line-height: 1.25;
+  line-height: 1.15;
+}
+
+.phase-label-phase {
+  display: block;
+  font-weight: 700;
+  font-size: 0.74rem;
+}
+
+.phase-label-name {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.68rem;
+  color: #c7dcff;
 }
 
 .chapter-strip {
@@ -171,12 +184,12 @@ body {
 .chapter-node {
   border: 1px solid #5372ab;
   border-radius: 0.5rem;
-  width: 112px;
-  flex: 0 0 112px;
-  min-height: 76px;
+  width: 96px;
+  flex: 0 0 96px;
+  min-height: 58px;
   color: #eff4ff;
   cursor: pointer;
-  padding: 0.4rem;
+  padding: 0.28rem 0.35rem;
   text-align: center;
   display: flex;
   align-items: center;
@@ -192,14 +205,15 @@ body {
 
 .chapter-title {
   font-weight: 600;
-  font-size: 0.76rem;
-  line-height: 1.2;
+  font-size: 0.74rem;
+  line-height: 1.1;
+  max-width: 72px;
   white-space: normal;
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
-  line-clamp: 3;
+  line-clamp: 2;
   word-break: break-word;
 }
 
