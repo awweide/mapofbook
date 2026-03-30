@@ -114,6 +114,13 @@ body {
   padding: 1rem;
 }
 
+.viz-layout {
+  display: grid;
+  grid-template-columns: 1fr 240px;
+  gap: 1rem;
+  align-items: start;
+}
+
 .timeline {
   overflow: auto;
 }
@@ -161,11 +168,15 @@ body {
 .chapter-node {
   border: 1px solid #5372ab;
   border-radius: 0.5rem;
-  min-width: 84px;
-  min-height: 52px;
+  min-width: 118px;
+  min-height: 76px;
   color: #eff4ff;
   cursor: pointer;
-  padding: 0.35rem 0.45rem;
+  padding: 0.4rem 0.45rem;
+  text-align: left;
+  display: grid;
+  gap: 0.25rem;
+  align-content: start;
 }
 
 .chapter-node[data-category='exp'] { background: #2f5f8f; }
@@ -175,9 +186,17 @@ body {
 .chapter-node[data-category='res'] { background: #356f5a; }
 .chapter-node[data-category='dig'] { background: #545d6d; }
 
+.chapter-number {
+  font-size: 0.7rem;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
 .chapter-title {
   font-weight: 600;
-  font-size: 0.86rem;
+  font-size: 0.76rem;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
 }
 
 .chapter-highlight {
@@ -262,6 +281,49 @@ body {
   margin-right: 0.8rem;
 }
 
+.legend {
+  border: 1px solid var(--border);
+  border-radius: 0.7rem;
+  padding: 0.7rem;
+  background: #1a233a;
+}
+
+.legend h3 {
+  margin: 0 0 0.5rem;
+  color: var(--accent);
+  font-size: 0.9rem;
+}
+
+.legend ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.38rem;
+  font-size: 0.84rem;
+}
+
+.legend li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.legend-swatch {
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 0.2rem;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  display: inline-block;
+}
+
+.legend-exp { background: #2f5f8f; }
+.legend-comp { background: #6c4ea5; }
+.legend-int { background: #7d5b2b; }
+.legend-turn { background: #9a3f52; }
+.legend-res { background: #356f5a; }
+.legend-dig { background: #545d6d; }
+
 @media (max-width: 1200px) {
   .info-grid {
     grid-template-columns: 1fr;
@@ -273,5 +335,9 @@ body {
 
   .popup {
     width: calc(100% - 1.5rem);
+  }
+
+  .viz-layout {
+    grid-template-columns: 1fr;
   }
 }
