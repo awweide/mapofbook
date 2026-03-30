@@ -8,28 +8,22 @@
   </head>
   <body>
     <main class="layout">
-      <header>
-        <h1>Map of Book</h1>
-        <p>
-          Interactive chapter map for <em>Effi Briest</em>. Click phases and chapters
-          to open persistent info cards. Click glossary terms to open nested tooltips,
-          then use chapter highlighting and close controls to navigate.
-        </p>
+      <header class="top-header">
+        <div class="title-row">
+          <h1>Map of Book <button id="title-help" class="title-help" type="button" aria-label="About this view">(?)</button></h1>
+          <button id="close-all-tooltips" type="button">Close all tooltips</button>
+        </div>
       </header>
 
-      <section id="info-grid" class="info-grid" aria-label="Main infoboxes"></section>
+      <section id="popup-layer" class="popup-layer" aria-live="polite"></section>
 
-      <div class="toolbar">
-        <button id="close-all-tooltips" type="button">Close all tooltips</button>
-      </div>
+      <section id="info-grid" class="info-grid" aria-label="Main infoboxes"></section>
 
       <section class="viz-card">
         <div id="timeline" class="timeline" aria-live="polite">
           <div id="phase-rows" class="phase-rows"></div>
         </div>
       </section>
-
-      <section id="popup-layer" class="popup-layer" aria-live="polite"></section>
     </main>
 
     <script src="app.js"></script>
