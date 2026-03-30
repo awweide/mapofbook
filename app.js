@@ -5,6 +5,7 @@ const phaseRows = document.getElementById("phase-rows");
 const infoGrid = document.getElementById("info-grid");
 const closeAllButton = document.getElementById("close-all-tooltips");
 const popupLayer = document.getElementById("popup-layer");
+const titleHelpButton = document.getElementById("title-help");
 
 const chapterToNode = new Map();
 const popupStack = [];
@@ -309,20 +310,37 @@ function buildTermPatterns(glossary) {
 
 function renderInfoboxes() {
   infoGrid.textContent = "";
-  model.infoboxes.forEach((box) => {
-    const card = document.createElement("article");
-    card.className = "info-card";
+  const summary = model.infoboxes.find((box) => box.label === "Summary");
+  if (!summary) return;
 
-    const heading = document.createElement("h3");
-    heading.textContent = box.label;
+  const card = document.createElement("article");
+  card.className = "info-card";
 
-    const body = document.createElement("div");
-    body.className = "rich-text";
-    body.append(renderRichText(box.content));
+  const heading = document.createElement("h3");
+  heading.textContent = summary.label;
 
-    card.append(heading, body);
-    infoGrid.append(card);
-  });
+  const body = document.createElement("div");
+  body.className = "rich-text";
+  body.append(renderRichText(summary.content));
+
+  const otherLinks = model.infoboxes.filter((box) => box.label !== "Summary");
+  if (otherLinks.length) {
+    const linksWrap = document.createElement("p");
+    linksWrap.className = "summary-links";
+    otherLinks.forEach((box) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.textContent = box.label;
+      button.addEventListener("click", (event) => {
+        openInfoPopup(box.label, box.content, event.currentTarget);
+      });
+      linksWrap.append(button);
+    });
+    body.append(linksWrap);
+  }
+
+  card.append(heading, body);
+  infoGrid.append(card);
 }
 
 function renderTimeline() {
@@ -336,7 +354,17 @@ function renderTimeline() {
     const phaseLabel = document.createElement("button");
     phaseLabel.className = "phase-label";
     phaseLabel.type = "button";
-    phaseLabel.textContent = `${phaseItem.phase}: ${phaseItem.name}`;
+    if (phaseItem.phase === "Phase 2") {
+      const phasePrefix = document.createElement("span");
+      phasePrefix.className = "phase-prefix";
+      phasePrefix.textContent = `${phaseItem.phase}:`;
+      const phaseName = document.createElement("span");
+      phaseName.className = "phase-name";
+      phaseName.textContent = phaseItem.name;
+      phaseLabel.append(phasePrefix, phaseName);
+    } else {
+      phaseLabel.textContent = `${phaseItem.phase}: ${phaseItem.name}`;
+    }
     phaseLabel.addEventListener("click", (event) => {
       openInfoPopup(
         `${phaseItem.phase}: ${phaseItem.name}`,
@@ -383,6 +411,14 @@ function renderTimeline() {
 }
 
 function wirePopupControls() {
+  titleHelpButton.addEventListener("click", (event) => {
+    openInfoPopup(
+      "About this view",
+      "Interactive chapter map for Effi Briest. Click phases and chapters to open persistent info cards. Click glossary terms to open nested tooltips, then use chapter highlighting and close controls to navigate.",
+      event.currentTarget,
+    );
+  });
+
   closeAllButton.addEventListener("click", () => {
     closeAllPopups();
   });
@@ -397,13 +433,17 @@ function wirePopupControls() {
 
     closeTopPopup();
   });
+
+  window.addEventListener("resize", () => {
+    if (popupStack.length) layoutPopups();
+  });
 }
 
 function openInfoPopup(title, content, anchor) {
   const popup = buildPopup(title, content);
   popupLayer.append(popup);
-  positionPopupNearAnchor(popup, anchor);
   popupStack.push(popup);
+  layoutPopups(anchor);
 }
 
 function buildPopup(title, content) {
@@ -554,8 +594,8 @@ function openGlossaryPopup(canonical, anchor) {
   body.append(reps, expl, see, appears);
   popup.append(closeButton, heading, body);
   popupLayer.append(popup);
-  positionPopupNearAnchor(popup, anchor);
   popupStack.push(popup);
+  layoutPopups(anchor);
 
   highlightChapters(entry.chapterSet);
 }
@@ -564,6 +604,7 @@ function closeTopPopup() {
   const popup = popupStack.pop();
   if (!popup) return;
   popup.remove();
+  layoutPopups();
   refreshChapterHighlights();
 }
 
@@ -571,6 +612,7 @@ function closeSpecificPopup(target) {
   const index = popupStack.indexOf(target);
   if (index !== -1) popupStack.splice(index, 1);
   target.remove();
+  layoutPopups();
   refreshChapterHighlights();
 }
 
@@ -578,6 +620,7 @@ function closeAllPopups() {
   while (popupStack.length) {
     popupStack.pop().remove();
   }
+  layoutPopups();
   refreshChapterHighlights();
 }
 
@@ -603,23 +646,35 @@ function highlightChapters(chapterSet) {
   });
 }
 
-function positionPopupNearAnchor(popup, anchor) {
-  const rect = anchor.getBoundingClientRect();
-  const popupRect = popup.getBoundingClientRect();
+function layoutPopups() {
+  const leftPopups = popupStack.slice(0, -1);
+  const newest = popupStack[popupStack.length - 1];
+  const gutter = 14;
+  const layerWidth = popupLayer.clientWidth;
+  const columnWidth = Math.max(260, (layerWidth - gutter) / 2);
+  const rightX = layerWidth - columnWidth;
 
-  let left = rect.left + window.scrollX + 12;
-  let top = rect.bottom + window.scrollY + 12;
+  popupStack.forEach((popup) => {
+    popup.style.width = `${columnWidth}px`;
+  });
 
-  const maxLeft = window.scrollX + window.innerWidth - popupRect.width - 16;
-  if (left > maxLeft) left = Math.max(16 + window.scrollX, maxLeft);
+  let leftY = 8;
+  [...leftPopups].reverse().forEach((popup, index) => {
+    popup.style.left = "0px";
+    popup.style.top = `${leftY}px`;
+    popup.style.zIndex = `${150 + index}`;
+    leftY += popup.offsetHeight + 8;
+  });
 
-  const maxTop = window.scrollY + window.innerHeight - popupRect.height - 16;
-  if (top > maxTop) {
-    top = rect.top + window.scrollY - popupRect.height - 12;
+  if (newest) {
+    newest.style.left = `${rightX}px`;
+    newest.style.top = "8px";
+    newest.style.zIndex = "300";
   }
 
-  popup.style.left = `${Math.max(16 + window.scrollX, left)}px`;
-  popup.style.top = `${Math.max(16 + window.scrollY, top)}px`;
+  const leftHeight = leftY + 8;
+  const rightHeight = newest ? newest.offsetHeight + 24 : 0;
+  popupLayer.style.minHeight = `${Math.max(220, leftHeight, rightHeight)}px`;
 }
 
 function escapeRegex(value) {
