@@ -354,17 +354,7 @@ function renderTimeline() {
     const phaseLabel = document.createElement("button");
     phaseLabel.className = "phase-label";
     phaseLabel.type = "button";
-    if (phaseItem.phase === "Phase 2") {
-      const phasePrefix = document.createElement("span");
-      phasePrefix.className = "phase-prefix";
-      phasePrefix.textContent = `${phaseItem.phase}:`;
-      const phaseName = document.createElement("span");
-      phaseName.className = "phase-name";
-      phaseName.textContent = phaseItem.name;
-      phaseLabel.append(phasePrefix, phaseName);
-    } else {
-      phaseLabel.textContent = `${phaseItem.phase}: ${phaseItem.name}`;
-    }
+    phaseLabel.textContent = `${phaseItem.phase}: ${phaseItem.name}`;
     phaseLabel.addEventListener("click", (event) => {
       openInfoPopup(
         `${phaseItem.phase}: ${phaseItem.name}`,
@@ -373,41 +363,63 @@ function renderTimeline() {
       );
     });
 
+    const chaptersWrap = document.createElement("div");
+    chaptersWrap.className = "chapter-strips";
     const strip = document.createElement("div");
     strip.className = "chapter-strip";
+    chaptersWrap.append(strip);
 
-    model.chapters
-      .filter((chapter) => chapter.phase === phaseItem.phase)
-      .forEach((chapter) => {
-        const node = document.createElement("button");
-        node.type = "button";
-        node.className = "chapter-node";
-        node.dataset.category = chapter.category.toLowerCase();
-        node.dataset.chapter = chapter.chapter;
-        node.textContent = chapter.chapter;
-        node.title = chapter.title;
+    const phaseChapters = model.chapters.filter((chapter) => chapter.phase === phaseItem.phase);
+    if (phaseItem.phase === "Phase 2" && phaseChapters.length > 1) {
+      strip.classList.add("chapter-strip-split");
+      const secondStrip = document.createElement("div");
+      secondStrip.className = "chapter-strip chapter-strip-split";
+      chaptersWrap.append(secondStrip);
 
-        const title = document.createElement("span");
-        title.className = "chapter-title";
-        title.textContent = chapter.chapter;
-        node.textContent = "";
-        node.append(title);
-
-        node.addEventListener("click", (event) => {
-          openInfoPopup(
-            `${chapter.chapter} · ${chapter.category}`,
-            chapter.summary,
-            event.currentTarget,
-          );
-        });
-
+      const splitIndex = Math.ceil(phaseChapters.length / 2);
+      phaseChapters.forEach((chapter, index) => {
+        const targetStrip = index < splitIndex ? strip : secondStrip;
+        const node = buildChapterNode(chapter);
+        targetStrip.append(node);
+        chapterToNode.set(chapter.chapter, node);
+      });
+    } else {
+      phaseChapters.forEach((chapter) => {
+        const node = buildChapterNode(chapter);
         strip.append(node);
         chapterToNode.set(chapter.chapter, node);
       });
+    }
 
-    row.append(phaseLabel, strip);
+    row.append(phaseLabel, chaptersWrap);
     phaseRows.append(row);
   });
+}
+
+function buildChapterNode(chapter) {
+  const node = document.createElement("button");
+  node.type = "button";
+  node.className = "chapter-node";
+  node.dataset.category = chapter.category.toLowerCase();
+  node.dataset.chapter = chapter.chapter;
+  node.textContent = chapter.chapter;
+  node.title = chapter.title;
+
+  const title = document.createElement("span");
+  title.className = "chapter-title";
+  title.textContent = chapter.chapter;
+  node.textContent = "";
+  node.append(title);
+
+  node.addEventListener("click", (event) => {
+    openInfoPopup(
+      `${chapter.chapter} · ${chapter.category}`,
+      chapter.summary,
+      event.currentTarget,
+    );
+  });
+
+  return node;
 }
 
 function wirePopupControls() {
@@ -429,6 +441,8 @@ function wirePopupControls() {
     if (latest.contains(event.target)) return;
     if (event.target.closest(".glossary-link")) return;
     if (event.target.closest(".chapter-node") || event.target.closest(".phase-label")) return;
+    if (event.target.closest("#title-help")) return;
+    if (event.target.closest(".summary-links")) return;
     if (event.target.closest("#close-all-tooltips")) return;
 
     closeTopPopup();
@@ -559,7 +573,7 @@ function openGlossaryPopup(canonical, anchor) {
   if (!entry) return;
 
   const popup = document.createElement("article");
-  popup.className = "popup glossary-popup";
+  popup.className = "popup glossary-popup popup-highlight";
 
   const closeButton = document.createElement("button");
   closeButton.type = "button";
@@ -576,22 +590,21 @@ function openGlossaryPopup(canonical, anchor) {
   const body = document.createElement("div");
   body.className = "popup-body rich-text";
 
-  const reps = document.createElement("p");
-  reps.innerHTML = "<strong>Representations:</strong> ";
-  reps.append(...linkGlossaryTerms(entry.representations.join(", ")));
-
   const expl = document.createElement("p");
   expl.innerHTML = "<strong>Explanation:</strong> ";
   expl.append(...linkGlossaryTerms(entry.explanation));
 
-  const see = document.createElement("p");
-  see.innerHTML = "<strong>See also:</strong> ";
-  see.append(...linkGlossaryTerms(entry.seeAlso.join(", ")));
-
   const appears = document.createElement("p");
   appears.textContent = `Appears in: ${entry.appearances}`;
 
-  body.append(reps, expl, see, appears);
+  body.append(expl);
+  if (entry.seeAlso.length) {
+    const see = document.createElement("p");
+    see.innerHTML = "<strong>See also:</strong> ";
+    see.append(...linkGlossaryTerms(entry.seeAlso.join(", ")));
+    body.append(see);
+  }
+  body.append(appears);
   popup.append(closeButton, heading, body);
   popupLayer.append(popup);
   popupStack.push(popup);
