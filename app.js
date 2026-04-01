@@ -526,7 +526,12 @@ function buildChapterNode(chapter) {
   node.className = "chapter-node";
   node.dataset.category = chapter.category.toLowerCase();
   node.dataset.chapter = chapter.chapter;
-  node.title = `Chapter ${chapter.chapter}: ${chapter.summary}`;
+  node.title = `Chapter ${chapter.chapter}: ${chapter.title} — ${chapter.summary}`;
+
+  const chapterNumber = document.createElement("span");
+  chapterNumber.className = "chapter-number";
+  chapterNumber.textContent = chapter.chapter;
+  node.append(chapterNumber);
 
   const title = document.createElement("span");
   title.className = "chapter-title";
@@ -537,7 +542,7 @@ function buildChapterNode(chapter) {
 
   node.addEventListener("click", (event) => {
     openInfoPopup(
-      `${chapter.chapter} · ${chapter.category}`,
+      `${chapter.chapter}: ${chapter.title} · ${chapter.category}`,
       chapter.summary,
       event.currentTarget,
     );
