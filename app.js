@@ -41,6 +41,8 @@ const CATEGORY_LEGEND = [
   { key: "dig", label: "Digression" },
 ];
 
+const CHAPTER_STRIP_SPLIT_CUTOFF = 10;
+
 init();
 
 async function init() {
@@ -494,7 +496,7 @@ function renderTimeline() {
     chaptersWrap.append(strip);
 
     const phaseChapters = model.chapters.filter((chapter) => chapter.phase === phaseItem.phase);
-    if (phaseItem.phase === "Phase 2" && phaseChapters.length > 1) {
+    if (phaseChapters.length > CHAPTER_STRIP_SPLIT_CUTOFF) {
       strip.classList.add("chapter-strip-split");
       const secondStrip = document.createElement("div");
       secondStrip.className = "chapter-strip chapter-strip-split";
