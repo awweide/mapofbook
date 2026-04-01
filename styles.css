@@ -239,6 +239,13 @@ body {
   word-break: break-word;
 }
 
+.chapter-number {
+  font-size: 0.64rem;
+  line-height: 1;
+  opacity: 0.9;
+  letter-spacing: 0.02em;
+}
+
 .foreshadowing-markers {
   display: flex;
   flex-wrap: wrap;
