@@ -194,6 +194,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  gap: 0.2rem;
 }
 
 .chapter-node[data-category='exp'] { background: #2f5f8f; }
@@ -215,6 +217,31 @@ body {
   -webkit-box-orient: vertical;
   line-clamp: 2;
   word-break: break-word;
+}
+
+.foreshadowing-markers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.15rem;
+}
+
+.foreshadowing-marker {
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  color: #f5f7ff;
+  width: 1rem;
+  height: 1rem;
+  min-width: 1rem;
+  min-height: 1rem;
+  border-radius: 0.15rem;
+  padding: 0;
+  font-size: 0.5rem;
+  line-height: 1;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .chapter-highlight {
