@@ -1,4 +1,14 @@
-const DATA_FILE = "eb.txt";
+const BOOKS = {
+  effi: {
+    label: "Effi Briest",
+    file: "data/Effi_Briest.txt",
+  },
+  rider: {
+    label: "The Rider on the White Horse",
+    file: "data/The_Rider_on_the_White_Horse.txt",
+  },
+};
+const DEFAULT_BOOK = "effi";
 
 const timeline = document.getElementById("timeline");
 const phaseRows = document.getElementById("phase-rows");
@@ -6,6 +16,7 @@ const infoGrid = document.getElementById("info-grid");
 const closeAllButton = document.getElementById("close-all-tooltips");
 const popupLayer = document.getElementById("popup-layer");
 const titleHelpButton = document.getElementById("title-help");
+const bookSelect = document.getElementById("book-select");
 
 const chapterToNode = new Map();
 const popupStack = [];
@@ -33,14 +44,27 @@ const CATEGORY_LEGEND = [
 init();
 
 async function init() {
+  wirePopupControls();
+  bookSelect.value = DEFAULT_BOOK;
+  bookSelect.addEventListener("change", async () => {
+    await loadSelectedBook(bookSelect.value);
+  });
+  await loadSelectedBook(DEFAULT_BOOK);
+}
+
+async function loadSelectedBook(bookKey) {
+  const selected = BOOKS[bookKey] || BOOKS[DEFAULT_BOOK];
+
   try {
-    const source = await loadSourceText(DATA_FILE);
-    model = parseEffiData(source);
+    const source = await loadSourceText(selected.file);
+    model = parseBookData(source);
+    infoGrid.innerHTML = "";
+    chapterToNode.clear();
+    closeAllPopups();
     renderInfoboxes();
     renderTimeline();
-    wirePopupControls();
   } catch (error) {
-    timeline.innerHTML = `<p class="error">Could not load ${DATA_FILE}: ${error.message}</p>`;
+    timeline.innerHTML = `<p class="error">Could not load ${selected.file}: ${error.message}</p>`;
   }
 }
 
@@ -52,7 +76,7 @@ async function loadSourceText(path) {
   return response.text();
 }
 
-function parseEffiData(text) {
+function parseBookData(text) {
   const lines = text.split(/\r?\n/);
   const infoboxes = parseInfoboxes(lines);
   const phases = parsePhases(lines);
@@ -108,7 +132,7 @@ function parseInfoboxes(lines) {
 }
 
 function parseForeshadowing(lines) {
-  const headerIndex = lines.findIndex((line) => line.trim() === "### 3. Foreshadowing in *Effi Briest*");
+  const headerIndex = lines.findIndex((line) => /^###\s*3\.\s*Foreshadowing in\s*\*/.test(line.trim()));
   if (headerIndex === -1) return [];
 
   const rows = [];
@@ -556,7 +580,7 @@ function wirePopupControls() {
   titleHelpButton.addEventListener("click", (event) => {
     openInfoPopup(
       "About this view",
-      "Interactive chapter map for Effi Briest. Click phases and chapters to open persistent info cards. Click glossary terms to open nested tooltips, then use chapter highlighting and close controls to navigate.",
+      "Interactive chapter map for the selected script. Click phases and chapters to open persistent info cards. Click glossary terms to open nested tooltips, then use chapter highlighting and close controls to navigate.",
       event.currentTarget,
     );
   });

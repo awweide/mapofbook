@@ -10,7 +10,14 @@
     <main class="layout">
       <header class="top-header">
         <div class="title-row">
-          <h1>Map of Book <button id="title-help" class="title-help" type="button" aria-label="About this view">(?)</button></h1>
+          <div class="title-controls">
+            <h1>Map of Book <button id="title-help" class="title-help" type="button" aria-label="About this view">(?)</button></h1>
+            <label class="book-select-label" for="book-select">Script</label>
+            <select id="book-select" class="book-select" aria-label="Choose a book script">
+              <option value="effi">Effi Briest</option>
+              <option value="rider">The Rider on the White Horse</option>
+            </select>
+          </div>
           <button id="close-all-tooltips" type="button">Close all tooltips</button>
         </div>
       </header>
