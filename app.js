@@ -139,9 +139,17 @@ function parseForeshadowing(lines) {
 }
 
 function buildForeshadowingMarker(title) {
-  const clean = title.replace(/[^A-Za-z0-9]/g, "").toUpperCase();
-  if (!clean) return "?";
-  return clean.slice(0, Math.min(2, clean.length));
+  const words = (title.toUpperCase().match(/[A-Z0-9]+/g) || []).filter(Boolean);
+  if (!words.length) return "?";
+
+  const significantWords = words.filter((word) => !["THE", "A", "AN"].includes(word));
+  const sourceWords = significantWords.length ? significantWords : words;
+
+  if (sourceWords.length === 1) {
+    return sourceWords[0].slice(0, Math.min(2, sourceWords[0].length));
+  }
+
+  return `${sourceWords[0][0]}${sourceWords[1][0]}`;
 }
 
 function parsePhases(lines) {
@@ -620,7 +628,7 @@ function renderRichText(text) {
       const ul = document.createElement("ul");
       trimmed
         .split("\n")
-        .map((line) => line.replace(/^-\s*/, "").trim())
+        .map((line) => stripSimpleMarkdown(line.replace(/^-\s*/, "").trim()))
         .filter(Boolean)
         .forEach((item) => {
           const li = document.createElement("li");
@@ -634,12 +642,19 @@ function renderRichText(text) {
     const p = document.createElement("p");
     trimmed.split("\n").forEach((line, index) => {
       if (index > 0) p.append(document.createElement("br"));
-      p.append(...linkGlossaryTerms(line));
+      p.append(...linkGlossaryTerms(stripSimpleMarkdown(line)));
     });
     fragment.append(p);
   });
 
   return fragment;
+}
+
+function stripSimpleMarkdown(text) {
+  return text
+    .replace(/\*\*(.*?)\*\*/g, "$1")
+    .replace(/\*(.*?)\*/g, "$1")
+    .replace(/`(.*?)`/g, "$1");
 }
 
 function linkGlossaryTerms(text) {
