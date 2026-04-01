@@ -17,6 +17,8 @@ let model = {
   glossary: [],
   glossaryMap: new Map(),
   termPatterns: [],
+  foreshadowing: [],
+  foreshadowingMap: new Map(),
 };
 
 const CATEGORY_LEGEND = [
@@ -55,10 +57,15 @@ function parseEffiData(text) {
   const infoboxes = parseInfoboxes(lines);
   const phases = parsePhases(lines);
   const chapters = parseChapters(lines);
+  const foreshadowing = parseForeshadowing(lines);
   const glossary = parseGlossary(lines);
 
   const glossaryMap = new Map(glossary.map((entry) => [entry.name, entry]));
   const termPatterns = buildTermPatterns(glossary);
+  const foreshadowingMap = new Map(foreshadowing.map((entry) => [entry.title, entry]));
+  if (foreshadowing.length && !infoboxes.some((box) => box.label === "Foreshadowing")) {
+    infoboxes.push({ label: "Foreshadowing", content: "" });
+  }
 
   return {
     infoboxes,
@@ -67,11 +74,13 @@ function parseEffiData(text) {
     glossary,
     glossaryMap,
     termPatterns,
+    foreshadowing,
+    foreshadowingMap,
   };
 }
 
 function parseInfoboxes(lines) {
-  const labels = ["Summary", "Author", "Importance", "Themes", "Message"];
+  const labels = ["Summary", "Author", "Importance", "Themes", "Message", "Foreshadowing"];
   const out = [];
 
   for (const label of labels) {
@@ -96,6 +105,43 @@ function parseInfoboxes(lines) {
   }
 
   return out;
+}
+
+function parseForeshadowing(lines) {
+  const headerIndex = lines.findIndex((line) => line.trim() === "### 3. Foreshadowing in *Effi Briest*");
+  if (headerIndex === -1) return [];
+
+  const rows = [];
+  for (let i = headerIndex + 1; i < lines.length; i += 1) {
+    const line = lines[i].trim();
+    if (!line) continue;
+    if (line.startsWith("## Glossary")) break;
+    if (!line.startsWith("|")) continue;
+    if (/^\|\s*-+/.test(line)) continue;
+
+    const cells = line.split("|").slice(1, -1).map((cell) => cell.trim());
+    if (cells.length < 3) continue;
+    if (cells[0].toLowerCase() === "title") continue;
+
+    const title = cells[0].replace(/^\*\*(.+)\*\*$/, "$1").trim();
+    const description = cells[1].trim();
+    const appearances = cells.slice(2).join(" | ").trim();
+    rows.push({
+      title,
+      description,
+      appearances,
+      chapterSet: parseAppearances(appearances),
+      marker: buildForeshadowingMarker(title),
+    });
+  }
+
+  return rows;
+}
+
+function buildForeshadowingMarker(title) {
+  const clean = title.replace(/[^A-Za-z0-9]/g, "").toUpperCase();
+  if (!clean) return "?";
+  return clean.slice(0, Math.min(2, clean.length));
 }
 
 function parsePhases(lines) {
@@ -353,6 +399,10 @@ function renderInfoboxes() {
       button.type = "button";
       button.textContent = box.label;
       button.addEventListener("click", (event) => {
+        if (box.label === "Foreshadowing") {
+          openForeshadowingListPopup(event.currentTarget);
+          return;
+        }
         openInfoPopup(box.label, box.content, event.currentTarget);
       });
       linksWrap.append(button);
@@ -450,6 +500,8 @@ function buildChapterNode(chapter) {
   title.className = "chapter-title";
   title.textContent = chapter.title;
   node.append(title);
+  const markers = buildForeshadowingMarkers(chapter.chapter);
+  if (markers) node.append(markers);
 
   node.addEventListener("click", (event) => {
     openInfoPopup(
@@ -460,6 +512,36 @@ function buildChapterNode(chapter) {
   });
 
   return node;
+}
+
+function buildForeshadowingMarkers(chapterId) {
+  const matches = model.foreshadowing.filter((entry) => entry.chapterSet.has(chapterId));
+  if (!matches.length) return null;
+
+  const wrap = document.createElement("div");
+  wrap.className = "foreshadowing-markers";
+
+  matches.forEach((entry, index) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "foreshadowing-marker";
+    button.style.backgroundColor = markerColor(index);
+    button.textContent = entry.marker;
+    button.title = entry.title;
+    button.setAttribute("aria-label", `Foreshadowing: ${entry.title}`);
+    button.addEventListener("click", (event) => {
+      event.stopPropagation();
+      openForeshadowingPopup(entry.title, event.currentTarget);
+    });
+    wrap.append(button);
+  });
+
+  return wrap;
+}
+
+function markerColor(index) {
+  const palette = ["#1f2438", "#3f2c6d", "#66323f", "#2d5f4f", "#5f4a2a", "#4a315f", "#2a5a73", "#6a3b20", "#7a2e4f", "#3a517a"];
+  return palette[index % palette.length];
 }
 
 function wirePopupControls() {
@@ -652,6 +734,83 @@ function openGlossaryPopup(canonical, anchor) {
   }
   body.append(appears);
   popup.append(closeButton, heading, body);
+  popup.dataset.highlightChapters = JSON.stringify([...entry.chapterSet]);
+  popupLayer.append(popup);
+  popupStack.push(popup);
+  refreshGlossaryPopupActiveState();
+  layoutPopups(anchor);
+  refreshChapterHighlights();
+}
+
+function openForeshadowingListPopup(anchor) {
+  const popup = document.createElement("article");
+  popup.className = "popup";
+
+  const closeButton = document.createElement("button");
+  closeButton.type = "button";
+  closeButton.className = "popup-close";
+  closeButton.setAttribute("aria-label", "Close this");
+  closeButton.textContent = "×";
+  closeButton.addEventListener("click", () => closeSpecificPopup(popup));
+
+  const heading = document.createElement("h4");
+  heading.textContent = "Foreshadowing";
+
+  const body = document.createElement("div");
+  body.className = "popup-body rich-text foreshadowing-list";
+
+  const list = document.createElement("ul");
+  model.foreshadowing.forEach((entry) => {
+    const li = document.createElement("li");
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "glossary-link";
+    button.textContent = entry.title;
+    button.addEventListener("click", (event) => {
+      event.stopPropagation();
+      openForeshadowingPopup(entry.title, event.currentTarget);
+    });
+    li.append(button);
+    list.append(li);
+  });
+  body.append(list);
+
+  popup.append(closeButton, heading, body);
+  popupLayer.append(popup);
+  popupStack.push(popup);
+  refreshGlossaryPopupActiveState();
+  layoutPopups(anchor);
+  refreshChapterHighlights();
+}
+
+function openForeshadowingPopup(title, anchor) {
+  const entry = model.foreshadowingMap.get(title);
+  if (!entry) return;
+
+  const popup = document.createElement("article");
+  popup.className = "popup glossary-popup";
+
+  const closeButton = document.createElement("button");
+  closeButton.type = "button";
+  closeButton.className = "popup-close";
+  closeButton.setAttribute("aria-label", "Close this");
+  closeButton.textContent = "×";
+  closeButton.addEventListener("click", () => closeSpecificPopup(popup));
+
+  const heading = document.createElement("h4");
+  heading.textContent = entry.title;
+
+  const body = document.createElement("div");
+  body.className = "popup-body rich-text";
+  const expl = document.createElement("p");
+  expl.innerHTML = "<strong>Description:</strong> ";
+  expl.append(...linkGlossaryTerms(entry.description));
+  const appears = document.createElement("p");
+  appears.textContent = `Appears in: ${entry.appearances}`;
+  body.append(expl, appears);
+
+  popup.dataset.highlightChapters = JSON.stringify([...entry.chapterSet]);
+  popup.append(closeButton, heading, body);
   popupLayer.append(popup);
   popupStack.push(popup);
   refreshGlossaryPopupActiveState();
@@ -695,15 +854,13 @@ function refreshGlossaryPopupActiveState() {
 }
 
 function refreshChapterHighlights() {
-  const topGlossary = [...popupStack].reverse().find((node) => node.classList.contains("glossary-popup"));
-  if (!topGlossary) {
+  const highlightedPopup = [...popupStack].reverse().find((node) => node.dataset.highlightChapters);
+  if (!highlightedPopup) {
     highlightChapters(new Set());
     return;
   }
-
-  const title = topGlossary.querySelector("h4")?.textContent ?? "";
-  const entry = model.glossaryMap.get(title);
-  highlightChapters(entry?.chapterSet ?? new Set());
+  const chapters = JSON.parse(highlightedPopup.dataset.highlightChapters ?? "[]");
+  highlightChapters(new Set(chapters));
 }
 
 function highlightChapters(chapterSet) {
