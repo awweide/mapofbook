@@ -1,6 +1,6 @@
 # Map of Book
 
-Static visualization for *Effi Briest* parsed from `eb.txt`.
+Static visualization for book scripts, currently *Effi Briest* and *The Rider on the White Horse*, parsed from files in `data/`.
 
 Legacy Lord of the Rings implementation has been preserved in:
 
