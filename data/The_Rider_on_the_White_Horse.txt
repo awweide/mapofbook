@@ -42,35 +42,47 @@ Storm presents a tragic hero whose intellectual superiority and progressive visi
 - **Res** = Resolution
 - **Dig** = Digression
 
-| Section | Phase | Category | Summary |
-|---------|-------|----------|---------|
-| I | Phase 1 | Exp | **The Framing Narrative: Storm and Legend.** The narrator, a traveler, is caught in a storm while riding along a North Frisian dike. He seeks shelter in an inn and learns he is in the company of the local dikemaster and his overseers. When he mentions seeing a spectral rider on a white horse, the company is shaken. The dikemaster suggests the local schoolmaster can tell the story. |
-| II | Phase 1 | Exp | **The Schoolmaster's Introduction.** The schoolmaster agrees to tell the story of Hauke Haien, the rider on the white horse. He warns that it is mixed with superstition, but the narrator insists on hearing it all. The schoolmaster begins the tale, establishing the historical setting and the legacy of Hauke Haien's clever father. |
-| III | Phase 1 | Exp | **Hauke's Boyhood.** The young Hauke Haien is described as a solitary, mathematically gifted boy. He teaches himself Dutch to read a Euclid geometry book, much to his father's bewilderment. He works on the dikes and develops critical ideas about their construction, arguing that the seaward side is too steep. He declares to his father that he will become dikemaster and change the dikes. |
-| IV | Phase 1 | Exp | **The Angora Cat.** The story of the old woman Trin Jans's white Angora cat is introduced. Hauke develops a rapport with it. One day, after the cat steals a bird Hauke has shot, a violent struggle ensues, and Hauke kills the cat. |
-| V | Phase 1 | Comp | **Consequences.** Trin Jans brings the dead cat to Hauke's father, demanding justice. Tede Haien pays her off and promises her a future kitten. He then tells Hauke that he must find work elsewhere. Hauke expresses interest in working for the dikemaster, Tede Volkerts. |
-| VI | Phase 1 | Comp | **Meeting Elke.** Hauke goes to the dikemaster's farm. He meets the daughter, Elke Volkerts, on the hill in front of the house. She is sharp-eyed and discerning. He asks for work, and she leads him inside to see her father. |
-| VII | Phase 1 | Exp | **Employment.** Hauke's father negotiates with the dikemaster. Elke's intelligence is praised. Hauke is hired as the "second man," much to the resentment of the head man, Ole Peters. Hauke feels confident he will manage. |
-| VIII | Phase 2 | Comp | **Life at the Dikemaster's.** Hauke excels in his work and his study of the dike accounts. He earns the enmity of Ole Peters. His growing closeness to Elke is evident as they work together. He begins to point out flaws in the dike management, making the old dikemaster uneasy but also more active. |
-| IX | Phase 2 | Int | **Bonding with Elke.** The schoolmaster continues, describing the deepening bond between Hauke and Elke. Hauke is now the head man. They discuss his leaving to care for his ailing father. Elke fears her father will miss him. Their unspoken understanding is solidified. |
-| X | Phase 2 | Comp | **Father's Death.** Hauke's father, Tede Haien, dies. On his deathbed, he reveals he has secretly acquired a small piece of land (Antje Wohlers's fen) to add to Hauke's inheritance. Elke comes to clean the house, further strengthening their bond. |
-| XI | Phase 2 | Int | **A Wedding and an Engagement.** At a relative's wedding, Hauke and Elke sit together. Hauke gives her a gold ring, proposing a silent engagement. Elke accepts, saying she will wear it until they can marry. The pastor's wife notices her pale face, but the couple is resolute. |
-| XII | Phase 2 | Comp | **The Old Dikemaster's Death.** Tede Volkerts dies. Elke is left as the mistress of the large farm. At the funeral feast, the dikemaster general and the local authorities discuss who will be the new dikemaster. Elke reveals her engagement to Hauke and declares she will transfer her property to him, making him the richest man in the village. Hauke is chosen as the new dikemaster. |
-| XIII | Phase 3 | Exp | **The New Dikemaster.** Several years pass. Hauke and Elke are married and live on her farm. They are hardworking but increasingly isolated. Their marriage is childless. A rumor spreads that Hauke is only dikemaster because of his wife. This goads Hauke into action. |
-| XIV | Phase 3 | Comp | **The Great Plan.** Hauke conceives a grand plan: to build a new dike that will reclaim a thousand acres of foreland. He calculates that he can do it. He tells Elke his plan, and she supports him despite her fears. The petition for the new dike is submitted. |
-| XV | Phase 3 | Exp | **The New Horse.** Hauke brings home a mysterious, emaciated white horse bought cheaply from a strange man. Elke is skeptical, but Hauke cares for it. The horse thrives and becomes his favorite mount. The local folk, especially his former servant Carsten, begin to connect the horse to the legend of a horse skeleton on the Jevershallig island, calling it a "devil's horse." |
-| XVI | Phase 3 | Turn | **The Dike Construction.** The new dike project is approved. Hauke faces constant opposition from the overseers, especially Ole Peters. The work begins. Hauke, on his white horse, drives the workers relentlessly, earning the nickname "the Rider on the White Horse." |
-| XVII | Phase 3 | Exp | **The Birth of Wienke.** Elke gives birth to a daughter, Wienke. Elke nearly dies from childbed fever. In his anguish, Hauke prays to God in a way that implies God is not all-powerful. This prayer is overheard and spreads through the community as proof of his heresy. The child is born with a mental disability. |
-| XVIII | Phase 3 | Exp | **The Completion of the Dike.** The dike is almost completed, but the gap by the old dike must still be closed. During the final work in a storm, a worker throws a little yellow dog into the breach, citing an old superstition that a live thing must be dammed in. Hauke furiously stops the work and rescues the dog, increasing the villagers' resentment and fear of him. |
-| XIX | Phase 3 | Exp | **The Finished Koog.** The new dike is finished and is a success. The new land, originally named "Caroline Koog" after a princess, is soon called "Hauke-Haien Koog" by the people, much to his pride. He rides along it, feeling triumphant. |
-| XX | Phase 4 | Int | **Family Life and Trin Jans.** The farm is peaceful. The mentally disabled Wienke is cared for by her mother and the old woman Trin Jans, who has been brought to live on the farm. Trin Jans keeps a gull named Claus, which becomes Wienke's friend. The narrator reflects on the quiet family life, marked by the unspoken sadness over their child. |
-| XXI | Phase 4 | Int | **The Dike Inspection.** Years pass. After a winter illness, Hauke inspects his dikes. At the crucial corner where the old and new dikes meet, he finds a dangerous weakness in the old dike. A channel has shifted, and the dike is riddled with mouse tunnels. He is terrified by the thought that to save the old land, his new dike might have to be sacrificed. He fails to act decisively. |
-| XXII | Phase 4 | Comp | **The Spreading Superstition.** The year 1756, a time of omens and fears, is described. Trin Jans dies, uttering a curse-like warning: "God have mercy on the others!" Omens of disaster spread through the region. |
-| XXIII | Phase 4 | Comp | **The Great Storm Flood.** A violent storm flood begins. Hauke rides out on his white horse to inspect the dikes. He finds his workers, led by Ole Peters, about to breach his new dike to save the old one. He stops them. He then sees the old dike is already breaking. |
-| XXIV | Phase 4 | Turn | **The Discovery of His Guilt.** Hauke realizes his fatal negligence. He sees a light from his house and is relieved, thinking Elke and Wienke are safe. He then sees a cart with a woman and child racing towards the dike. It is Elke and Wienke, who have fled the house. He watches helplessly as they are swept away by the flood. |
-| XXV | Phase 4 | Res | **The End.** In despair, Hauke rides his white horse into the breach and dies. The new dike holds. The framing narrative concludes: the schoolmaster states that Hauke's body was never found, but his new dike still stands after a hundred years, a monument to his work, even as his memory was twisted into a legend. |
+Here is the revised chapter table with the added "Title" column. Each title is a very short phrase (under 30 characters) capturing the section's core event or focus.
 
 ---
+
+## Chapter-by-Chapter Table
+
+**Categories legend:**  
+- **Exp** = Exposition  
+- **Comp** = Complication  
+- **Int** = Introspection  
+- **Turn** = Turning point  
+- **Res** = Resolution  
+- **Dig** = Digression  
+
+| Ch | Title | Phase | Category | Summary |
+|----|-------|-------|----------|---------|
+| I | Storm and Legend | Phase 1 | Exp | The narrator is caught in a storm, seeks shelter at an inn, and hears the company’s fearful reaction to his mention of a spectral rider on a white horse. The dikemaster suggests the schoolmaster tell the story. |
+| II | Schoolmaster’s Introduction | Phase 1 | Exp | The schoolmaster agrees to tell the story of Hauke Haien. He warns of superstition and begins by describing the clever but isolated family background of the protagonist. |
+| III | Boyhood and Euclid | Phase 1 | Exp | Young Hauke Haien teaches himself Dutch to read Euclid, works on the dike, and criticizes the steep seaward slope. He declares to his father that he will become dikemaster. |
+| IV | The Angora Cat | Phase 1 | Exp | The white Angora cat of old Trin Jans is introduced. Hauke kills it in a violent struggle after it steals his bird, setting up future conflict. |
+| V | Cat’s Aftermath | Phase 1 | Comp | Trin Jans brings the dead cat to Hauke’s father, who pays her off. Hauke is told to find work elsewhere and expresses interest in serving the dikemaster, Tede Volkerts. |
+| VI | Meeting Elke | Phase 1 | Comp | Hauke goes to the dikemaster’s farm and meets Elke Volkerts on the hill. She is sharp and discerning. He asks for work, and she leads him inside. |
+| VII | Hired as Second Man | Phase 1 | Exp | Hauke’s father negotiates with the dikemaster. Elke’s intelligence is noted. Hauke is hired, earning the resentment of the head man, Ole Peters. |
+| VIII | Life with the Dikemaster | Phase 2 | Comp | Hauke excels at dike accounts and makes an enemy of Ole Peters. His bond with Elke deepens as he points out flaws in the old dike management. |
+| IX | Bond with Elke | Phase 2 | Int | The bond between Hauke and Elke solidifies. They discuss his leaving to care for his ailing father. Elke fears her own father will miss him. |
+| X | Father’s Death | Phase 2 | Comp | Tede Haien dies, revealing a secret inheritance. Elke comes to clean the house, strengthening her connection with Hauke. |
+| XI | Wedding Engagement | Phase 2 | Int | At a wedding, Hauke gives Elke a gold ring; they become secretly engaged. Elke says she will wear it until they can marry. |
+| XII | New Dikemaster | Phase 2 | Comp | The old dikemaster dies. At the funeral feast, Elke reveals her engagement and declares she will transfer her property to Hauke. He is appointed dikemaster. |
+| XIII | Ambition and Plan | Phase 3 | Exp | Hauke, now dikemaster, is stung by rumors that he owes his position to his wife. He conceives a plan to build a new dike and reclaim a thousand acres. |
+| XIV | The New Dike Plan | Phase 3 | Comp | Hauke tells Elke his plan; she supports him despite her fears. The petition is submitted. |
+| XV | The White Horse | Phase 3 | Exp | Hauke buys a mysterious, emaciated white horse from a strange man. The horse thrives, but locals, especially the servant boy Carsten, connect it to a legendary skeleton and call it a devil’s horse. |
+| XVI | Dike Construction Begins | Phase 3 | Turn | The new dike project is approved. Hauke drives the workers relentlessly, earning the nickname “Rider on the White Horse.” Opposition from Ole Peters grows. |
+| XVII | Birth of Wienke | Phase 3 | Exp | Elke nearly dies giving birth to daughter Wienke. Hauke’s anguished prayer is overheard and spreads as proof of his heresy. The child is mentally disabled. |
+| XVIII | The Yellow Dog | Phase 3 | Exp | During final dike work, a worker throws a yellow dog into the breach, citing superstition. Hauke rescues the dog, increasing the villagers’ resentment. |
+| XIX | The Finished Koog | Phase 3 | Exp | The new dike is completed and holds. The land is soon called “Hauke-Haien Koog.” Hauke rides triumphantly along it. |
+| XX | Quiet Family Years | Phase 4 | Int | Years pass peacefully. Wienke grows up with the old woman Trin Jans and her gull Claus. The family’s quiet sadness over their child is noted. |
+| XXI | Weakness Discovered | Phase 4 | Int | Hauke inspects the dikes and finds a dangerous weakness in the old dike—a shifted channel and mouse tunnels. He is terrified but fails to act decisively. |
+| XXII | Omens and Death | Phase 4 | Comp | The year 1756 brings omens of disaster. Trin Jans dies, uttering a curse‑like warning. Superstitious dread spreads. |
+| XXIII | The Storm Flood | Phase 4 | Comp | A great storm flood strikes. Hauke rides out and finds his workers, led by Ole Peters, about to breach his new dike. He stops them, then sees the old dike breaking. |
+| XXIV | Guilt and Loss | Phase 4 | Turn | Hauke realizes his fatal negligence. He sees a cart with Elke and Wienke fleeing toward the dike and watches helplessly as they are swept away by the flood. |
+| XXV | The End | Phase 4 | Res | In despair, Hauke rides his white horse into the breach and dies. The new dike holds. The schoolmaster concludes that the dike still stands after a hundred years. |
 
 ### 3. Foreshadowing in *The Rider on the White Horse*
 
