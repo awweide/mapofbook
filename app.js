@@ -122,11 +122,24 @@ function parseBookData(text) {
 }
 
 function parseInfoboxes(lines) {
-  const labels = ["Summary", "Author", "Importance", "Themes", "Message", "Foreshadowing"];
+  const labels = [
+    { label: "Summary", headings: ["Summary", "Sammendrag"] },
+    { label: "Author", headings: ["Author", "Forfatter"] },
+    { label: "Importance", headings: ["Importance", "Betydning"] },
+    { label: "Themes", headings: ["Themes", "Temaer"] },
+    { label: "Message", headings: ["Message", "Budskap"] },
+    { label: "Foreshadowing", headings: ["Foreshadowing", "Forvarsler"] },
+  ];
   const out = [];
+  const headerMatches = (line, heading) => {
+    const trimmed = line.trim();
+    return trimmed === `**${heading}**` || trimmed === `**${heading}**  `;
+  };
+  const isSectionBoundary = (trimmed) => /^##\s+/.test(trimmed);
+  const isAnyInfoboxHeading = (line) => labels.some(({ headings }) => headings.some((heading) => headerMatches(line, heading)));
 
-  for (const label of labels) {
-    const headerIndex = lines.findIndex((line) => line.trim() === `**${label}**` || line.trim() === `**${label}**  `);
+  for (const { label, headings } of labels) {
+    const headerIndex = lines.findIndex((line) => headings.some((heading) => headerMatches(line, heading)));
     if (headerIndex === -1) continue;
 
     const body = [];
@@ -134,10 +147,10 @@ function parseInfoboxes(lines) {
       const current = lines[i];
       const trimmed = current.trim();
 
-      if (labels.some((name) => trimmed === `**${name}**` || trimmed === `**${name}**  `)) {
+      if (isAnyInfoboxHeading(current)) {
         break;
       }
-      if (trimmed === "## Phases") {
+      if (isSectionBoundary(trimmed)) {
         break;
       }
       body.push(current);
@@ -150,20 +163,23 @@ function parseInfoboxes(lines) {
 }
 
 function parseForeshadowing(lines) {
-  const headerIndex = lines.findIndex((line) => /^###\s*3\.\s*Foreshadowing in\s*\*/.test(line.trim()));
+  const headerIndex = lines.findIndex((line) => {
+    const trimmed = line.trim();
+    return /^###\s*3\.\s*Foreshadowing in\s*\*/i.test(trimmed) || /^##\s*Forvarsler\b/i.test(trimmed);
+  });
   if (headerIndex === -1) return [];
 
   const rows = [];
   for (let i = headerIndex + 1; i < lines.length; i += 1) {
     const line = lines[i].trim();
     if (!line) continue;
-    if (line.startsWith("## Glossary")) break;
+    if (/^##\s*(Glossary|Ordliste)\b/i.test(line)) break;
     if (!line.startsWith("|")) continue;
     if (/^\|\s*-+/.test(line)) continue;
 
     const cells = line.split("|").slice(1, -1).map((cell) => cell.trim());
     if (cells.length < 3) continue;
-    if (cells[0].toLowerCase() === "title") continue;
+    if (["title", "tittel"].includes(cells[0].toLowerCase())) continue;
 
     const title = cells[0].replace(/^\*\*(.+)\*\*$/, "$1").trim();
     const description = cells[1].trim();
@@ -196,7 +212,7 @@ function buildForeshadowingMarker(title) {
 
 function parsePhases(lines) {
   const phases = [];
-  const phaseRegex = /^\|\s*\*\*(Phase\s+\d+):\s*([^*]+)\*\*\s*\|\s*(.+)\|$/;
+  const phaseRegex = /^\|\s*\*\*((Phase|Fase)\s+\d+):\s*([^*]+)\*\*\s*\|\s*(.+)\|$/;
 
   for (const line of lines) {
     const trimmed = line.trim();
@@ -205,8 +221,8 @@ function parsePhases(lines) {
 
     phases.push({
       phase: match[1],
-      name: match[2].trim(),
-      description: match[3].trim(),
+      name: match[3].trim(),
+      description: match[4].trim(),
     });
   }
 
@@ -216,15 +232,16 @@ function parsePhases(lines) {
 function parseChapters(lines) {
   const chapters = [];
   let inChapterSection = false;
+  const chapterTableHeadings = new Set(["## Chapter-by-Chapter Table", "## Kapittel-for-kapittel-tabell"]);
 
   for (const line of lines) {
     const trimmed = line.trim();
-    if (trimmed === "## Chapter-by-Chapter Table") {
+    if (chapterTableHeadings.has(trimmed)) {
       inChapterSection = true;
       continue;
     }
     if (!inChapterSection) continue;
-    if (trimmed.startsWith("## ") && trimmed !== "## Chapter-by-Chapter Table") break;
+    if (trimmed.startsWith("## ") && !chapterTableHeadings.has(trimmed)) break;
     if (!trimmed.startsWith("|")) continue;
     if (/^\|\s*-+/.test(trimmed)) continue;
 
@@ -232,7 +249,7 @@ function parseChapters(lines) {
     if (cells.length < 4) continue;
 
     const first = (cells[0] ?? "").toLowerCase();
-    if (first === "chapter" || first === "ch") continue;
+    if (["chapter", "ch", "kapittel"].includes(first)) continue;
 
     if (cells.length >= 5) {
       const [chapter, title, phase, category, ...summaryParts] = cells;
@@ -260,7 +277,7 @@ function parseChapters(lines) {
 }
 
 function parseGlossary(lines) {
-  const glossaryStart = lines.findIndex((line) => line.trim() === "## Glossary");
+  const glossaryStart = lines.findIndex((line) => /^##\s*(Glossary|Ordliste)\b/i.test(line.trim()));
   if (glossaryStart === -1) return [];
 
   const entries = [];
@@ -295,22 +312,24 @@ function parseGlossary(lines) {
         break;
       }
 
-      if (detail.startsWith("*Representations:*")) {
+      if (detail.startsWith("*Representations:*") || detail.startsWith("*Representasjoner:*")) {
         representations = detail
           .replace("*Representations:*", "")
+          .replace("*Representasjoner:*", "")
           .split(",")
           .map((term) => term.trim())
           .filter(Boolean);
-      } else if (detail.startsWith("*Explanation:*")) {
-        explanation = detail.replace("*Explanation:*", "").trim();
-      } else if (detail.startsWith("*See also:*")) {
+      } else if (detail.startsWith("*Explanation:*") || detail.startsWith("*Forklaring:*")) {
+        explanation = detail.replace("*Explanation:*", "").replace("*Forklaring:*", "").trim();
+      } else if (detail.startsWith("*See also:*") || detail.startsWith("*Se også:*")) {
         seeAlso = detail
           .replace("*See also:*", "")
+          .replace("*Se også:*", "")
           .split(",")
           .map((term) => term.trim())
           .filter(Boolean);
-      } else if (detail.startsWith("*Appearances:*")) {
-        appearances = detail.replace("*Appearances:*", "").trim();
+      } else if (detail.startsWith("*Appearances:*") || detail.startsWith("*Opptredener:*")) {
+        appearances = detail.replace("*Appearances:*", "").replace("*Opptredener:*", "").trim();
       }
       i += 1;
     }
@@ -332,7 +351,7 @@ function parseAppearances(text) {
   const chapterSet = new Set();
   const raw = text.replace(/\(.*?\)/g, "").trim();
 
-  if (/all chapters/i.test(raw)) {
+  if (/all chapters|alle kapitler/i.test(raw)) {
     const all = [
       "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX",
       "XXI", "XXII", "XXIII", "XXIV", "XXV", "XXVI", "XXVII", "XXVIII", "XXIX", "XXX", "XXXI", "XXXII", "XXXIII", "XXXIV", "XXXV", "XXXVI",
@@ -348,10 +367,27 @@ function parseAppearances(text) {
       expandRomanRange(rangeMatch[1], rangeMatch[2]).forEach((chapter) => chapterSet.add(chapter));
       continue;
     }
+    const arabicRangeMatch = token.match(/^(\d+)\s*[-–]\s*(\d+)$/);
+    if (arabicRangeMatch) {
+      const start = Number.parseInt(arabicRangeMatch[1], 10);
+      const end = Number.parseInt(arabicRangeMatch[2], 10);
+      if (Number.isFinite(start) && Number.isFinite(end) && end >= start) {
+        for (let chapter = start; chapter <= end; chapter += 1) {
+          chapterSet.add(String(chapter));
+        }
+      }
+      continue;
+    }
 
     const direct = token.match(/^([IVXLCDM]+)$/i);
     if (direct) {
       chapterSet.add(direct[1].toUpperCase());
+      continue;
+    }
+
+    const arabicDirect = token.match(/^\d+$/);
+    if (arabicDirect) {
+      chapterSet.add(arabicDirect[0]);
     }
   }
 
