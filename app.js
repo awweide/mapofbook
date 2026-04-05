@@ -3,6 +3,10 @@ const BOOKS = {
     label: "Effi Briest",
     file: "data/Effi_Briest.txt",
   },
+  gunnlaug: {
+    label: "Gunnlaug",
+    file: "data/Gunnlaug.txt",
+  },
   rider: {
     label: "The Rider on the White Horse",
     file: "data/The_Rider_on_the_White_Horse.txt",
@@ -47,11 +51,23 @@ init();
 
 async function init() {
   wirePopupControls();
-  bookSelect.value = DEFAULT_BOOK;
+  populateBookSelect();
+  const initialBook = BOOKS[DEFAULT_BOOK] ? DEFAULT_BOOK : Object.keys(BOOKS)[0];
+  bookSelect.value = initialBook;
   bookSelect.addEventListener("change", async () => {
     await loadSelectedBook(bookSelect.value);
   });
-  await loadSelectedBook(DEFAULT_BOOK);
+  await loadSelectedBook(initialBook);
+}
+
+function populateBookSelect() {
+  bookSelect.textContent = "";
+  Object.entries(BOOKS).forEach(([key, book]) => {
+    const option = document.createElement("option");
+    option.value = key;
+    option.textContent = book.label;
+    bookSelect.append(option);
+  });
 }
 
 async function loadSelectedBook(bookKey) {
