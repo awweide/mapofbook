@@ -1,6 +1,6 @@
 # Map of Book
 
-Static visualization for book scripts parsed from files in `data/` (currently *Effi Briest*, *Gunnlaug*, and *The Rider on the White Horse*).
+Static visualization for book scripts parsed from files in `data/` (currently *Effi Briest*, *Gunnlaug*, *The Rider on the White Horse*, and *The World of Yesterday*).
 
 Legacy Lord of the Rings implementation has been preserved in:
 
