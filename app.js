@@ -236,16 +236,16 @@ function parsePhases(lines) {
 function parseChapters(lines) {
   const chapters = [];
   let inChapterSection = false;
-  const chapterTableHeadings = new Set(["## Chapter-by-Chapter Table", "## Kapittel-for-kapittel-tabell"]);
+  const chapterTableHeadingRegex = /^##\s*(Chapter-by-Chapter Table|Kapittel-for-kapittel-tabell)\s*$/i;
 
   for (const line of lines) {
     const trimmed = line.trim();
-    if (chapterTableHeadings.has(trimmed)) {
+    if (chapterTableHeadingRegex.test(trimmed)) {
       inChapterSection = true;
       continue;
     }
     if (!inChapterSection) continue;
-    if (trimmed.startsWith("## ") && !chapterTableHeadings.has(trimmed)) break;
+    if (trimmed.startsWith("## ") && !chapterTableHeadingRegex.test(trimmed)) break;
     if (!trimmed.startsWith("|")) continue;
     if (/^\|\s*-+/.test(trimmed)) continue;
 
