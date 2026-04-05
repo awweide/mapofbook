@@ -11,6 +11,10 @@ const BOOKS = {
     label: "The Rider on the White Horse",
     file: "data/The_Rider_on_the_White_Horse.txt",
   },
+  worldofyesterday: {
+    label: "The World of Yesterday",
+    file: "data/worldofyesterday.txt",
+  },
 };
 const DEFAULT_BOOK = "effi";
 
