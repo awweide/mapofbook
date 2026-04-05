@@ -4,8 +4,8 @@ const BOOKS = {
     file: "data/Effi_Briest.txt",
   },
   gunnlaug: {
-    label: "Gunnlaug",
-    file: "data/Gunnlaug.txt",
+    label: "Sagaen om Gunnlaug Ormstunge",
+    file: "data/Sagaen_om_Gunnlaug_Ormstunge.txt",
   },
   rider: {
     label: "The Rider on the White Horse",
@@ -13,7 +13,7 @@ const BOOKS = {
   },
   worldofyesterday: {
     label: "The World of Yesterday",
-    file: "data/worldofyesterday.txt",
+    file: "data/The_World_of_Yesterday.txt",
   },
 };
 const DEFAULT_BOOK = "effi";
