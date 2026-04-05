@@ -1,0 +1,252 @@
+Her er den etterspurte analysen av *En verden av i går* (Stefan Zweigs selvbiografi), strukturert nøyaktig etter malen fra *Effi Briest*, på norsk.
+
+```markdown
+## Hovedinfobokser
+
+**Sammendrag**
+Stefan Zweig (1881–1942), en østerriksk-jødisk forfatter, vokser opp i Wiens trygge, borgerlige gullalder før første verdenskrig. Han nyter europeisk frihet, reiser og knytter vennskap med tidens store ånder (Rolland, Freud, Rilke, Valéry, Verhaeren). Den første verdenskrig knuser hans tro på det kulturelle Europa; han kjemper som pasifist fra sitt eksil i Sveits. Mellomkrigstiden bringer suksess, et hus i Salzburg og illusjonen om en ny begynnelse, før nasjonalsosialismens fremvekst tvinger ham i eksil til England og senere Amerika. Boken, skrevet i 1941, er et lidenskapelig oppgjør med fortiden – et vitnesbyrd om en tapt verden av sikkerhet, humanisme og åndsfellesskap, knust av to verdenskriger og Hitlers barbari. Zweig fullførte verket like før han tok sitt eget liv i Brasil.
+
+**Forfatter**
+**Stefan Zweig** (1881–1942) var en østerriksk romanforfatter, dramatiker, journalist og biograf. Han var en av verdens mest leste forfattere i 1920- og 1930-årene, kjent for sine psykologisk innsiktsfulle noveller ( *Sjakknovellen*, *Amok*), biografier (*Maria Stuart*, *Erasmus av Rotterdam*) og sine fredsengasjement. Som jøde og humanist ble han tvunget i eksil etter Hitlers maktovertakelse i 1933. *En verden av i går* (1942) er hans personlige og historiske testamente, skrevet kort før hans død. Den regnes som et av 1900-tallets viktigste kulturhistoriske dokumenter og et mesterverk i sjangeren selvbiografi.
+
+**Viktighet**
+*En verden av i går* er Stefan Zweigs hovedverk og en uunnværlig kilde til forståelsen av det europeiske 1900-tallets katastrofer. Den fanger som ingen annen bok ånden i det habsburgske Wien, mellomkrigstidens illusjoner og det intellektuelle eksilets fortvilelse. Boken er et klassisk vitnesbyrd om den europeiske humanismens undergang.
+
+**Temaer**
+- Tapet av «sikkerhetens verden» før 1914
+- Østerriksk-jødisk kultur og assimilering i Wien rundt århundreskiftet
+- Kunstens rolle i politiske kriser
+- Pasifisme og sviket mot fornuften i krigstid
+- Fremveksten av nasjonalsosialisme og massehysteri
+- Eksilet og tapet av et hjemland
+- Generasjonskonflikten: fedrenes verden vs. barnas verden
+- Minnet som en aktiv, utvelgende kraft
+
+**Budskap**
+Zweig skildrer et Europa som bevisst ødela sin egen åndelige og kulturelle rikdom. Han kritiserer ikke bare nasjonalsosialismens brutalitet, men også det selvtilfredse borgerskapets naivitet og nasjonalismens gift. Budskapet er en advarsel: Den trygge, liberale verden var en vakker illusjon, men dens manglende evne til å se ondskapen i øynene gjorde den medskyldig i sin egen undergang. Boken er en klagesang over en tapt patria – et åndelig hjemland.
+
+## Faser
+
+| Fase | Kort beskrivelse |
+|------|------------------|
+| **Fase 1: Sikkerhetens verden (Kapittel I)** | Zweig skildrer det habsburgske Østerrike før 1914: en tid preget av økonomisk stabilitet, fremskrittstro, keiserens autoritet og en nærmest religiøs tro på kulturen (teater, musikk). Han beskriver sin jødiske, velstående borgerfamilie og Wiens unike evne til å forene nasjoner og kulturer. Dette er fundamentet som senere skal rase sammen. |
+| **Fase 2: Skole og ungdommelig oppvåkning (Kapittel II–IV)** | Zweigs skoletid fremstilles som kjedelig og autoritær. I stedet finner han og hans venner sin utdanning utenfor skolen: i teatre, kafeer, bøker og lidenskapelig lesning av samtidens poeter (Hofmannsthal, Rilke). Han studerer «filosofi» i Berlin, men bruker tiden til å fordype seg i livet og kunsten. Han oversetter Verhaeren. Dette er dannelsesårene som former ham som europeer. |
+| **Fase 3: Europa i møte – Paris, London og reiser (Kapittel V–VIII)** | Zweig reiser til Paris (kunstnerbyen), London (som han føler seg fremmed i), og videre til India og Amerika. Han knytter varige vennskap med Romain Rolland (den europeiske samvittighet), Rilke og Valéry. Han blir vitne til den spirende nasjonalismen før krigen, men tror naivt at fornuften skal seire. Fasens slutt markeres av skuddene i Sarajevo. |
+| **Fase 4: Den store krigen – sammenbrudd og motstand (Kapittel IX–XI)** | Krigsutbruddet i 1914 møtes av hans samtid med begeistring – en stemning Zweig fordømmer. Selv holder han seg unna krigshysteriet, arbeider i krigsarkivet og knytter kontakt med Rolland i Sveits. Han skriver pasifist-dramaet *Jeremias*. Krigen avsløres som meningsløs massedød, styrt av dumhet og propagandalygner. Dette er hans personlige og politiske oppvåkning. |
+| **Fase 5: Mellomkrigstiden – inflasjon og illusjon (Kapittel XII–XIV)** | Etter krigen vender Zweig tilbake til et utsultet, sønderbombet Østerrike. Han ser inflasjonens moralske forfall, men også en kulturell oppblomstring. Han bosetter seg i Salzburg, som blir Europas kunstneriske møteplass. Hans internasjonale suksess vokser. Denne fasen er preget av en kortvarig, men intens, tro på en ny begynnelse. |
+| **Fase 6: Hitlers maktovertakelse og eksilet (Kapittel XV–XVI)** | Zweig beskriver Hitlers langsomme, systematiske maktovertakelse. Han blir tvunget i eksil, mister sitt hus, sitt språkområde og sitt østerrikske pass. Han observerer det engelske folks naive håp om «fred i vår tid» (München-avtalen). Boken slutter med utbruddet av andre verdenskrig i 1939. Zweig står igjen som en statsløs, desperat og utslitt skikkelse, et vitne til sin egen kulturs undergang. |
+
+---
+
+## Kapittel-for-Kapittel-tabell
+
+**Kategorier:**  
+- **Exp** = Eksposisjon  
+- **Comp** = Komplikasjon  
+- **Int** = Introspeksjon  
+- **Turn** = Vendepunkt  
+- **Res** = Oppløsning  
+- **Dig** = Digresjon  
+
+| Kapittel | Tittel (norsk) | Fase | Kategori | Sammendrag |
+|----------|----------------|------|----------|-------------|
+| I | Sikkerhetens verden | Fase 1 | Exp | Zweig beskriver det habsburgske monarkiet før 1914 som en «sikkerhetens gullalder», med stabil valuta, keiserens autoritet og en naiv tro på fremskrittet. Han skildrer sin ene, velstående jødiske familie fra Wien og hvordan jødene assimilerte seg og ble bærere av den wieneriske kulturen. Dette er grunnmuren for hele hans livssyn. |
+| II | Skolen i forrige århundre | Fase 2 | Exp | Skolen beskrives som et fengsel: kjedelig, autoritær og ute av stand til å vekke ekte interesse. Zweig og hans kamerater fant sin virkelige utdanning utenfor – i teatre, bøker, kafeer og i en nærmest sportslig konkurranse om å oppdage den nyeste kunsten (Rilke, Hofmannsthal). |
+| III | «Eros matutinus» | Fase 2 | Int | Zweig analyserer den viktorianske tidens hykleri omkring seksualiteten. Unge kvinner ble holdt i uvitenhet, mens unge menn ble henvist til prostitusjon. Han kontrasterer dette med sin egen tids større frihet. Dette er en digresjon om moralens forandring. |
+| IV | «Universitas vitae» | Fase 2 | Comp | Zweig begynner på universitetet, men studerer lite. Han publiserer sin første diktsamling og blir oppdaget av Theodor Herzl, redaktøren i *Neue Freie Presse*. Dette åpner døren til den litterære verden. Han reiser til Berlin for å oppleve en friere, mer «uordenent» tilværelse. |
+| V | Paris, den evig unge by | Fase 3 | Exp | Zweig reiser til Paris, byen som gir lykke og frihet. Han beskriver den kunstneriske bohemen, vennskapet med Rilke og Bazalgette. Han får et avgjørende møte med billedhuggeren Rodin, som lærer ham at kunstens hemmelighet er fullstendig konsentrasjon. |
+| VI | Omveier til meg selv | Fase 3 | Int | Zweig bosetter seg midlertidig i Wien. Han beskriver sin lidenskap for å samle manuskripter (Mozart, Goethe, Beethoven). Han forteller om sitt mislykkede drama *Thersites* og den merkelige ulykken som rammet skuespillerne Matkowsky og Kainz under prøvene. Han blir overtroisk overfor teatret. |
+| VII | Utenfor Europa | Fase 3 | Comp | Zweig reiser til India og Amerika. Han møter Karl Haushofer (som senere skulle inspirere Hitlers *Lebensraum*-ideologi). Han ser rasediskrimineringen i India og den rå kapitalismen i USA. Reisen gir ham et perspektiv utenfor det euro-sentriske. |
+| VIII | Lys og skygge over Europa | Fase 3 | Comp | Zweig skildrer optimismen før 1914: teknologien, sporten, fellesfølelsen. Men under overflaten ulmer nasjonalismen. Han oppdager forfatteren Romain Rolland, som blir hans samvittighet. En hendelse på kino i Tours, der folkemengden håner Keiser Wilhelm II på lerretet, åpenbarer hatet som ulmer. |
+| IX | Krigens første timer 1914 | Fase 4 | Turn | Mordet i Sarajevo. Zweig beskriver folkets «beruselse» og krigsfeberen – en massepsykose han selv ikke deltar i. Han blir vitne til den tyske invasjonen av Belgia. Han oppsummerer hvorfor denne krigen ble møtt med jubel (naivitet) og den andre (1939) med dyster resignasjon (erfaring). |
+| X | Kampen for intellektuelt brorskap | Fase 4 | Comp | Under krigen brytes kontakten. Zweig knytter en hemmelig korrespondanse med Romain Rolland i Sveits. De blir en enklave av fornuft i galskapen. Zweig reiser til fronten i Galicia og ser krigens virkelighet i et syketog – en grusomhet som gjør ham til pasifist. Han begynner å skrive sitt drama *Jeremias* som et oppgjør med krigshysteriet. |
+| XI | I Europas hjerte | Fase 4 | Int | Zweig reiser til Zürich for å se *Jeremias* oppført. Han møter Rolland ansikt til ansikt. Han beskriver den internasjonale pasifistgruppen i Sveits (Masereel, Guilbeaux). Han observerer de statsløse, emigrantene og spionene som samles i det nøytrale landet. Han trekker seg tilbake til et lite pensjonat. |
+| XII | Hjemkomst til Østerrike | Fase 5 | Exp | Zweig vender tilbake til et sønderbombet, utsultet og inflasjonsrammet Østerrike etter krigen. Han ser Keiser Karl reise i eksil. Han kjøper et hus i Salzburg. Han skildrer kaoset: svarte børser, valutaspekulasjon, tiggere og rikfolk. Likevel blomstrer kunsten – teatrene er fulle. |
+| XIII | Ut i verden igjen | Fase 5 | Comp | Inflasjonen i Tyskland når vanvittige høyder. Zweigs venn, utenriksminister Walter Rathenau, myrdes av høyreekstremister. Zweig opplever fascismens fremvekst i Italia og Tyskland. Han beskriver hvordan suksessen overrasker ham; bøkene hans blir oversatt over hele verden. Han blir en rik og feiret forfatter. |
+| XIV | Solnedgang | Fase 5 | Int | Zweig feirer sin 50-årsdag. Han ser tilbake på et rikt liv: reiser, vennskap med Gorkij, samlingen av sjeldne manuskripter (Beethovens dødsleie). Han har oppnådd alt. Men i en forutanelse lengter han etter en ny utfordring – en skjebne som skal rive ham løs fra tryggheten. Dette er roet før stormen. |
+| XV | «Incipit» Hitler | Fase 6 | Turn | Zweig beskriver Hitlers langsomme maktovertakelse. Han samarbeider med Richard Strauss om en opera (*Den tause kvinne*), men nazistene forbyr til slutt verket på grunn av Zweigs jødiske bakgrunn. Han ser vennene svikte. Han forlater Østerrike for godt etter en husransakelse. Dette er bruddet med hjemlandet. |
+| XVI | Fredens dødskamp | Fase 6 | Res | Zweig lever i England som statsløs flyktning. Han er vitne til München-avtalen i 1938, som han først tror på, men som viser seg å være et svik. Han besøker en døende Sigmund Freud i London. Han ser strømmen av jødiske flyktninger. Boken slutter 1. september 1939: Tyskland invaderer Polen. Zweig står alene i sitt hus i Bath og ser sin egen skygge – et vitne til hele sin kulturs undergang. |
+
+---
+
+## Forutskjellinger (foreshadowing) i *En verden av i går*
+
+| Tittel | Beskrivelse | Opptredener |
+|--------|-------------|--------------|
+| **Keiser Franz Josephs alder** | Zweig beskriver den gamle keiseren som et levende symbol på stabilitet, men også som en skrøpelig, gammel mann. Hans alder forutskjeller det habsburgske monarkiets uunngåelige fall, som inntreffer i kapittel XII. | I, IX, XII |
+| **Sikkerhetsillusjonen** | Hele kapittel I bygger opp en tilsynelatende ubrytelig verden av orden, gullmynt og fremskrittstro. Denne tryggheten er den fremste forutskjellingen av dens fullstendige og brutale ødeleggelse i de følgende kapitlene. | I, IX |
+| **Skuddene i Sarajevo** | Zweig beskriver i detalj drapet på erkehertug Franz Ferdinand (kapittel IX). Han understreker samtidens likegyldighet – en hendelse som i løpet av få uker forvandles fra en fjern nyhet til den direkte årsaken til første verdenskrig. | IX |
+| **Riksdagsbrannen** | Zweig omtaler Riksdagsbrannen i 1933 som et vendepunkt der nazistene knuste all rettsstat. Den forutskjeller den systematiske lovløsheten, konsentrasjonsleirene og bokbålene som følger. | XV, XVI |
+| **München-avtalen (1938)** | I kapittel XVI skildrer Zweig hvordan han og hele England jubler for «fred i vår tid». Han viser senere hvordan dette var en fatal illusjon – et naivt håp som bare ga Hitler tid til å forberede den endelige krigen. | XVI |
+| **Reisen til India (møtet med Haushofer)** | I kapittel VII møter Zweig Karl Haushofer, som utvikler *Lebensraum*-teorien. Dette var en tilsynelatende uskyldig samtale, men forutskjeller nazistenes ideologiske grunnlag for erobringskrigen. | VII |
+| **Kinofilmen i Tours (1913)** | Zweig er vitne til at en folkemengde på kino i Frankrike hyler og håner et bilde av Keiser Wilhelm II. Hendelsen forutskjeller den dype, irrasjonelle nasjonalismen som snart skulle antenne krigen. | VIII |
+| **Rodins konsentrasjon** | Møtet med Rodin (kapittel V) lærer Zweig at kunstens hemmelighet er total konsentrasjon og glemsel av omverdenen. Denne egenskapen blir hans egen redning i krisetider, men den speiler også den farlige politiske blindheten hos andre intellektuelle. | V |
+| **Den røde paraplyen (som symbol)** | Gjennom hele verket bruker Zweig fargen rød (blod, revolusjon) som et varsel. Røde flagg, røde faner (bolsjevismen, nasjonalsosialismen) dukker opp i skildringene av fremtidens konflikter. | IX, XI, XVI |
+| **Forutanelsen på 50-årsdagen** | I kapittel XIV, på sin egen 50-årsdag, kjenner Zweig en urovekkende lengsel etter en ny, hardere kamp. Denne «onde tanken» forutskjeller hans egen eksil, tapet av alt han eier, og den endelige katastrofen. | XIV |
+
+---
+
+## Ordliste (Glossar over kanoniske enheter)
+
+### Personer
+
+**Stefan Zweig**
+*Representasjoner:* Zweig, jeg (fortelleren), forfatteren, den statsløse
+*Forklaring:* Hovedpersonen og fortelleren; en østerriksk-jødisk forfatter, humanist og pasifist. Han vokser opp i Wien, blir verdensberømt, mister alt under Hitler og dør i eksil.
+*Se også:* Freud, Rolland, Verhaeren, Rilke, Herzl
+*Opptredener:* Alle kapitler (I–XVI)
+
+**Sigmund Freud**
+*Representasjoner:* Freud, professor Freud
+*Forklaring:* Grunnleggeren av psykoanalysen; Zweigs venn og mentor. Han blir tvunget i eksil fra Wien til London, der Zweig besøker ham like før hans død i 1939.
+*Se også:* Stefan Zweig
+*Opptredener:* XVI
+
+**Romain Rolland**
+*Representasjoner:* Rolland, Romain Rolland
+*Forklaring:* Fransk forfatter og pasifist; Zweigs åndelige forbilde. De brevveksler under første verdenskrig og møtes i Sveits. Han representerer Europas samvittighet.
+*Se også:* Stefan Zweig
+*Opptredener:* VIII, X, XI
+
+**Rainer Maria Rilke**
+*Representasjoner:* Rilke, Rainer Maria Rilke
+*Forklaring:* Tysk lyriker; en sky, følsom venn av Zweig. De møtes i Paris og senere i Wien under krigen.
+*Se også:* Stefan Zweig
+*Opptredener:* II, V, IX
+
+**Theodor Herzl**
+*Representasjoner:* Herzl, Theodor Herzl
+*Forklaring:* Redaktør i *Neue Freie Presse*; oppdager Zweigs talent. Han blir senere grunnleggeren av sionismen.
+*Se også:* Stefan Zweig
+*Opptredener:* IV
+
+**Walter Rathenau**
+*Representasjoner:* Rathenau, Walter Rathenau
+*Forklaring:* Tysk industrileder, forfatter og politiker (utenriksminister). Zweigs venn. Myrdes av høyreekstremister i 1922.
+*Se også:* Stefan Zweig
+*Opptredener:* VI, X, XII
+
+**Maxim Gorkij**
+*Representasjoner:* Gorkij, Maxim Gorkij
+*Forklaring:* Russisk forfatter. Zweig besøker ham i Sorrento. Gorkij skriver forordet til den russiske utgaven av Zweigs verker.
+*Se også:* Stefan Zweig
+*Opptredener:* XIV
+
+**Richard Strauss**
+*Representasjoner:* Strauss, Richard Strauss
+*Forklaring:* Tysk komponist. Zweig skriver librettoen til operaen *Den tause kvinne* for ham. Samarbeidet blir forbudt av nazistene.
+*Se også:* Stefan Zweig
+*Opptredener:* XV
+
+**Auguste Rodin**
+*Representasjoner:* Rodin
+*Forklaring:* Fransk billedhugger. Zweig besøker ham i Paris og lærer at kunstens hemmelighet er total konsentrasjon.
+*Se også:* Stefan Zweig
+*Opptredener:* V
+
+### Steder
+
+**Wien**
+*Representasjoner:* Wien, keiserbyen
+*Forklaring:* Zweigs fødeby; sentrum for det habsburgske riket. En by preget av musikk, teater, nasjoners sammensmelting og jødisk assimilering.
+*Opptredener:* I, II, III, IV, IX, XII, XVI
+
+**Paris**
+*Representasjoner:* Paris
+*Forklaring:* Den evige unge by; kunstens og frihetens hovedstad. Zweig oppholder seg her flere ganger, møter Rilke og Rodin.
+*Opptredener:* V, VIII, X, XI
+
+**Salzburg**
+*Representasjoner:* Salzburg
+*Forklaring:* Zweigs hjemby i mellomkrigstiden. Her bygger han sitt hus på Kapuzinerberg. Byen blir et kulturelt møtepunkt for hele Europa (Festspillene).
+*Opptredener:* XII, XIII, XIV, XV
+
+**London**
+*Representasjoner:* London
+*Forklaring:* Zweig reiser hit som ung og senere som eksilant. Byen fremstår som kjølig, men blir hans siste tilflukt før krigen.
+*Opptredener:* V, XVI
+
+**Berchtesgaden**
+*Representasjoner:* Berchtesgaden
+*Forklaring:* Hitlers fjellresidens, som ligger rett overfor Zweigs hus i Salzburg. Et symbol på det truende ondskapens nærhet.
+*Opptredener:* XV
+
+### Historiske / Litterære / Kulturelle referanser
+
+**Den første verdenskrig (1914–1918)**
+*Representasjoner:* den store krigen, verdenskrigen, 1914
+*Forklaring:* Katastrofen som knuste Zweigs sikkerhetsverden. Han fordømmer krigshysteriet og blir pasifist.
+*Opptredener:* IX, X, XI
+
+**Den andre verdenskrig (1939–1945)**
+*Representasjoner:* den nye krigen, krigen 1939
+*Forklaring:* Bokens sluttpunkt. Zweig er vitne til utbruddet i England, i visshet om at dette er slutten på Europa slik han kjente det.
+*Opptredener:* XVI
+
+**Nasjonalsosialisme / Hitler**
+*Representasjoner:* Hitler, nazismen, det tredje rike
+*Forklaring:* Den destruktive makten som tvinger Zweig i eksil, brenner bøkene hans og stjeler hans hjemland.
+*Opptredener:* XV, XVI
+
+**Inflasjonen (1923)**
+*Representasjoner:* inflasjonen, pengenes forfall
+*Forklaring:* Den økonomiske katastrofen i Tyskland og Østerrike etter krigen, som Zweig skildrer som en tid med moralsk forfall og spekulasjon.
+*Opptredener:* XII, XIII
+
+**München-avtalen (1938)**
+*Representasjoner:* München, Chamberlains fred
+*Forklaring:* Avtalen der England og Frankrike overlater Tsjekkoslovakia til Hitler. Zweig er vitne til den korte jubelen i London, etterfulgt av bitter skuffelse.
+*Opptredener:* XVI
+
+**Riksdagsbrannen (1933)**
+*Representasjoner:* riksdagsbrannen
+*Forklaring:* Den påtente brannen som nazistene brukte som påskudd for å knuse demokratiet og forfølge sine motstandere.
+*Opptredener:* XV
+
+**Wien rundt århundreskiftet**
+*Representasjoner:* Fin de siècle-Wien, det gamle Wien
+*Forklaring:* Den kulturelle blomstringstiden med musikk, teater, Freud, Mahler, Klimt og den jødiske assimileringen. Dette er Zweigs tapte paradis.
+*Opptredener:* I, II, III
+
+**Bokbålene (1933)**
+*Representasjoner:* bokbålene
+*Forklaring:* Nazi-studentene brenner bøker av jødiske og politisk uønskede forfattere offentlig. Zweigs verker blir også kastet på bålet.
+*Opptredener:* XV
+
+### Andre sentrale begreper
+
+**«Sikkerhetens verden»**
+*Representasjoner:* trygghetens gullalder, den gamle verden
+*Forklaring:* Zweigs begrep for den europeiske epoken før 1914, preget av stabilitet, fremskrittstro og borgerlig orden. Denne verden går tapt for alltid.
+*Opptredener:* I, IX, XVI
+
+**Den statsløse / flyktningen**
+*Representasjoner:* emigrant, utlending, fiende (som «enemy alien»)
+*Forklaring:* Zweigs egen status etter at Østerrike ble en del av Tyskland. Han blir en person uten pass, avhengig av andres nåde.
+*Opptredener:* XVI
+
+**Jeremias (dramaet)**
+*Representasjoner:* *Jeremias*
+*Forklaring:* Zweigs pasifistiske drama skrevet under første verdenskrig, om profeten som varsler katastrofe, men som blir ledd av.
+*Opptredener:* X, XI
+
+**Den tause kvinne (operaen)**
+*Representasjoner:* *Die schweigsame Frau*
+*Forklaring:* Zweigs libretto for Richard Strauss. Operaen blir forbudt av nazistene på grunn av Zweigs jødiske bakgrunn.
+*Opptredener:* XV
+
+**Samlingen av manuskripter**
+*Representasjoner:* autografene, samlingen
+*Forklaring:* Zweigs lidenskap for å samle originale manuskripter av Mozart, Goethe, Beethoven og Balzac. En metafor for hans ønske om å bevare den evige kunst.
+*Opptredener:* VI, XIV
+
+**Rodins konsentrasjon**
+*Representasjoner:* konsentrasjon, ekstase
+*Forklaring:* Det avgjørende øyeblikket i Rodins atelier der Zweig ser at kunstneren forsvinner inn i verket. Dette blir et ideal for hans eget liv.
+*Opptredener:* V
+
+**«Enemy Alien»**
+*Representasjoner:* fiendtlig utlending
+*Forklaring:* Zweigs offisielle status i England etter krigsutbruddet i 1939, til tross for at han var jødisk flyktning fra Hitler.
+*Opptredener:* XVI
+```
