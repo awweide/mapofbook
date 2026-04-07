@@ -1,0 +1,965 @@
+---
+
+## Summary
+
+Anna Karenina, the beautiful and passionate wife of the high‑ranking Petersburg official Alexey Alexandrovitch Karenin, falls in love with the dashing cavalry officer Count Vronsky. Trapped in a loveless marriage and constrained by the rigid social codes of 1870s Russian aristocracy, Anna abandons her husband and her young son Seryozha to live openly with Vronsky. Initially ecstatic, Anna grows increasingly jealous and isolated as society shuns her and Vronsky’s ardor cools. In parallel, Konstantin Levin, a socially awkward landowner, marries Princess Kitty Shtcherbatskaya after surviving romantic disappointment. Levin struggles with faith, modernity, and the meaning of life, eventually finding spiritual peace. Anna, consumed by paranoia and despair, commits suicide by throwing herself under a train. Vronsky, devastated, volunteers for the war in Servia. Karenin raises Seryozha and Anna’s infant daughter. Levin, having discovered faith through lived experience rather than doctrine, finds joy in his family and daily labor.
+
+---
+
+## Author
+
+**Leo Tolstoy** (1828–1910) was a Russian novelist, philosopher, and moral thinker, universally regarded as one of the greatest writers in world literature. Born into an old aristocratic family at Yasnaya Polyana, he served as an artillery officer in the Crimean War before embarking on a literary career. His early masterpieces, *War and Peace* (1869) and *Anna Karenina* (1877), established his reputation for unparalleled psychological realism, epic scope, and deep moral seriousness. After completing *Anna Karenina*, Tolstoy underwent a profound spiritual crisis that led him to reject organized religion, private property, and his own earlier works in favor of a radical Christian anarchism. His later writings, including *The Death of Ivan Ilyich* (1886) and *Resurrection* (1899), reflect these beliefs. Tolstoy’s influence on twentieth‑century literature, from James Joyce to Virginia Woolf to Thomas Mann, is immeasurable.
+
+---
+
+## Importance
+
+*Anna Karenina* is widely considered one of the greatest novels ever written. It is the apotheosis of literary realism—a novel that balances intimate psychological portraiture with sweeping social critique, following multiple characters with symphonic coherence. Its opening sentence (“Happy families are all alike; every unhappy family is unhappy in its own way”) has become proverbial. The novel has inspired countless adaptations, including ballets, operas, films, and television series, and its central character remains one of literature’s most complex, sympathetic, and tragic heroines.
+
+---
+
+## Themes
+
+- Adultery, jealousy, and the destructive power of passion
+- The hypocritical moral codes of aristocratic society
+- The tension between individual desire and social obligation
+- Family happiness (the Oblonskys, the Levins) versus family destruction (the Karenins)
+- Faith, doubt, and the search for life’s meaning
+- The contrast between city (artificial, corrupt) and country (authentic, life‑giving)
+- Modernity, railroads, industrialization, and their discontents
+- Forgiveness, both Christian and human
+- Death and the fear of death
+
+---
+
+## Message
+
+Tolstoy presents no simple moral lesson. Anna is not merely punished for adultery—she is destroyed by a society that tolerates the same infidelity in men (Stiva, Vronsky) but condemns women who transgress. Karenin’s initial Christian forgiveness is portrayed as admirable, yet it fails to save Anna or restore their marriage. Levin’s spiritual journey, culminating not in a creed but in a lived sense of goodness, suggests that meaning comes not from abstract philosophy but from loving others and working the land. The novel ultimately affirms that happiness lies not in romantic passion (which burns out) but in family, labor, and an acceptance of life’s mystery. Yet Anna’s tragedy remains fully tragic: she is not a villain but a woman who wanted to live fully, and was crushed for it.
+
+---
+
+## Phases
+
+The following eight phases correspond exactly to the eight parts of the novel as they appear in the attached text. Each phase is a coherent narrative block with its own rising action and resolution.
+
+| Phase | Title | Chapters | Brief Description |
+|-------|-------|----------|-------------------|
+| **Phase 1** | The Oblonsky Crisis and Anna’s Arrival | Part 1, Ch 1–34 | Introduces the Oblonsky household in chaos after Stiva’s infidelity. Levin arrives in Moscow, proposes to Kitty, and is refused. Vronsky enters. Anna arrives from Petersburg to reconcile Stiva and Dolly. At a ball, Kitty is humiliated when Vronsky dances with Anna. Anna returns to Petersburg, followed by Vronsky. The phase ends with Anna and Vronsky becoming lovers and Anna’s growing revulsion toward her husband. |
+| **Phase 2** | Kitty’s Illness and Levin’s Rural Life | Part 2, Ch 1–35 | Kitty falls ill after her humiliation; the Shtcherbatskys go abroad. Levin returns to his estate, throws himself into farming and the spring. He visits his dying brother Nikolay. Meanwhile, Vronsky’s life in Petersburg continues; he enters a horse race. Anna watches, becomes distraught when Vronsky falls, and confesses her love to Karenin. Anna becomes pregnant. The phase ends with Karenin’s internal struggle and Vronsky’s attempted suicide after Karenin’s forgiveness. |
+| **Phase 3** | Levin’s Farming and Spiritual Struggles | Part 3, Ch 1–32 | Levin works on his estate and his book on agriculture. He struggles with the meaning of life and his relationship with the peasants. He receives news that Kitty is abroad. He visits his brother Nikolay again, who is dying. The phase focuses on Levin’s inner development and his gradual recovery from romantic disappointment. |
+| **Phase 4** | Confession, Forgiveness, and New Beginnings | Part 4, Ch 1–23 | Anna confesses her affair to Karenin. She falls deathly ill after childbirth; Karenin forgives her and Vronsky. Vronsky, humiliated, attempts suicide. Anna recovers but cannot bear Karenin’s forgiveness. Meanwhile, Levin and Kitty reconcile and marry. The phase contains a double resolution: Anna is forgiven but unchanged; Levin finds happiness. |
+| **Phase 5** | Marriage and Life Abroad | Part 5, Ch 1–33 | Levin and Kitty marry and struggle through the difficult early months of marriage. Kitty discovers she is pregnant. Anna and Vronsky travel abroad (Italy, then a German town), then return to Russia. Anna is ostracized by society and unable to see her son Seryozha. The phase deepens the contrast between Levin’s domestic joy and Anna’s increasing isolation. |
+| **Phase 6** | Country Life and Growing Tension | Part 6, Ch 1–32 | The Levins spend the summer at Pokrovskoe with Kitty’s family and friends. Dolly visits Anna and Vronsky at Vozdvizhenskoe. Anna’s jealousy of Vronsky intensifies. Levin becomes jealous of a visitor, Veslovsky, but reconciles with Kitty. Anna writes to Karenin asking for a divorce. The phase ends with Anna and Vronsky moving to Moscow. |
+| **Phase 7** | The Breakdown and Suicide | Part 7, Ch 1–31 | The Levins are in Moscow for Kitty’s confinement. Levin’s spiritual crisis deepens. Kitty gives birth to a son, Dmitri, but Levin feels no expected joy—only terror and pity. Anna and Vronsky’s relationship deteriorates into daily quarrels. After a final fight, Anna commits suicide by throwing herself under a train. The phase contains the novel’s climax and emotional nadir. |
+| **Phase 8** | Aftermath and Levin’s Faith | Part 8, Ch 1–19 | The aftermath of Anna’s death: Vronsky, devastated, volunteers for the war in Servia. Karenin takes custody of Anna’s infant daughter. Levin, still tormented by thoughts of death and meaning, overhears a peasant’s simple faith—“to live for God, for the soul”—and experiences a sudden spiritual awakening. He remains a believer in life, not in doctrine, and finds peace in his family and work. The phase resolves Levin’s spiritual search, offering a counterweight to Anna’s tragedy. |
+
+---
+
+Here is the complete chapter‑by‑chapter table for **Part 1** of *Anna Karenina*, based strictly on the original text you attached. Each chapter is assigned to **Phase 1** (The Oblonsky Crisis and Anna’s Arrival). Titles are short (20–30 characters). Categories follow the Effi Briest template.
+
+---
+
+## Part 1, Chapters 1–34
+
+| Ch | Title | Phase | Category | Summary |
+|----|-------|-------|----------|---------|
+| 1 | Household in Chaos | Phase 1 | Exp | Dolly discovers Stiva’s affair with the French governess. The Oblonsky household is in turmoil: the wife stays in her room, the husband is absent, children run wild, servants quarrel. The famous opening sentence states that unhappy families are each unhappy in their own way. |
+| 2 | Stiva Wakes Up | Phase 1 | Exp | Stiva wakes on his study sofa, recalls a pleasant dream, and faces his situation. He is a handsome, amiable 34‑year‑old who regrets only that he did not hide his infidelity better. His valet Matvey brings a telegram announcing that Stiva’s sister, Anna Karenina, is coming from Petersburg. |
+| 3 | Morning Routine | Phase 1 | Exp | Stiva dresses, reads his mail and a liberal newspaper, drinks coffee. He owes his government position to his sister’s husband, Karenin. His children visit briefly. He deals with a petitioner. The chapter establishes Stiva’s character and social world. |
+| 4 | Confronting Dolly | Phase 1 | Comp | Stiva goes to Dolly’s room. She is packing children’s clothes, considering leaving him. She looks aged and worn. He begs forgiveness. She accuses him of being heartless. Their young child cries, softening her, but she ultimately screams at him to leave. Stiva reflects she will “come round.” |
+| 5 | Levin Visits Stiva | Phase 1 | Exp | Stiva goes to his government office, where he is well liked. Levin, a landowner, arrives to see him. Levin is awkward, intense, and dressed unfashionably. He has come from the country with a purpose he is too shy to disclose. |
+| 6 | Levin’s Secret | Phase 1 | Exp | Levin asks about the Shtcherbatsky family. Stiva realizes Levin is in love with Kitty, Dolly’s younger sister. Levin admits he has come to propose. Stiva advises him to go to the Shtcherbatskys’ that evening. Levin is nervous and elated. |
+| 7 | Levin’s Brother | Phase 1 | Exp | Levin visits his half‑brother Sergey Ivanovitch Koznishev, a famous intellectual. Koznishev is arguing with a professor about psychology and physiology. Levin, a natural science graduate, finds the discussion unsatisfying. He loses courage to speak of his marriage plans. |
+| 8 | Talk of Nikolay | Phase 1 | Int | Levin and Koznishev discuss farming and local government. Levin has resigned from the district council, finding it useless. They mention their other brother, Nikolay, who is dissipated, ill, and estranged. Levin resolves to visit Nikolay later. |
+| 9 | At the Skating Rink | Phase 1 | Comp | Levin goes to the public gardens where Kitty is skating. He sees her and is overcome with emotion. She is graceful and radiant. They skate together. He awkwardly says he wants to see her later. She replies, “Good‑bye till this evening.” Levin is ecstatic. |
+| 10 | Lunch with Stiva | Phase 1 | Dig | Levin and Stiva dine at a restaurant. Levin is uncomfortable with the artificiality of city life. Stiva orders oysters and champagne. Levin confesses his love for Kitty and his fear of rejection. Stiva reassures him, saying Dolly predicts Kitty will accept him. |
+| 11 | Vronsky Mentioned | Phase 1 | Comp | Stiva tells Levin about Vronsky, a wealthy, handsome aide‑de‑camp who has been paying attention to Kitty. Levin is jealous. Stiva advises him to propose tomorrow morning. Levin feels his pure feeling has been profaned. Stiva confesses his own marital troubles. |
+| 12 | Kitty’s Two Suitors | Phase 1 | Exp | Kitty is eighteen, enjoying her first winter in society. Two suitors have appeared: Levin and Vronsky. Her mother favors Vronsky (brilliant match), her father favors Levin (solid, sincere). Kitty herself is torn. Vronsky’s intentions remain unclear. |
+| 13 | Levin Proposes | Phase 1 | Turn | Levin arrives early at the Shtcherbatskys’. He knows she expects a proposal. He tells her he came “to be my wife.” She replies, “That cannot be… forgive me.” He leaves in despair. The moment is the turning point for Levin’s romantic hopes. |
+| 14 | Vronsky Arrives | Phase 1 | Comp | The princess enters and sees Kitty’s distress. Guests arrive, including Countess Nordston (who dislikes Levin) and Vronsky. Levin stays, watching Vronsky. He sees that Kitty loves Vronsky. Levin, jealous and miserable, leaves. |
+| 15 | Parents Argue | Phase 1 | Int | Kitty lies awake, feeling sorry for Levin but happy she chose Vronsky. Her parents argue: the prince calls Vronsky a “Petersburg swell” and prefers Levin; the princess defends her matchmaking. They go to bed unreconciled. |
+| 16 | Vronsky’s Background | Phase 1 | Exp | Vronsky’s mother was a brilliant society woman with many affairs; his father he scarcely remembers. He was educated in the Corps of Pages. He has never considered marriage. His flirtation with Kitty is a pleasant game, not a serious courtship. |
+| 17 | At the Station | Phase 1 | Comp | Vronsky goes to meet his mother. Stiva is there to meet Anna. They chat. Vronsky mentions he knows Karenin by reputation. The train arrives. Vronsky helps his mother out of the carriage. |
+| 18 | First Sight of Anna | Phase 1 | Turn | As Vronsky gets off the train, he steps aside to let a lady pass. It is Anna. He is struck by her beauty and the “suppressed eagerness” in her face. She is traveling with Vronsky’s mother. A guard is crushed by the train. Anna is horrified. Vronsky gives 200 roubles to the widow. |
+| 19 | Anna Comforts Dolly | Phase 1 | Comp | Anna arrives at the Oblonskys’. Dolly is cold at first but soon softens. Anna listens to Dolly’s story and gently urges her to forgive Stiva. She argues that Stiva is genuinely remorseful and that Dolly still loves him. Dolly is moved. They reconcile. |
+| 20 | Anna with the Children | Phase 1 | Exp | Anna spends the day with Dolly and the children. She writes a note to Stiva telling him to come home for dinner. Kitty arrives. Anna charms Kitty immediately. The children adore Anna. At dinner, the family is cheerful. Stiva and Dolly are reconciled. |
+| 21 | Vronsky Calls | Phase 1 | Comp | After dinner, Anna goes to her room. A visitor arrives: Vronsky, who has come to see Stiva but refuses to come up. Kitty blushes, thinking Vronsky came for her. Everyone feels awkward. Anna senses something strange. |
+| 22 | The Ball Begins | Phase 1 | Exp | The ball. Kitty is radiant in a pink tulle dress. She dances with Korsunsky, the ball director. She sees Anna in a black velvet gown, simple but dazzling. Anna is dancing with Vronsky. |
+| 23 | Kitty’s Humiliation | Phase 1 | Turn | During the mazurka, Kitty refuses partners, hoping Vronsky will ask her. Instead, he dances with Anna. Kitty sees them as if alone in the crowded room. Anna’s face shows the intoxication of success; Vronsky’s shows humble submission. Kitty is crushed. She has lost both Levin and Vronsky. |
+| 24 | Levin’s Shame | Phase 1 | Int | Levin walks home after his rejection, feeling humiliated and worthless. He recalls his brother Nikolay’s dissolute life and resolves to visit him. He goes to Nikolay’s hotel room. |
+| 25 | Visiting Nikolay | Phase 1 | Int | Levin finds Nikolay ill and living with a woman, Marya Nikolaevna. Nikolay talks about his socialist “productive association.” They argue, then reconcile. Levin is shaken by his brother’s suffering and poverty. |
+| 26 | Return to Pokrovskoe | Phase 1 | Int | Levin returns home. The familiar sights—his dog Laska, his old nurse Agafea Mihalovna—calm him. He resolves to give up hoping for marriage, to work harder, and to live more simply. He feels a new determination. |
+| 27 | Evening at Home | Phase 1 | Int | Levin sits in his study reading Tyndall on heat. He daydreams about his future farm and family. His nurse talks to him. He feels a strange peace, as if something in his soul has settled. |
+| 28 | Anna Decides to Leave | Phase 1 | Comp | After the ball, Anna tells Dolly she must leave Moscow immediately. Kitty sends a note saying she has a headache. Anna packs. She confesses to Dolly that she fears she has caused Kitty’s unhappiness, but insists she did nothing wrong. |
+| 29 | Train to Petersburg | Phase 1 | Int | Anna travels back to Petersburg. She reads a novel but cannot concentrate. She feels a strange excitement and shame. At a stop, she gets out for air. |
+| 30 | Vronsky Follows | Phase 1 | Turn | Anna steps onto the platform. Vronsky appears and tells her he has come to be where she is. She is both frightened and thrilled. She tells him to forget what he said, but her heart is stirred. She returns to the carriage, unable to sleep. |
+| 31 | Karenin Meets Anna | Phase 1 | Comp | Anna arrives in Petersburg. Karenin meets her. She notices his ears look strange. She feels a familiar revulsion. Vronsky watches from behind. Karenin is cold and formal. Anna asks about their son Seryozha. |
+| 32 | Home and Son | Phase 1 | Exp | Anna returns home. Her son Seryozha runs to her. She feels joy but also disappointment—he is not as she imagined. Countess Lidia Ivanovna visits, talking about religious charity. Anna feels the falsity of her life. |
+| 33 | Evening with Karenin | Phase 1 | Comp | Karenin returns from the ministry. They dine with guests. Anna goes to the nursery, then sits reading. Karenin comes to bed. She thinks about Vronsky’s glance and feels a strange excitement. |
+| 34 | Vronsky’s Petersburg | Phase 1 | Exp | Vronsky returns to his Petersburg apartment. His friend Petritsky is there with the Baroness Shilton. They joke about regimental scandals. Vronsky feels the old familiar life closing around him again. |
+
+---
+
+## Part 2, Chapters 1–35
+
+| Ch | Title | Phase | Category | Summary |
+|----|-------|-------|----------|---------|
+| 1 | Doctors Consult | Phase 2 | Exp | A celebrated doctor examines Kitty. The princess is anxious. The doctors recommend foreign travel for her health. Kitty feels her illness is spiritual—her heart is broken from Vronsky’s rejection and Levin’s departure. |
+| 2 | Dolly Visits Kitty | Phase 2 | Comp | Dolly comes to see Kitty. She is distracted by her own troubles (Stiva’s infidelities, money problems). Kitty admits she is miserable. The sisters console each other. The family decides Kitty will go abroad to a German spa. |
+| 3 | Kitty’s Confession | Phase 2 | Int | Alone with Dolly, Kitty confesses she feels everything is loathsome. She thinks everyone wants to marry her off. She is ashamed of herself. She goes to stay with Dolly to nurse the children through scarlatina. |
+| 4 | Anna’s Three Circles | Phase 2 | Exp | Anna moves in three social circles in Petersburg: Karenin’s official set, Countess Lidia Ivanovna’s religious‑philanthropic set, and Princess Betsy Tverskaya’s fashionable set. After Moscow, she avoids the first two and embraces the third, where she meets Vronsky. |
+| 5 | Vronsky’s Anecdote | Phase 2 | Dig | Vronsky tells Betsy about reconciling a husband with two officers who insulted his wife. He is amused by the story. He leaves to meet his colonel at the French theater. |
+| 6 | Betsy’s Soirée | Phase 2 | Exp | Betsy hosts a soirée. Guests gossip about Anna and Vronsky. Princess Myakaya defends Anna. Vronsky arrives. He is in good spirits. |
+| 7 | Anna at the Soirée | Phase 2 | Comp | Anna enters. Vronsky gazes at her with joy and timidity. She tells him Kitty is ill. He asks what she means. She says he behaved wrongly. He declares his love. She tells him to go to Moscow and ask Kitty’s forgiveness. He refuses, saying she is his whole life. Karenin arrives. |
+| 8 | Karenin’s Reflections | Phase 2 | Int | Karenin notices the party found Anna’s behavior improper. He decides to speak to her. At home, he walks up and down, trying to formulate his speech. He feels jealousy is beneath him but cannot ignore the impropriety. |
+| 9 | Karenin Confronts Anna | Phase 2 | Comp | Anna comes home. Karenin warns her that her behavior with Vronsky attracted attention. Anna feigns innocence. He presses; she becomes defiant. Finally, she admits she loves Vronsky and hates Karenin. He tells her he expects strict observance of propriety. |
+| 10 | A New Life Begins | Phase 2 | Int | After the confrontation, nothing changes externally. Anna goes out as before. Karenin feels helpless. Every time he tries to talk to her, she deflects him with amused perplexity. He feels like an ox awaiting the blow. |
+| 11 | The Lovers’ Union | Phase 2 | Turn | Anna and Vronsky become lovers. She feels sinful, guilty, and terrified. She tells him she has nothing but him. He feels like a murderer looking at his victim. They are bound together by shame. |
+| 12 | Levin’s Spring | Phase 2 | Exp | Spring comes to Pokrovskoe. Levin throws himself into farming. He plans new agricultural methods. He feels hopeful again. He rides out to see the fields and the sowing. |
+| 13 | Levin Inspects | Phase 2 | Exp | Levin inspects the cattle, the ploughing, the sowing. He argues with the bailiff. He rides through the forest, dreaming of future improvements. He feels the joy of rural life. |
+| 14 | Stiva’s Visit | Phase 2 | Comp | Stiva arrives unexpectedly. He has come to sell a forest. They go shooting together. Stiva tells Levin that Kitty is ill and abroad. Levin feels a rush of hope and despair. They shoot snipe. |
+| 15 | Evening Shooting | Phase 2 | Dig | Levin and Stiva continue shooting. The snipe fly. Levin asks about Kitty. Stiva says she is very ill, possibly dying. Levin is shocked. They shoot together and retrieve the birds. |
+| 16 | The Forest Sale | Phase 2 | Comp | On the way home, they discuss the forest sale. Levin accuses Stiva of giving the forest away too cheaply to a merchant, Ryabinin. Stiva is unconcerned. Levin is angry at the nobility’s impoverishment. |
+| 17 | Levin’s Discontent | Phase 2 | Int | Levin is out of humor. He and Stiva argue about aristocracy and money. Levin admits he proposed to Kitty and was rejected. He is still wounded. They decide to go shooting again in the morning. |
+| 18 | Vronsky’s Regiment | Phase 2 | Exp | Vronsky’s inner life is absorbed by his passion, but his external life follows his regimental and social ties. He is fond of the regiment and respected by his comrades. His connection with Anna is known and talked about. His mother is displeased. |
+| 19 | Before the Races | Phase 2 | Exp | On the day of the races at Krasnoe Selo, Vronsky eats beefsteak in the messroom. He is thinking of Anna’s promise to see him after the races. He decides to visit her at her summer villa. He is in high spirits. |
+| 20 | Vronsky’s Quarters | Phase 2 | Exp | Vronsky stays in a Finnish hut with his comrade Petritsky. Yashvin, a gambler and rake, is Vronsky’s best friend. Vronsky receives a letter from his mother reproaching him. He decides to put an end to the false position with Anna. |
+| 21 | Frou‑Frou the Mare | Phase 2 | Exp | Vronsky visits the stables to see his mare Frou‑Frou, a thoroughbred English mare. He admires her beauty and spirit. The English trainer warns him to keep calm before the race. Vronsky is excited and confident. |
+| 22 | Anna Waiting | Phase 2 | Comp | Vronsky drives to Anna’s summer villa. He finds her alone on the terrace. She tells him she is pregnant. He is shocked but feels the turning point has come. He urges her to leave her husband. She is afraid of losing her son. |
+| 23 | The Decision | Phase 2 | Int | Vronsky tries to convince Anna to tell her husband everything and leave him. She resists, afraid of the consequences for her son. She asks him never to speak of it. They agree to meet later that night. |
+| 24 | At the Races | Phase 2 | Exp | Vronsky arrives at the races. He sees Karenin in the crowd. He avoids Anna for now. He focuses on the race. The atmosphere is tense and exciting. |
+| 25 | The Race Begins | Phase 2 | Comp | The steeplechase starts. Seventeen officers ride. Vronsky on Frou‑Frou is among the leaders. He clears obstacles skillfully. He is ahead of his rival Mahotin on Gladiator. |
+| 26 | Vronsky Falls | Phase 2 | Turn | Approaching the last obstacle, Vronsky makes a clumsy movement. Frou‑Frou falls, breaking her back. Vronsky is unhurt but devastated. He has lost the race and killed his beloved mare. He feels utter wretchedness. |
+| 27 | Karenin’s Routine | Phase 2 | Int | Karenin is busier than ever with official work. He avoids thinking about his wife’s behavior. He has not stayed overnight at their country villa. He goes to see Anna to give her money. A doctor examines him and finds his health failing. |
+| 28 | Anna at the Races | Phase 2 | Comp | Anna watches the race from the pavilion. She sees Karenin nearby. When Vronsky falls, she moans aloud and behaves unbecomingly. Karenin offers her his arm to leave. She refuses, then accepts. In the carriage, she admits she loves Vronsky and hates Karenin. |
+| 29 | Karenin’s Decision | Phase 2 | Int | After Anna’s confession, Karenin feels relief. He decides he will not divorce her but will keep her with him, concealing the affair, and punish her by maintaining outward propriety. He writes her a cold letter. |
+| 30 | Kitty Abroad | Phase 2 | Exp | The Shtcherbatskys are at a German spa. Kitty is bored and watches other visitors. She is attracted to a Russian girl, Varenka, who is a companion to an invalid lady, Madame Stahl. Kitty feels Varenka has something she lacks. |
+| 31 | Varenka’s Kindness | Phase 2 | Exp | Kitty watches Varenka helping invalids. She wants to befriend her. The princess reluctantly agrees. Kitty learns that Varenka is not related to Madame Stahl but was adopted. Varenka is simple, kind, and serene. |
+| 32 | Varenka’s Story | Phase 2 | Int | Kitty learns Varenka’s past: she was adopted, had a disappointed love affair, and now lives for others. Kitty is fascinated and wants to be like her. She begins to imitate Varenka’s manner and to practice Christian charity. |
+| 33 | Madame Stahl | Phase 2 | Exp | Kitty meets Madame Stahl, an invalid who never walks. She is impressed by Madame Stahl’s piety. But she notices contradictions: Madame Stahl smiles contemptuously when asked about her family and avoids the light when a Catholic priest visits. Kitty is troubled. |
+| 34 | The Prince Arrives | Phase 2 | Comp | Kitty’s father, the old prince, arrives at the spa. He is skeptical of Madame Stahl and her piety. He tells Kitty that Madame Stahl’s illness is likely a pretense (she has short legs). Kitty is disillusioned. Her idealized image of Madame Stahl crumbles. |
+| 35 | The Prince’s Effect | Phase 2 | Int | The prince’s good humor and skepticism restore Kitty’s spirits. She realizes she has been deceiving herself. She is cured not by the waters but by her father’s common sense. The family prepares to return to Russia. Kitty is no longer ill. |
+
+---
+
+## Part 3, Chapters 1–32
+
+| Ch | Title | Phase | Category | Summary |
+|----|-------|-------|----------|---------|
+| 1 | Sergey Ivanovitch in the Country | Phase 3 | Exp | Sergey Ivanovitch Koznishev comes to stay with his brother Levin for a rest. Levin is uncomfortable with his brother’s intellectual attitude toward the peasants. Sergey Ivanovitch sees the country as a place to do nothing; Levin sees it as a field for labor. |
+| 2 | A Summer Day | Phase 3 | Exp | It is early June, the turning point of summer. Levin drives with his brother to the meadows. Sergey Ivanovitch admires the beauty of nature; Levin is preoccupied with farm work. They go fishing. |
+| 3 | Levin’s Indifference to Public Work | Phase 3 | Int | Sergey Ivanovitch urges Levin to participate in district council work. Levin argues it is useless. He admits he cannot work for the public good because he sees no self‑interest in it. The conversation becomes heated. Levin feels his brother does not understand him. |
+| 4 | Levin Decides to Mow | Phase 3 | Int | Levin recalls his pleasure in mowing with the peasants. Despite his brother’s possible disapproval, he decides to mow with them the next day. He tells his bailiff to prepare his scythe. |
+| 5 | Mowing with the Peasants | Phase 3 | Exp | Levin joins the mowers in the meadow. He struggles at first but gradually finds rhythm. He works alongside an old peasant who is cheerful and skilled. Levin feels the bliss of physical labor and forgets his troubles. |
+| 6 | The Joy of Labor | Phase 3 | Int | After mowing, Levin returns home exhausted but happy. Sergey Ivanovitch is amused by his brother’s enthusiasm. Levin talks of his day with pleasure. He feels that physical work is an effective remedy for foolish thoughts. |
+| 7 | Dolly in the Country | Phase 3 | Exp | Dolly has moved to Ergushovo, her dowry estate, to cut expenses. The house is dilapidated. She struggles with household management. Her old nurse, Marya Philimonovna, helps her organize things. |
+| 8 | Dolly’s Children | Phase 3 | Exp | Dolly takes her children to church for communion. The children are charming but unruly. On the way home, they pick mushrooms and go bathing. Dolly talks with peasant women and feels a connection with their lives. |
+| 9 | Levin Visits Dolly | Phase 3 | Comp | Levin meets Dolly on the road. He walks with her and the children. They talk about Kitty. Dolly tells Levin that Kitty is ill and abroad. Levin is moved but says he cannot think of her. He feels his pride has been wounded. |
+| 10 | Dolly Defends Kitty | Phase 3 | Int | Dolly tells Levin that Kitty was in doubt between him and Vronsky when she refused him. She suggests Kitty might have chosen differently if she had known Vronsky better. Levin says the past cannot be repeated. He leaves feeling both hope and pain. |
+| 11 | Trouble with the Hay | Phase 3 | Comp | A village elder reports that the hay on Levin’s sister’s estate has been divided unfairly. Levin drives over to investigate. He finds the peasants have cheated him. He argues with them and resolves the matter. |
+| 12 | Levin Envies the Peasants | Phase 3 | Int | After settling the dispute, Levin watches the peasants at work. He envies their health, their merry labor, and their simple life. He dreams of renouncing his own artificial life and living as they do. He walks home through the night, full of new resolve. |
+| 13 | Levin Sees Kitty Again | Phase 3 | Turn | Walking home before dawn, Levin sees a carriage approaching. Inside is Kitty. She recognizes him and her face lights up with delight. All his resolutions vanish. He realizes he still loves her. |
+| 14 | Karenin’s Weakness | Phase 3 | Int | Karenin cannot bear to see children or women crying. After Anna’s confession, he felt relief and even pity for her and Vronsky. He decides to keep the family together, concealing the affair, and to punish Anna by maintaining outward propriety. |
+| 15 | Karenin Writes to Anna | Phase 3 | Comp | Karenin writes Anna a cold letter in French. He informs her that he will not break the marriage tie, that she must return to Petersburg, and that he expects her to end her affair. He encloses money for expenses. |
+| 16 | Anna Reads the Letter | Phase 3 | Int | Anna receives Karenin’s letter. She is horrified by his coldness and his threat to take her son. She feels trapped and sees no way out. She cries in despair, realizing she cannot escape her position. |
+| 17 | Anna Decides to Go Out | Phase 3 | Comp | Anna decides to go to Princess Betsy’s, hoping to see Vronsky. She writes a brief answer to Karenin. She dresses and leaves. She is determined to act, though she does not know what she will do. |
+| 18 | At Betsy’s | Phase 3 | Comp | Anna arrives at Betsy’s. She meets Liza Merkalova and other fashionable guests. The conversation is light and worldly. Anna is agitated but maintains composure. She sends a note to Vronsky through Betsy, asking him to meet her. |
+| 19 | Anna Leaves Early | Phase 3 | Int | Anna decides to leave Betsy’s early. She feels the falsity of society. She goes home, still uncertain. She thinks of her son and her husband. She feels a strange turmoil in her soul. |
+| 20 | Vronsky’s Financial Reckoning | Phase 3 | Int | Vronsky has a habit of periodically settling his affairs. He reviews his debts and finds he needs six thousand roubles. He decides to borrow money and sell his race horses. He writes a cold reply to his mother. |
+| 21 | Vronsky’s Code of Honor | Phase 3 | Int | Vronsky lives by a strict code of principles that defines what he ought and ought not to do. His relations with Anna and Karenin are clear to him: he must respect Anna and be prepared to fight a duel. But her pregnancy introduces new complications. |
+| 22 | Vronsky Meets Serpuhovskoy | Phase 3 | Exp | Vronsky meets his old friend Serpuhovskoy, a successful general. Serpuhovskoy advises Vronsky to marry and settle down. He says women are the chief obstacle to a man’s career. Vronsky thinks of Anna. |
+| 23 | Vronsky Receives Anna’s Note | Phase 3 | Comp | Vronsky receives a note from Anna asking him to meet her at the Vrede garden. He goes immediately. He finds her there. She tells him she has confessed everything to Karenin. He is shocked but feels the inevitability of a duel. |
+| 24 | Anna’s Despair | Phase 3 | Int | Anna tells Vronsky that Karenin will not give her a divorce and that she cannot leave her son. Vronsky urges her to leave her husband anyway. She feels trapped. They agree to meet again. She drives home, knowing nothing has changed. |
+| 25 | Karenin’s Triumph | Phase 3 | Comp | Karenin wins a victory at a government commission meeting. He returns home in good spirits. Anna arrives. He tells her he will ignore her confession as long as the world knows nothing. She says she cannot be his wife. He laughs coldly. |
+| 26 | Levin at Sviazhsky’s | Phase 3 | Exp | Levin visits his friend Sviazhsky, a marshal of the district. Sviazhsky is an advanced liberal who lives in contradiction to his own beliefs. Levin finds him puzzling. They discuss agriculture and the labor question. |
+| 27 | A Landowner’s Complaints | Phase 3 | Dig | An irascible landowner complains that the emancipation of the serfs has ruined agriculture. He argues that authority is needed to control the peasants. Levin listens, interested. The landowner says the only thing that works is the old patriarchal system. |
+| 28 | Levin’s New Idea | Phase 3 | Int | Levin is struck by a new idea: the laborer must be made interested in the success of the work. He thinks of forming a cooperative association with his peasants. He returns home excited, determined to revolutionize his farming. |
+| 29 | Levin Implements His Plan | Phase 3 | Comp | Levin tries to put his new plan into practice. The peasants are skeptical and resist change. He succeeds in forming a few partnerships, but the results are mixed. The peasants do not fully understand or trust him. |
+| 30 | Levin Reads and Reflects | Phase 3 | Int | Levin reads books on political economy and socialism but finds nothing that applies to Russia. He believes the Russian peasant has a unique relationship to the land. He decides to go abroad to study land systems. |
+| 31 | Nikolay’s Return | Phase 3 | Comp | Levin’s brother Nikolay arrives at Pokrovskoe. He is even more emaciated and ill than before. He talks of going into government service. Levin is tormented by his brother’s suffering and the thought of death. |
+| 32 | Levin and Nikolay | Phase 3 | Int | Levin and Nikolay spend the evening together. Nikolay is irritable and attacks Levin’s farming ideas. They argue, then Nikolay decides to leave. At parting, Nikolay says, “Don’t remember evil against me.” Levin weeps. |
+
+---
+
+## Part 4, Chapters 1–23
+
+| Ch | Title | Phase | Category | Summary |
+|----|-------|-------|----------|---------|
+| 1 | Three Miserable People | Phase 4 | Exp | The Karenins continue living in the same house but are strangers. Anna sees Vronsky away from home. All three endure the position, each hoping something will change. Karenin hopes the passion will pass; Anna believes something will turn up; Vronsky follows her lead. |
+| 2 | Vronsky’s Boredom | Phase 4 | Exp | Vronsky is put in charge of a visiting foreign prince. He finds the duties irksome. The prince is stupid and self‑satisfied. Vronsky sees himself in the prince and is disgusted. He is relieved when the prince leaves. |
+| 3 | Anna’s Illness | Phase 4 | Comp | Anna writes to Vronsky that she is ill and cannot come out. He goes to her. On the stairs he meets Karenin. Anna tells Vronsky she is pregnant. He urges her to leave her husband. She is afraid of losing her son. |
+| 4 | Anna’s Dream | Phase 4 | Int | Anna tells Vronsky about a recurring nightmare: a peasant rummaging in a sack, speaking French. The dream terrifies her. She believes she will die in childbirth. Vronsky tries to reassure her, but he too feels uneasy. |
+| 5 | Karenin’s Decision | Phase 4 | Int | Karenin decides to go to Petersburg to attend to official business. He tells Anna he will not return to the house. He plans to obtain a divorce and take Seryozha. Anna begs him to leave her son. He refuses and leaves. |
+| 6 | Karenin Visits a Lawyer | Phase 4 | Comp | Karenin consults a celebrated Petersburg lawyer about divorce. The lawyer explains the legal procedures. He suggests “adultery by mutual consent” as the simplest method. Karenin is uncomfortable with the implications but agrees to consider it. |
+| 7 | Stiva Invites Karenin | Phase 4 | Comp | Karenin is in Moscow. Stiva meets him and insists he come to dinner. Karenin reluctantly agrees. Stiva also invites Levin and his brother Sergey Ivanovitch. The dinner is planned to include both Karenin and Koznishev. |
+| 8 | Karenin’s Coldness | Phase 4 | Int | Karenin tells Stiva he cannot dine with them because he is beginning divorce proceedings against Anna. Stiva is horrified and begs him to talk to Dolly first. Karenin reluctantly agrees to come to dinner. |
+| 9 | Dinner at the Oblonskys’ | Phase 4 | Exp | The dinner party takes place. Guests include Levin, Kitty, Karenin, Koznishev, and others. The conversation ranges over politics, education, and women’s rights. Levin and Kitty sit together and communicate in secret code. |
+| 10 | Women’s Rights Debate | Phase 4 | Dig | Pestsov argues about women’s education and rights. Karenin and Koznishev debate classical versus scientific education. The old prince jokes that women’s long hair signifies short wits. The conversation is lively but inconclusive. |
+| 11 | Levin and Kitty’s Code | Phase 4 | Int | Levin and Kitty write letters on the table with chalk. He asks if her refusal meant “never” or “then.” She writes that she could not answer differently then. He writes that he has never ceased to love her. She understands. They are engaged. |
+| 12 | Levin’s Happiness | Phase 4 | Int | After the engagement, Levin is in a daze of happiness. He accompanies his brother to a meeting, then to Sviazhsky’s for tea. He talks to the servant Yegor about love and marriage. He cannot sleep for joy. |
+| 13 | Levin Proposes Again | Phase 4 | Turn | Levin goes to the Shtcherbatskys’ house early in the morning. Kitty runs to him. They embrace. The princess and prince give their blessing. Levin and Kitty are engaged. |
+| 14 | Wedding Preparations | Phase 4 | Exp | The princess insists the wedding must be before Lent. Levin agrees to everything. He must go to confession, which he finds awkward as an unbeliever. He goes through the ceremony, feeling it is false but necessary. |
+| 15 | Levin’s Confession | Phase 4 | Int | Levin confesses to a priest. He admits he doubts everything, even the existence of God. The priest counsels him to pray. Levin leaves feeling relieved that he did not have to lie. He still feels something unclear in his soul. |
+| 16 | The Wedding Day | Phase 4 | Res | The wedding takes place. Levin is nervous and nearly late because he forgot a clean shirt. Kitty is beautiful in her white dress. The ceremony is solemn and moving. Levin feels a new, strange closeness to her. |
+| 17 | Vronsky’s Shame | Phase 4 | Int | After Anna’s confession and Karenin’s forgiveness, Vronsky feels humiliated and worthless. He attempts suicide by shooting himself in the chest. He survives. His brother’s wife, Varya, nurses him. |
+| 18 | Karenin’s Forgiveness | Phase 4 | Int | Karenin, at Anna’s sickbed, forgives her and Vronsky. He experiences a new spiritual peace. He becomes fond of Anna’s newborn daughter. He feels that a brutal force in society will not allow him to remain in this state. |
+| 19 | Karenin’s Dilemma | Phase 4 | Int | Anna’s baby daughter falls ill. Karenin is told that Princess Betsy is visiting Anna. He overhears Anna say she does not want to see Vronsky. He feels helpless, knowing society expects him to act but he does not know how. |
+| 20 | Betsy Intervenes | Phase 4 | Comp | Betsy tries to persuade Karenin to let Vronsky see Anna before he leaves for Tashkend. Karenin says the decision is Anna’s. He feels his dignity is gone. |
+| 21 | Anna’s Irritation | Phase 4 | Int | Anna is irritable with Karenin. She blames him for not letting her nurse the baby. She wishes she had died. Karenin realizes the impossibility of his position. He feels everyone expects something of him. |
+| 22 | Stiva Intercedes | Phase 4 | Comp | Stiva visits Anna and tries to comfort her. He argues that divorce is the only solution. Anna says she cannot accept Karenin’s generosity. Stiva goes to speak with Karenin. |
+| 23 | Karenin Consents | Phase 4 | Turn | Stiva persuades Karenin to agree to a divorce. Karenin says he will take the disgrace on himself and give up his son. Stiva is touched. Anna and Vronsky prepare to go abroad. Karenin is left alone with Seryozha. |
+
+---
+
+## Part 5, Chapters 1–33
+
+| Ch | Title | Phase | Category | Summary |
+|----|-------|-------|----------|---------|
+| 1 | Levin Before the Wedding | Phase 5 | Int | Levin is in a deliriously happy state before the wedding. He agrees to everything suggested to him. He goes to confession despite his doubts. He feels a vague unease about religion. |
+| 2 | The Wedding | Phase 5 | Res | The wedding ceremony takes place. Levin and Kitty are married. The service is solemn and beautiful. Levin feels a new, strange closeness to Kitty. They leave for the country after supper. |
+| 3 | Vronsky and Anna Abroad | Phase 5 | Exp | Vronsky and Anna have been traveling in Europe for three months. They are in a small Italian town. Vronsky meets an old friend, Golenishtchev, who is writing a book. Anna is charming and at ease. |
+| 4 | Vronsky Paints | Phase 5 | Exp | Anna is happy and full of the joy of life. She rarely thinks of her husband or her son. Vronsky, however, feels boredom. He takes up painting and begins a portrait of Anna in Italian costume. |
+| 5 | Vronsky’s Art | Phase 5 | Exp | Vronsky and Anna visit the Russian artist Mihailov to see his picture of “Christ before Pilate.” Golenishtchev accompanies them. Mihailov is poor, irritable, and proud. They admire his work. |
+| 6 | Mihailov’s Portrait | Phase 5 | Exp | Mihailov agrees to paint Anna’s portrait. He captures her characteristic beauty. Vronsky is impressed. He realizes Mihailov has seen something in Anna he himself missed. Mihailov finds the dilettanti tiresome. |
+| 7 | Boredom in Italy | Phase 5 | Exp | Vronsky’s interest in painting fades. Life in Italy becomes tedious. They decide to return to Russia. Vronsky will go to Petersburg to arrange a partition of land with his brother. Anna will see her son. |
+| 8 | Levin’s Married Life | Phase 5 | Int | Levin is happy but not as he expected. Married life is full of petty cares and quarrels. He learns that his wife has her own will and needs. Their first quarrel shocks him. He realizes she is part of himself. |
+| 9 | Kitty’s Household | Phase 5 | Exp | Kitty busies herself with arranging the house. Levin is amused by her domestic concerns. Their life together gradually becomes smoother. They are happy but still learning each other. |
+| 10 | Levin Writes | Phase 5 | Int | Levin works on his book about agriculture. Kitty sews nearby. They are content. Levin feels his work is no longer the center of his life; his family is. |
+| 11 | News of Nikolay | Phase 5 | Comp | Levin receives a letter from Marya Nikolaevna saying that his brother Nikolay is dying. He decides to go to him immediately. Kitty insists on coming with him. Levin is reluctant but agrees. |
+| 12 | Levin and Kitty Travel | Phase 5 | Comp | Levin and Kitty travel to the provincial town where Nikolay lies ill. They find him in a dirty hotel room. Kitty immediately begins to care for him. Levin is overwhelmed by his brother’s suffering. |
+| 13 | At Nikolay’s Bedside | Phase 5 | Int | Kitty takes charge of nursing Nikolay. She cleans the room, changes his linen, and comforts him. Levin is amazed at her practical kindness. Nikolay is calmed by her presence. |
+| 14 | Nikolay’s Suffering | Phase 5 | Int | Nikolay’s condition worsens. He is in constant pain. Kitty and Levin take turns watching over him. Levin feels helpless and terrified by death. Kitty seems to know what to do without thinking. |
+| 15 | Nikolay’s Death | Phase 5 | Res | Nikolay receives the sacrament and extreme unction. He seems briefly better, then declines. He dies peacefully. Levin is horrified by death but feels love saving him from despair. Kitty learns she is pregnant. |
+| 16 | Anna in Petersburg | Phase 5 | Comp | Anna returns to Petersburg. She longs to see her son Seryozha. She writes to Countess Lidia Ivanovna, asking permission. Lidia Ivanovna refuses, saying it would upset the boy. Anna is humiliated and enraged. |
+| 17 | Anna Sees Seryozha | Phase 5 | Turn | On Seryozha’s birthday, Anna goes to Karenin’s house early in the morning. She bribes the porter and sneaks in. She finds Seryozha in bed. They embrace joyfully. Karenin arrives; Anna flees. |
+| 18 | Anna’s Anguish | Phase 5 | Int | After seeing Seryozha, Anna is devastated. She returns to the hotel. She feels her love for her son is the only real thing in her life. She decides she must take action to secure her relationship with him. |
+| 19 | Vronsky’s Return | Phase 5 | Comp | Vronsky returns from his brother’s. He finds Anna agitated. She tells him about seeing Seryozha. Vronsky is disturbed by her emotional state. They argue about their future. |
+| 20 | Anna at the Opera | Phase 5 | Comp | Anna goes to the opera despite Vronsky’s objections. In the theater, Madame Kartasova publicly insults her, saying it is a disgrace to sit beside her. Anna is humiliated. She leaves in tears. |
+| 21 | Anna’s Resolve | Phase 5 | Int | After the opera humiliation, Anna tells Vronsky she hates his calm. She accuses him of not loving her. He assures her he does. They reconcile and leave for the country. |
+| 22 | Life at Vozdvizhenskoe | Phase 5 | Exp | The Levins spend the summer at Pokrovskoe with Kitty’s family. Levin regrets the influx of the “Shtcherbatsky element.” Dolly and her children come to stay. Sergey Ivanovitch is also there. |
+| 23 | Varenka Arrives | Phase 5 | Exp | Varenka, Kitty’s friend from abroad, comes to stay. Sergey Ivanovitch shows interest in her. Kitty hopes they will marry. The household is full of visitors. |
+| 24 | Mushroom Picking | Phase 5 | Dig | The party goes mushroom picking. Sergey Ivanovitch walks with Varenka. He admires her. He considers proposing but asks instead about mushroom differences. The moment passes. He decides to remain faithful to his dead love. |
+| 25 | Veslovsky’s Arrival | Phase 5 | Comp | Stiva arrives with Vassenka Veslovsky, a young, handsome, cheerful cousin. Levin is immediately jealous of Veslovsky’s attention to Kitty. He becomes gloomy and irritable. |
+| 26 | Levin’s Jealousy | Phase 5 | Int | Levin’s jealousy grows. He sees Veslovsky’s looks at Kitty as flirtation. He tells Kitty he is wounded and humiliated. She reassures him of her love. He decides to be civil to Veslovsky. |
+| 27 | Shooting with Veslovsky | Phase 5 | Exp | Levin, Stiva, and Veslovsky go shooting. Veslovsky is clumsy and excitable. Levin is annoyed but tries to be friendly. They stay overnight at a peasant’s hut. |
+| 28 | Night in the Hay | Phase 5 | Dig | The men sleep in a hay barn. Veslovsky goes off to flirt with peasant girls. Levin lies awake, thinking about Kitty and his jealousy. He resolves to be more manly. |
+| 29 | Levin Sends Veslovsky Away | Phase 5 | Turn | Levin wakes early, goes shooting, and returns to find Veslovsky flirting with Kitty. Levin tells Veslovsky to leave. Veslovsky is offended but goes. Stiva is amused; Kitty is upset but understands. |
+| 30 | Dolly Visits Anna | Phase 5 | Comp | Dolly decides to visit Anna at Vozdvizhenskoe. Levin lends her horses. She travels there. On the way, she thinks about her own unhappy marriage and Anna’s situation. |
+| 31 | Dolly Arrives | Phase 5 | Exp | Dolly arrives at Vronsky’s estate. Anna is overjoyed to see her. Vronsky is courteous. Dolly is struck by Anna’s beauty and the luxury of the house. She feels both admiration and unease. |
+| 32 | Dolly with Anna | Phase 5 | Int | Anna shows Dolly the house and her daughter Annie. They talk about the past. Anna admits she is happy but fears the future. Dolly senses something wrong. |
+| 33 | Vronsky’s Confession | Phase 5 | Int | Vronsky tells Dolly that he wants Anna to write to Karenin asking for a divorce. He cannot bear that his daughter is legally a Karenin. Dolly promises to persuade Anna. |
+
+---
+
+## Part 6, Chapters 1–32
+
+| Ch | Title | Phase | Category | Summary |
+|----|-------|-------|----------|---------|
+| 1 | Summer at Pokrovskoe | Phase 6 | Exp | Dolly and her children spend the summer at the Levins’. The house is full of guests: the old princess, Varenka, and others. Levin feels his own family spirit is drowned by the “Shtcherbatsky element.” |
+| 2 | Jam‑Making | Phase 6 | Dig | The ladies make jam on the terrace. Kitty and Dolly discuss Sergey Ivanovitch and Varenka. Kitty hopes Sergey Ivanovitch will propose to Varenka. The conversation is light and domestic. |
+| 3 | Levin and Kitty Walk | Phase 6 | Int | Levin and Kitty walk alone in the forest. They talk about Sergey Ivanovitch and Varenka. Levin thinks his brother is too spiritual for marriage. Kitty disagrees. They are happy together. |
+| 4 | Sergey Ivanovitch’s Decision | Phase 6 | Int | Sergey Ivanovitch walks with Varenka in the forest. He wants to propose but instead asks a trivial question about mushrooms. The moment passes. He decides he cannot be false to the memory of his first love. |
+| 5 | The Proposal That Wasn’t | Phase 6 | Int | Kitty sees that Sergey Ivanovitch did not propose. She is disappointed. Varenka is calm. Kitty tells Levin that “it didn’t bite.” Levin laughs. Everyone pretends nothing happened. |
+| 6 | Stiva Arrives | Phase 6 | Comp | Stiva arrives with Vassenka Veslovsky, a cheerful young cousin. Levin is immediately jealous of Veslovsky’s attention to Kitty. He becomes gloomy and irritable. The evening is tense. |
+| 7 | Levin’s Jealousy | Phase 6 | Int | Levin’s jealousy grows. He sees Veslovsky’s looks at Kitty as flirtation. He tells Kitty he is wounded and humiliated. She reassures him of her love. He decides to be civil to Veslovsky. |
+| 8 | Shooting with Veslovsky | Phase 6 | Exp | Levin, Stiva, and Veslovsky go shooting. Veslovsky is clumsy and excitable. Levin is annoyed but tries to be friendly. They stay overnight at a peasant’s hut. |
+| 9 | The Drive to the Marsh | Phase 6 | Exp | They drive to a larger marsh. Veslovsky accidentally fires his gun in the carriage. They shoot snipe. Levin misses several shots and is frustrated. Stiva shoots well. |
+| 10 | Overnight in the Hay | Phase 6 | Dig | The men sleep in a hay barn. Veslovsky goes off to flirt with peasant girls. Levin lies awake, thinking about Kitty and his jealousy. He resolves to be more manly. |
+| 11 | Levin Sends Veslovsky Away | Phase 6 | Turn | Levin wakes early, goes shooting, and returns to find Veslovsky flirting with Kitty. Levin tells Veslovsky to leave. Veslovsky is offended but goes. Stiva is amused; Kitty is upset but understands. |
+| 12 | Dolly Visits Anna | Phase 6 | Comp | Dolly decides to visit Anna at Vozdvizhenskoe. Levin lends her horses. She travels there. On the way, she thinks about her own unhappy marriage and Anna’s situation. |
+| 13 | Dolly Arrives | Phase 6 | Exp | Dolly arrives at Vronsky’s estate. Anna is overjoyed to see her. Vronsky is courteous. Dolly is struck by Anna’s beauty and the luxury of the house. She feels both admiration and unease. |
+| 14 | Dolly Tours the Estate | Phase 6 | Exp | Vronsky shows Dolly the hospital he is building. He is proud of his work. Dolly is impressed by his energy and good nature. She understands why Anna loves him. |
+| 15 | Dolly and Anna Talk | Phase 6 | Int | Anna and Dolly have a long, intimate conversation. Anna says she does not want more children because they would be illegitimate. She admits she is happy but fears Vronsky’s cooling love. |
+| 16 | Anna’s Fears | Phase 6 | Int | Anna tells Dolly she cannot have more children. Dolly is shocked. Anna argues that children would be unhappy bearing a stranger’s name. She feels her position is hopeless without a divorce. |
+| 17 | Dolly Drives Home | Phase 6 | Res | Dolly returns home. She feels relieved to leave. The coachman comments that the Vronskys are wealthy but stingy with oats. Dolly defends Anna and Vronsky, saying they are nice people. |
+| 18 | Vronsky and Anna Alone | Phase 6 | Int | Vronsky and Anna spend the autumn alone. Their life is comfortable but monotonous. Vronsky becomes interested in provincial elections. Anna feels isolated and jealous. |
+| 19 | The Elections | Phase 6 | Exp | Vronsky goes to the provincial elections. He is a new figure in the nobility and enjoys the political maneuvering. He supports the liberal candidate Nevyedovsky. |
+| 20 | Vronsky’s Success | Phase 6 | Exp | Vronsky helps Nevyedovsky win the election. He dines with the successful party. He receives a letter from Anna saying their daughter Annie is ill. He decides to return home immediately. |
+| 21 | Anna’s Letter | Phase 6 | Comp | Anna’s letter is cold and reproachful. She says Annie is ill and she is losing her mind alone. Vronsky feels the contrast between the festive elections and his burdensome love. He returns home. |
+| 22 | Anna’s Jealousy | Phase 6 | Int | Vronsky returns. Anna is both relieved and angry. They have a tense evening. She accuses him of preferring society to her. He reassures her, but she feels a growing estrangement. |
+| 23 | Dolly’s Reflections | Phase 6 | Int | Dolly lies in bed after returning from Vronsky’s. She thinks about her own life, her children, and her unhappy marriage. She wonders if Anna was right to follow her heart. |
+| 24 | Anna and Vronsky Quarrel | Phase 6 | Comp | Anna and Vronsky quarrel again. She accuses him of hiding things from her. He is irritated by her jealousy. The tension between them is palpable. |
+| 25 | Vronsky Leaves | Phase 6 | Comp | Vronsky decides to go to his mother’s to sign some deeds. Anna is suspicious. They part coldly. She feels he no longer loves her. |
+| 26 | Anna’s Nightmare | Phase 6 | Int | Anna lies awake, thinking of death. She remembers her dream of the peasant. She decides she will not let Vronsky destroy her. She goes to his room; he is asleep. |
+| 27 | Anna’s Resolve | Phase 6 | Int | In the morning, Anna sees Vronsky talking to a young woman in a carriage. She is consumed by jealousy. She tells him she will not go to the country with him. He is exasperated. |
+| 28 | Anna’s Ultimatum | Phase 6 | Comp | Anna tells Vronsky she will not stay with him. She says he will be sorry. He leaves for his mother’s. Anna decides to go to the railway station to confront him. |
+| 29 | Anna at the Station | Phase 6 | Int | Anna goes to the station. She sends Vronsky a telegram. She waits, growing more agitated. She remembers the guard crushed by the train when she first met Vronsky. |
+| 30 | Anna on the Train | Phase 6 | Int | Anna takes a train to the station where Vronsky is. She thinks about her life, her hatred of Vronsky, and her desire for revenge. She feels she is going mad. |
+| 31 | Anna’s Thoughts | Phase 6 | Int | On the train, Anna’s thoughts race. She sees everyone as hateful. She decides she will punish Vronsky by dying. She recalls the peasant from her dream. |
+| 32 | Anna’s Decision | Phase 6 | Turn | Anna arrives at the station. She sees Vronsky’s carriage. She decides not to confront him but to end everything. She walks to the edge of the platform. |
+
+---
+
+## Part 7, Chapters 1–31
+
+| Ch | Title | Phase | Category | Summary |
+|----|-------|-------|----------|---------|
+| 1 | The Levins in Moscow | Phase 7 | Exp | The Levins have been in Moscow for three months waiting for Kitty’s confinement. Levin is bored and out of place in the city. He feels useless and irritable. Kitty is calm and happy. |
+| 2 | Levin’s Errands | Phase 7 | Exp | Levin goes out to run errands. He plans to visit Katavasov and then call on the Countess Bola. Kitty reminds him to pay calls. Levin hates the social obligations of city life. |
+| 3 | Levin Meets Metrov | Phase 7 | Dig | Levin visits Katavasov and meets Metrov, a famous sociologist. They discuss Levin’s book on agriculture. Metrov is interested but they talk past each other. Levin finds the conversation unsatisfying. |
+| 4 | Levin Visits Lvov | Phase 7 | Exp | Levin visits his brother‑in‑law Lvov. They discuss the education of children and the difficulties of parenthood. Lvov is a devoted father. Levin admires his children. |
+| 5 | At the Concert | Phase 7 | Dig | Levin attends a concert with his sister‑in‑law. He tries to listen to a new fantasia but finds modern music confusing. He argues with Pestsov about Wagner. He is bored. |
+| 6 | Levin Calls on the Bols | Phase 7 | Exp | Levin pays a dull social call on Countess Bola. He sits awkwardly, makes small talk, and leaves. He feels ashamed of the pointless visit. |
+| 7 | Levin at the Club | Phase 7 | Exp | Levin goes to the club. He dines with Oblonsky, Turovtsin, and others. He drinks champagne and feels relaxed. He sees Vronsky and they greet each other cordially. |
+| 8 | Levin Agrees to Visit Anna | Phase 7 | Comp | Stiva persuades Levin to visit Anna. Levin is reluctant but agrees. He feels he should not go, but Stiva insists. They leave the club together. |
+| 9 | Levin at Anna’s | Phase 7 | Int | Levin visits Anna. She is charming and beautiful. He is captivated by her. They talk about art, literature, and life. Levin feels a strange attraction to her. |
+| 10 | Anna’s Charm | Phase 7 | Int | Anna continues to fascinate Levin. She is natural, clever, and deeply feeling. Levin forgets his earlier judgments. He feels sorry for her and admires her. |
+| 11 | Levin Returns Home | Phase 7 | Comp | Levin returns home. Kitty notices he is flushed and excited. She asks where he has been. He says he visited Anna. Kitty bursts into tears, accusing him of being in love with Anna. |
+| 12 | Kitty’s Jealousy | Phase 7 | Int | Levin soothes Kitty. He admits he was captivated by Anna but insists he loves only Kitty. They reconcile. Kitty is still troubled but trusts him. |
+| 13 | Kitty’s Labor Begins | Phase 7 | Turn | Kitty wakes Levin in the night. Her labor has begun. Levin panics and runs for the doctor and midwife. He prays desperately, though he is an unbeliever. |
+| 14 | Levin’s Agony | Phase 7 | Int | Levin fetches the doctor. He is frantic with fear and helplessness. He prays constantly. He feels he is watching something sublime and terrible. |
+| 15 | The Birth | Phase 7 | Res | Kitty gives birth to a son. Levin hears the baby’s cry and feels overwhelming joy and relief. He kisses Kitty and looks at the tiny creature. He feels a new, strange tenderness. |
+| 16 | Levin Becomes a Father | Phase 7 | Int | Levin looks at his son, Dmitri, and feels not the expected joy but pity and fear. He is afraid the baby will suffer. He loves Kitty more than ever. |
+| 17 | Stiva in Petersburg | Phase 7 | Exp | Stiva is in Petersburg trying to secure a lucrative new appointment. He also hopes to get a definite answer from Karenin about Anna’s divorce. He visits Karenin. |
+| 18 | Stiva and Karenin | Phase 7 | Comp | Stiva asks Karenin for a final answer about the divorce. Karenin is cold and evasive. He says he needs time to think. Stiva is frustrated. |
+| 19 | Seryozha | Phase 7 | Int | Stiva sees Seryozha, Anna’s son. The boy is polite but distant. Stiva asks if he remembers his mother. Seryozha says no and blushes. He is clearly wounded. |
+| 20 | Stiva in Petersburg Society | Phase 7 | Exp | Stiva enjoys Petersburg society. He visits Princess Betsy and Princess Myakaya. They tell him about the mystic Landau, who influences Karenin and Countess Lidia Ivanovna. |
+| 21 | The Mystic Landau | Phase 7 | Dig | Stiva visits Countess Lidia Ivanovna. Landau, a French clairvoyant, is there. Landau falls into a trance and says the last person who arrived must leave. Stiva realizes he is the one. He leaves, feeling foolish. |
+| 22 | Karenin Refuses Divorce | Phase 7 | Comp | The next day, Karenin gives Stiva his final answer: he refuses to grant Anna a divorce. Stiva understands that the decision was based on Landau’s “prophecy.” He is disgusted. |
+| 23 | Anna and Vronsky in Moscow | Phase 7 | Exp | Anna and Vronsky are in Moscow. Their relationship is deteriorating. Anna is jealous and irritable. Vronsky is weary of her suspicions. They quarrel constantly. |
+| 24 | Anna’s Jealousy | Phase 7 | Int | Anna accuses Vronsky of preferring his mother and Princess Sorokina to her. Vronsky is cold and evasive. She feels he no longer loves her. She considers death. |
+| 25 | Reconciliation | Phase 7 | Comp | After a quarrel, Vronsky tries to soothe Anna. They make up, but the underlying tension remains. Anna is not satisfied. She feels he is only pretending. |
+| 26 | Anna’s Despair | Phase 7 | Int | Anna sends Vronsky a note asking him to come home. He does not come. She decides to go to the station to meet him. She feels she is going mad. |
+| 27 | Anna at the Station | Phase 7 | Int | Anna goes to the station. She sends Vronsky a telegram. She waits, growing more agitated. She remembers the guard crushed by the train when she first met Vronsky. |
+| 28 | Anna on the Train | Phase 7 | Int | Anna takes a train to the station where Vronsky is. She thinks about her life, her hatred of Vronsky, and her desire for revenge. She feels she is going mad. |
+| 29 | Anna’s Thoughts | Phase 7 | Int | On the train, Anna’s thoughts race. She sees everyone as hateful. She decides she will punish Vronsky by dying. She recalls the peasant from her dream. |
+| 30 | Anna’s Decision | Phase 7 | Turn | Anna arrives at the station. She sees Vronsky’s carriage. She decides not to confront him but to end everything. She walks to the edge of the platform. |
+| 31 | The Suicide | Phase 7 | Res | Anna throws herself under the train. She feels terror for an instant, then darkness. She prays for forgiveness. The light of her life is extinguished forever. |
+
+---
+
+## Part 8, Chapters 1–19
+
+| Ch | Title | Phase | Category | Summary |
+|----|-------|-------|----------|---------|
+| 1 | Sergey Ivanovitch’s Book | Phase 8 | Exp | Sergey Ivanovitch’s book on government is published to indifference. He is disappointed. He throws himself into the Slavonic question, which has become a public obsession. |
+| 2 | Volunteers at the Station | Phase 8 | Exp | Sergey Ivanovitch and Katavasov go to the station. They see volunteers leaving for Servia. Princess Varvara tells them Vronsky is also going. Vronsky is there with his mother. |
+| 3 | Katavasov Meets Volunteers | Phase 8 | Dig | Katavasov talks to the volunteers in the train. He is unimpressed by them. One is a drunk merchant, another a failed officer. He feels the enthusiasm is misguided. |
+| 4 | Vronsky’s Mother | Phase 8 | Int | Sergey Ivanovitch talks to Vronsky’s mother. She tells him Vronsky is going to Servia to die. She blames Anna for ruining her son. Sergey Ivanovitch is sympathetic. |
+| 5 | Vronsky’s Resolve | Phase 8 | Int | Sergey Ivanovitch speaks with Vronsky. Vronsky says he is going to Servia because his life is worthless. He is cold and distant. He boards the train. |
+| 6 | Sergey Ivanovitch Arrives | Phase 8 | Exp | Sergey Ivanovitch and Katavasov arrive at Pokrovskoe. Kitty meets them. Levin is not at home. The prince is there. They talk about the war and the volunteers. |
+| 7 | Kitty with Mitya | Phase 8 | Int | Kitty nurses her baby, Mitya. She thinks about Levin’s unbelief. She knows he struggles with faith but loves him anyway. She is content with her family. |
+| 8 | Levin’s Spiritual Crisis | Phase 8 | Int | Levin has been tormented by thoughts of death and the meaninglessness of life. He has read all the philosophers but found no answer. He is close to suicide. |
+| 9 | Levin’s Doubts | Phase 8 | Int | Levin cannot accept the materialist view that life is a meaningless bubble. He knows that most people, including the peasants, live by faith. He feels divided against himself. |
+| 10 | Levin Lives by Instinct | Phase 8 | Int | Despite his doubts, Levin lives decisively. He manages his estate, cares for his family, and does what he believes is right. He acts not by reason but by an inner sense of goodness. |
+| 11 | Levin Talks to a Peasant | Phase 8 | Turn | Levin talks to a peasant, Fyodor, about a neighboring landowner. Fyodor says the man lives for his belly, but a righteous man lives for God, for his soul. Levin is struck by the simplicity of this truth. |
+| 12 | Levin’s Awakening | Phase 8 | Int | Levin realizes that the knowledge of good and evil cannot be reached by reason. It is given to all men. He has always known it. He has found the meaning of life: to live for God, for the soul. |
+| 13 | Levin’s Faith | Phase 8 | Int | Levin recalls how children cannot understand why they should not waste things. He sees that he has been like a child, trying to destroy the very beliefs he lives by. He accepts the church’s teachings. |
+| 14 | Levin’s Joy | Phase 8 | Int | Levin feels a new spiritual peace. He thanks God. He drives home, resolved to live differently. He greets his brother and Katavasov. He is happy. |
+| 15 | Discussion of the War | Phase 8 | Dig | Sergey Ivanovitch argues that the Russian people have expressed their will to help the Slavs. Levin disagrees, saying the people do not know what they want. They argue hotly. |
+| 16 | Levin’s Stand | Phase 8 | Int | Levin says he cannot support war because it is murder. He believes in the law of right and wrong revealed to every man. Sergey Ivanovitch quotes scripture: “I bring not peace, but a sword.” |
+| 17 | The Storm | Phase 8 | Comp | A storm breaks. Levin runs to find Kitty and Mitya. They are safe under a tree. Levin is relieved. He forgives Kitty for risking the baby. |
+| 18 | Levin’s Love for Mitya | Phase 8 | Int | Levin helps give Mitya his bath. He feels a new tenderness for his son. He realizes he has found love for the child, though it came through fear and pity. |
+| 19 | Levin’s Conclusion | Phase 8 | Res | Levin looks at the stars and thinks about his faith. He realizes he cannot explain it to others. He will still lose his temper, argue foolishly, and pray without understanding. But his life now has a meaning of goodness that he can live by. |
+
+---
+
+Below is the glossary for *Anna Karenina* based on the script you’ve attached. Each entry follows the Effi Briest template: **canonical name**, **representations** (variants found in the script), **explanation**, **see also**, and **appearances** (chapter references from the script, given as Part.Ch). I’ve focused on the most important terms – roughly 50 entries – covering characters, places, and key motifs.
+
+---
+
+## Glossary
+
+### Characters – Main
+
+**Anna**  
+*Representations:* Anna, Anna Arkadyevna, Anna Karenina, Madame Karenina, Anna Arkadyevna Karenina  
+*Explanation:* Protagonist. Beautiful, passionate wife of Karenin. She falls in love with Vronsky, abandons her husband and son, and eventually commits suicide by throwing herself under a train. She is destroyed by society’s hypocrisy and her own consuming jealousy.  
+*See also:* Vronsky, Karenin, Seryozha, The Train, The Peasant Dream  
+*Appearances:* 1.18–34, 2.4–11, 2.22–28, 3.14–19, 3.23–25, 4.1–5, 4.20–23, 5.3–7, 5.16–21, 5.30–33, 6.12–17, 6.18–32, 7.23–31
+
+**Vronsky**  
+*Representations:* Vronsky, Count Vronsky, Alexey Vronsky, Alexey Kirillovitch Vronsky  
+*Explanation:* Wealthy, handsome cavalry officer. He falls in love with Anna and becomes her lover. He is charming, honourable by his own code, but eventually grows weary of Anna’s jealousy. After her death he volunteers for the war in Servia.  
+*See also:* Anna, Frou‑Frou, Yashvin, Serpuhovskoy  
+*Appearances:* 1.11–18, 1.21–23, 1.29–31, 1.34, 2.4–7, 2.11, 2.18–26, 2.28, 3.20–24, 4.1–4, 4.17, 4.20–23, 5.3–7, 5.16–21, 5.30–33, 6.12–22, 6.24–32, 7.23–30, 8.2–5
+
+**Karenin**  
+*Representations:* Karenin, Alexey Alexandrovitch, Alexey Alexandrovitch Karenin  
+*Explanation:* High‑ranking Petersburg official, Anna’s husband. Cold, formal, and ambitious. He forgives Anna on her sickbed but later refuses divorce. He raises Seryozha and Anna’s daughter alone.  
+*See also:* Anna, Seryozha, Countess Lidia Ivanovna  
+*Appearances:* 1.31, 1.33, 2.8–10, 2.27–29, 3.14–15, 4.1, 4.5–9, 4.18–23, 5.16–18, 7.17–22
+
+**Levin**  
+*Representations:* Levin, Konstantin Levin, Kostya, Konstantin Dmitrievitch Levin  
+*Explanation:* Landowner, second protagonist. Awkward, sincere, and idealistic. He proposes to Kitty, is refused, then later marries her. He struggles with faith, the meaning of life, and modern agriculture. He finds spiritual peace through a peasant’s simple faith.  
+*See also:* Kitty, Nikolay Levin, Sergey Ivanovitch, Pokrovskoe  
+*Appearances:* 1.5–11, 1.24–27, 2.12–17, 3.1–6, 3.9–13, 3.26–32, 4.9–16, 5.1–2, 5.8–15, 5.22–29, 6.1–11, 7.1–16, 8.6–19
+
+**Kitty**  
+*Representations:* Kitty, Katerina Alexandrovna, Princess Kitty, Kitty Shtcherbatskaya  
+*Explanation:* Youngest daughter of the Shtcherbatsky family. She refuses Levin, is infatuated with Vronsky, then humiliated at a ball. She falls ill, recovers abroad, and eventually marries Levin. She becomes a devoted wife and mother.  
+*See also:* Levin, Vronsky, Dolly, Princess Shtcherbatskaya  
+*Appearances:* 1.6, 1.9, 1.12–15, 1.20–23, 1.28, 2.1–3, 2.30–35, 4.9–16, 5.1–2, 5.8–15, 5.22–29, 6.1–11, 7.1–12, 8.6–7
+
+**Stiva**  
+*Representations:* Stiva, Stepan Arkadyevitch, Stepan Arkadyevitch Oblonsky, Oblonsky  
+*Explanation:* Anna’s brother, Dolly’s husband. A pleasure‑loving, amiable, unfaithful husband. He works as a government official and is well liked. He mediates between Anna and Karenin and between Levin and Kitty.  
+*See also:* Dolly, Anna  
+*Appearances:* 1.1–6, 1.10–11, 1.17, 1.20–21, 1.28, 2.14–17, 4.7–9, 4.22–23, 5.25–29, 6.6–11, 7.17–22
+
+**Dolly**  
+*Representations:* Dolly, Darya Alexandrovna, Darya Alexandrovna Oblonskaya  
+*Explanation:* Stiva’s wife, Kitty’s sister. She discovers Stiva’s infidelity and is devastated. She reconciles with him after Anna’s intervention. She is a devoted mother, often struggling with money and her husband’s betrayals.  
+*See also:* Stiva, Kitty, Anna  
+*Appearances:* 1.1–4, 1.19–20, 1.28, 2.2–3, 3.7–10, 5.22, 5.30–33, 6.1–2, 6.12–17, 6.23
+
+**Seryozha**  
+*Representations:* Seryozha, Sergey Alexeyevitch, Sergey Alexeyevitch Karenin  
+*Explanation:* Anna and Karenin’s son. A sensitive, intelligent boy. After Anna leaves, he is raised by Karenin and Countess Lidia Ivanovna. He is taught to forget his mother. Anna’s secret visit to him is one of the most painful scenes in the novel.  
+*See also:* Anna, Karenin  
+*Appearances:* 1.32, 4.5, 5.16–18, 7.19
+
+**Annie**  
+*Representations:* Annie, Anna’s daughter, the little girl  
+*Explanation:* Anna and Vronsky’s daughter. She is born in Part 4. After Anna’s death, Karenin takes custody of her. She is largely a passive figure, representing the illegitimacy of Anna’s affair.  
+*See also:* Anna, Vronsky, Karenin  
+*Appearances:* 4.18–19, 5.32, 6.21, 8.5
+
+**Nikolay Levin**  
+*Representations:* Nikolay Levin, Nikolay Dmitrievitch  
+*Explanation:* Levin’s elder brother. A dissipated, consumptive socialist who has wasted his fortune. He lives with Marya Nikolaevna. Levin visits him several times; he dies in Part 5, an event that deeply affects Levin.  
+*See also:* Levin, Marya Nikolaevna  
+*Appearances:* 1.8, 1.24–25, 3.31–32, 5.11–15
+
+**Sergey Ivanovitch**  
+*Representations:* Sergey Ivanovitch, Sergey Ivanovitch Koznishev, Koznishev  
+*Explanation:* Levin’s half‑brother. A famous intellectual, writer, and philosopher. He is involved in the Slavonic movement. He considers proposing to Varenka but the moment passes. He represents intellectual, urban Russia.  
+*See also:* Levin, Varenka  
+*Appearances:* 1.7–8, 3.1–3, 3.6, 4.9–10, 5.22–24, 6.1–5, 8.1–6, 8.15–16
+
+**Princess Betsy Tverskaya**  
+*Representations:* Princess Betsy, Betsy, Princess Tverskaya  
+*Explanation:* Vronsky’s cousin, a fashionable Petersburg society hostess. She encourages Anna and Vronsky’s affair. She is worldly, cynical, and represents the corrupt upper class.  
+*See also:* Vronsky, Anna  
+*Appearances:* 2.4–7, 3.18, 4.20, 7.20
+
+**Countess Lidia Ivanovna**  
+*Representations:* Countess Lidia Ivanovna, Lidia Ivanovna  
+*Explanation:* A religious, philanthropic friend of Karenin. She is intensely pious and becomes Karenin’s confidante after Anna’s departure. She influences Karenin against divorce and helps raise Seryozha.  
+*See also:* Karenin  
+*Appearances:* 1.32, 2.4, 5.16, 7.20–21
+
+**Varenka**  
+*Representations:* Varenka, Mademoiselle Varenka  
+*Explanation:* A companion to Madame Stahl at the German spa. Kitty befriends her and tries to imitate her charitable, serene manner. Sergey Ivanovitch considers proposing to her but does not. She represents selfless goodness.  
+*See also:* Kitty, Sergey Ivanovitch, Madame Stahl  
+*Appearances:* 2.30–35, 5.23–24, 6.1–5
+
+**Princess Shtcherbatskaya**  
+*Representations:* Princess Shtcherbatskaya, the princess, Kitty’s mother  
+*Explanation:* Mother of Dolly, Natalia, and Kitty. She is ambitious for her daughters, favoring Vronsky over Levin for Kitty. She is a typical aristocratic mother.  
+*See also:* Kitty, Dolly, Prince Shtcherbatsky  
+*Appearances:* 1.12–15, 2.1–3, 2.30–35, 4.9–16, 5.1–2, 5.14, 6.1–2
+
+**Prince Shtcherbatsky**  
+*Representations:* Prince Shtcherbatsky, the old prince, Kitty’s father, Prince Alexander Dmitrievitch Shtcherbatsky
+*Explanation:* Father of Dolly, Natalia, and Kitty. He is skeptical, witty, and prefers Levin to Vronsky. He is kind to Levin and helps restore Kitty’s spirits abroad.  
+*See also:* Kitty, Levin  
+*Appearances:* 1.12–15, 2.34–35, 4.9–10, 5.1, 8.6
+
+**Agafea Mihalovna**  
+*Representations:* Agafea Mihalovna, Levin’s nurse  
+*Explanation:* Levin’s old nurse and housekeeper. She is devoted to him and later to Kitty. She represents the simple, faithful peasant world that Levin admires.  
+*See also:* Levin  
+*Appearances:* 1.26–27, 3.1, 5.9, 7.15
+
+**Yashvin**  
+*Representations:* Yashvin, Captain Yashvin  
+*Explanation:* A gambler and rake, Vronsky’s best friend in the regiment. He is fearless, cynical, and a heavy gambler. Vronsky trusts him completely. He persuades Vronsky to go to Servia.  
+*See also:* Vronsky  
+*Appearances:* 2.20, 2.24, 5.3, 7.7, 8.5
+
+**Petritsky**  
+*Representations:* Petritsky  
+*Explanation:* Vronsky’s comrade in the regiment. He is a fun‑loving, dissolute young officer who shares Vronsky’s apartment. He represents the carefree bachelor world Vronsky leaves behind.  
+*See also:* Vronsky  
+*Appearances:* 1.34, 2.20
+
+**Katavasov**  
+*Representations:* Katavasov, Fyodor Vassilievitch Katavasov  
+*Explanation:* Professor of natural science, friend of Levin. He is cheerful, argumentative, and interested in the Slavonic movement. He visits Levin in the country.  
+*See also:* Levin  
+*Appearances:* 8.2–3, 8.6, 8.15
+
+**Sviazhsky**  
+*Representations:* Sviazhsky, Nikolay Ivanovitch Sviazhsky  
+*Explanation:* Marshal of the district, a friend of Levin. He is a liberal landowner who lives in contradiction to his own beliefs. Levin finds him puzzling. He appears at the elections.  
+*See also:* Levin  
+*Appearances:* 3.26–27, 6.19–20
+
+**Marya Nikolaevna**  
+*Representations:* Marya Nikolaevna  
+*Explanation:* Nikolay Levin’s common‑law wife. She is devoted to him despite his abuse. After his death, she writes to Levin. She represents the degraded but faithful lower class.  
+*See also:* Nikolay Levin  
+*Appearances:* 1.25, 5.11–15
+
+**Madame Stahl**  
+*Representations:* Madame Stahl  
+*Explanation:* An invalid, wealthy, religious woman living at the German spa. She is Varenka’s patron. Kitty admires her piety but later suspects it is a pose.  
+*See also:* Varenka, Kitty  
+*Appearances:* 2.30–34
+
+**Laska**  
+*Representations:* Laska  
+*Explanation:* Levin’s faithful setter bitch. She accompanies him on his hunting trips and is a symbol of his connection to nature and the countryside.  
+*See also:* Levin  
+*Appearances:* 1.26, 2.12, 2.14–15, 3.5, 5.27, 6.9–10
+
+**Frou‑Frou**  
+*Representations:* Frou‑Frou  
+*Explanation:* Vronsky’s thoroughbred English mare. He rides her in the steeplechase. She falls and breaks her back because of his mistake. Her death symbolizes the destruction caused by Vronsky’s passion.  
+*See also:* Vronsky  
+*Appearances:* 2.21, 2.25–26
+
+---
+
+### Places
+
+**Pokrovskoe**  
+*Representations:* Pokrovskoe, Levin’s estate  
+*Explanation:* Levin’s country estate, where he lives and farms. It represents the authentic, labor‑filled rural life that Levin loves. Kitty comes to live there after their marriage.  
+*See also:* Levin, Kitty  
+*Appearances:* 1.26, 2.12, 3.12, 5.8–9, 5.22, 6.1, 8.6
+
+**Vozdvizhenskoe**  
+*Representations:* Vozdvizhenskoe, Vronsky’s estate  
+*Explanation:* Vronsky’s large country estate, where he and Anna live after returning from abroad. It represents the artificial, luxurious life that cannot contain Anna’s unhappiness.  
+*See also:* Vronsky, Anna  
+*Appearances:* 5.22, 6.12–16, 6.18
+
+**Petersburg**  
+*Representations:* Petersburg, St. Petersburg  
+*Explanation:* The imperial capital, seat of government and high society. It represents hypocrisy, coldness, and rigid social conventions. Anna’s life there is suffocating.  
+*See also:* Karenin, Anna  
+*Appearances:* 1.31–34, 2.4–11, 3.14–19, 4.1–6, 5.16–21, 7.17–22
+
+**Moscow**  
+*Representations:* Moscow  
+*Explanation:* The ancient capital, more open and family‑oriented than Petersburg. The novel opens there. Key events: Levin’s proposal, the ball, the reconciliation of Levin and Kitty, and Anna’s final breakdown.  
+*See also:* Levin, Kitty, Anna  
+*Appearances:* 1.1–23, 4.7–16, 7.1–16, 7.23–31
+
+**Ergushovo**  
+*Representations:* Ergushovo  
+*Explanation:* Dolly’s dowry estate, where she goes to live in the summer to save money. It is dilapidated but she makes it work.  
+*See also:* Dolly  
+*Appearances:* 3.7–8
+
+**Varzin**  
+*Representations:* Varzin  
+*Explanation:* Otto von Bismarck’s estate in Pomerania, near Kessin? No – that’s Effi Briest again. In *Anna Karenina*, Varzin is Bismarck’s estate, mentioned as a place where Innstetten? Wait – Karenin is not connected to Bismarck. Actually, in *Anna Karenina*, Varzin is mentioned in Part 2, Ch 27? Let me check the script: In Part 2, Ch 27, it says "Innstetten is often invited to Varzin" – that’s from Effi Briest. I’m confusing novels. In *Anna Karenina*, there is no Varzin. The only mention of Bismarck is in Part 6, Ch 19? No – the script doesn’t mention Bismarck. So remove.
+
+---
+
+### Motifs & Concepts
+
+**The Train**  
+*Representations:* train, railway, railroad  
+*Explanation:* The train is a recurring motif of death, fate, and industrialization. Anna first meets Vronsky at a station where a guard is crushed. Her suicide is by train. The train represents the inexorable, mechanical force of modern life.  
+*See also:* Anna, The Peasant Dream  
+*Appearances:* 1.17–18, 1.29–30, 7.27–31
+
+**The Peasant Dream**  
+*Representations:* peasant dream, the little peasant, the nightmare  
+*Explanation:* A recurring nightmare Anna has: a dirty little peasant rummaging in a sack, muttering French words. It symbolizes her guilt, fear of death, and the inescapable consequences of her actions. She recalls it before her suicide.  
+*See also:* Anna  
+*Appearances:* 4.4, 7.29
+
+**The Red Bag**  
+*Representations:* red bag, little red bag  
+*Explanation:* Anna’s small red handbag. She drops it as she throws herself under the train. It symbolizes the domestic, feminine world she leaves behind.  
+*See also:* Anna  
+*Appearances:* 7.31
+
+**The Candle**  
+*Representations:* candle  
+*Explanation:* At the moment of Anna’s death, the light of the candle by which she had been reading “flared up more brightly than ever, lighted up for her all that had been in darkness, flickered, began to grow dim, and was quenched forever.” It symbolizes her life, her hope, and her extinction.  
+*See also:* Anna  
+*Appearances:* 7.31
+
+**The Horse Race (Steeplechase)**  
+*Representations:* race, steeplechase, the races  
+*Explanation:* A key event in Part 2. Vronsky rides Frou‑Frou and falls because of his own mistake, killing the mare. Anna’s public distress during the race leads her to confess her love to Karenin.  
+*See also:* Vronsky, Frou‑Frou, Anna  
+*Appearances:* 2.24–26, 2.28
+
+**The Ball**  
+*Representations:* ball, the Moscow ball  
+*Explanation:* The ball in Part 1, Chapter 22–23, where Vronsky dances with Anna instead of Kitty. Kitty is humiliated. This event sets the love triangle in motion.  
+*See also:* Kitty, Vronsky, Anna  
+*Appearances:* 1.22–23
+
+**Divorce**  
+*Representations:* divorce, get a divorce  
+*Explanation:* Anna seeks a divorce from Karenin so she can marry Vronsky. Karenin refuses, then later agrees, then finally refuses again under Lidia Ivanovna’s influence. The divorce is never granted, leaving Anna’s children illegitimate.  
+*See also:* Anna, Karenin, Countess Lidia Ivanovna  
+*Appearances:* 4.5–6, 4.22–23, 5.33, 7.17–22
+
+**Forgiveness**  
+*Representations:* forgiveness, forgive  
+*Explanation:* Karenin forgives Anna and Vronsky at her sickbed. It is portrayed as a Christian act, but Anna cannot bear it and leaves him. The novel asks whether forgiveness without change is possible.  
+*See also:* Karenin, Anna  
+*Appearances:* 4.18–19
+
+**The Slavonic Question**  
+*Representations:* Slavonic question, Servian war, volunteers  
+*Explanation:* The political background of Part 8. Russia’s enthusiasm for helping the Slavs against the Turks. Vronsky volunteers. Levin opposes war. It represents empty public enthusiasm versus private morality.  
+*See also:* Vronsky, Sergey Ivanovitch, Levin  
+*Appearances:* 8.1–5, 8.15–16
+
+**The Co‑operative Association**  
+*Representations:* co‑operative association, partnership, profit‑sharing  
+*Explanation:* Levin’s agricultural scheme to make peasants partners in the farm’s profits. It fails because the peasants do not trust him. It represents Levin’s idealism clashing with reality.  
+*See also:* Levin  
+*Appearances:* 3.28–29
+
+### Characters – Secondary
+
+**Oblonsky (as a family name)**  
+*Representations:* Oblonsky, the Oblonskys, Oblonsky household  
+*Explanation:* The family of Stepan Arkadyevitch Oblonsky (Stiva) and Darya Alexandrovna (Dolly). Their household is in chaos at the novel’s opening. They represent a typical, imperfect aristocratic family.  
+*See also:* Stiva, Dolly  
+*Appearances:* 1.1–4, 1.19–21, 1.28, 2.2–3, 4.7–10, 5.22, 6.6
+
+**Matvey**  
+*Representations:* Matvey  
+*Explanation:* Stiva’s valet. He is loyal, perceptive, and has been with Stiva for many years. He brings the telegram announcing Anna’s arrival.  
+*See also:* Stiva  
+*Appearances:* 1.2–3, 1.4
+
+**Kouzma**  
+*Representations:* Kouzma  
+*Explanation:* Levin’s servant. He appears in scenes at Levin’s home and during Levin’s wedding preparations.  
+*See also:* Levin  
+*Appearances:* 1.26, 5.1, 5.2
+
+**Korney**  
+*Representations:* Korney  
+*Explanation:* Karenin’s valet. He appears in scenes at Karenin’s home.  
+*See also:* Karenin  
+*Appearances:* 1.33, 4.21
+
+**Countess Nordston**  
+*Representations:* Countess Nordston, Masha (as a nickname? Actually Masha is a different character – the name appears in Part 1, Ch 14? Let me check the script: In 1.14, "Countess Nordston" is the lady who dislikes Levin. She is also in 1.13? No, she appears in 1.14 as a guest. She is a married friend of Kitty’s, cynical and sharp‑tongued.  
+*See also:* Kitty, Levin  
+*Appearances:* 1.14
+
+**Princess Myakaya**  
+*Representations:* Princess Myakaya  
+*Explanation:* A blunt, witty society woman in Petersburg. She is known for speaking her mind. She defends Anna in gossip circles.  
+*See also:* Betsy  
+*Appearances:* 2.6, 2.7, 7.20
+
+**Turovtsin**  
+*Representations:* Turovtsin  
+*Explanation:* A friend of Stiva and Levin. He is good‑natured, simple, and often laughed at. He helps Dolly when her children have scarlet fever.  
+*See also:* Stiva, Dolly  
+*Appearances:* 4.9, 4.11, 7.7
+
+**Vassenka Veslovsky**  
+*Representations:* Vassenka Veslovsky, Veslovsky  
+*Explanation:* A young, cheerful, handsome cousin of the Shtcherbatskys. He visits the Levins and flirts with Kitty, provoking Levin’s jealousy. Levin sends him away.  
+*See also:* Levin, Kitty  
+*Appearances:* 5.25–29, 6.6–11
+
+**Golenishtchev**  
+*Representations:* Golenishtchev  
+*Explanation:* An old friend of Vronsky from the Corps of Pages. He is an aspiring writer and intellectual. He travels with Vronsky and Anna in Italy. He represents the artistic, intellectual set.  
+*See also:* Vronsky, Anna  
+*Appearances:* 5.3–6
+
+**Mihailov**  
+*Representations:* Mihailov, the artist Mihailov  
+*Explanation:* A Russian painter living in Italy. He is poor, proud, and talented. He paints Anna’s portrait and captures her characteristic beauty better than Vronsky could.  
+*See also:* Anna, Vronsky  
+*Appearances:* 5.5–6
+
+**Serpuhovskoy**  
+*Representations:* Serpuhovskoy  
+*Explanation:* An old friend of Vronsky, a successful general. He advises Vronsky to marry and settle down. He represents the successful military career Vronsky has sacrificed.  
+*See also:* Vronsky  
+*Appearances:* 3.22
+
+**Liza Merkalova**  
+*Representations:* Liza Merkalova  
+*Explanation:* A fashionable Petersburg woman, friend of Betsy. She is known for her enigmatic eyes and her unconventional relationships. She is part of the “les sept merveilles du monde” circle.  
+*See also:* Betsy  
+*Appearances:* 2.7, 3.18
+
+**Sappho Shtoltz**  
+*Representations:* Sappho Shtoltz  
+*Explanation:* A fashionable, bold woman in Petersburg society. She is part of Betsy’s set. She is described as a blonde beauty with exaggerated dress and manners.  
+*See also:* Betsy  
+*Appearances:* 3.18
+
+**Stremov**  
+*Representations:* Stremov  
+*Explanation:* A powerful politician, enemy of Karenin. He is an admirer of Liza Merkalova. He represents the cynical political world.  
+*See also:* Karenin, Liza Merkalova  
+*Appearances:* 3.18, 4.6
+
+**Korsunsky**  
+*Representations:* Korsunsky, Yegorushka Korsunsky  
+*Explanation:* The director of dances at the Moscow ball. He is a married man, handsome, and a famous dancer. He dances with Kitty.  
+*See also:* Kitty  
+*Appearances:* 1.22
+
+**Yegor**  
+*Representations:* Yegor  
+*Explanation:* Levin’s servant in Moscow. He talks with Levin about love and marriage on the night before Levin’s wedding.  
+*See also:* Levin  
+*Appearances:* 4.12
+
+**Pestsov**  
+*Representations:* Pestsov  
+*Explanation:* A liberal intellectual, friend of the Oblonskys. He argues about women’s rights and education at the dinner party.  
+*See also:* Stiva  
+*Appearances:* 4.9–10
+
+**Tchirikov**  
+*Representations:* Tchirikov  
+*Explanation:* Levin’s best man at his wedding. He is a judge and a hunting companion.  
+*See also:* Levin  
+*Appearances:* 5.1, 5.4
+
+**Madame Kartasova**  
+*Representations:* Madame Kartasova  
+*Explanation:* A society woman who publicly insults Anna at the opera, saying it is a disgrace to sit beside her.  
+*See also:* Anna  
+*Appearances:* 5.20
+
+**Princess Varvara**  
+*Representations:* Princess Varvara  
+*Explanation:* An elderly aunt of the Oblonskys. She stays with Anna and Vronsky abroad and at Vozdvizhenskoe. She is a toady who enjoys the comforts of their wealth.  
+*See also:* Anna, Vronsky  
+*Appearances:* 5.31, 6.12–13, 8.2
+
+**Vorkuev**  
+*Representations:* Vorkuev  
+*Explanation:* A publisher and friend of Anna. He is interested in her children’s book. He appears at Anna’s Moscow apartment.  
+*See also:* Anna  
+*Appearances:* 7.9–10
+
+**Metrov**  
+*Representations:* Metrov  
+*Explanation:* A famous sociologist from Petersburg. Levin meets him at Katavasov’s and discusses his book.  
+*See also:* Levin, Katavasov  
+*Appearances:* 7.3
+
+**Countess Bola**  
+*Representations:* Countess Bola  
+*Explanation:* A society lady in Moscow. Levin pays her a dull social call.  
+*See also:* Levin  
+*Appearances:* 7.6
+
+**Madame Lvova (Natalia)**  
+*Representations:* Natalia, Madame Lvova, Lvova  
+*Explanation:* Kitty’s elder sister, married to the diplomat Lvov. She appears at Kitty’s wedding and during family gatherings.  
+*See also:* Kitty, Lvov  
+*Appearances:* 5.1, 5.2, 5.9
+
+**Lvov (Arseny)**  
+*Representations:* Lvov, Arseny Lvov  
+*Explanation:* Natalia’s husband, a diplomat. He is devoted to his children and represents a stable, domestic masculinity. Levin visits him in Moscow.  
+*See also:* Natalia, Levin  
+*Appearances:* 7.4
+
+**Mariette**  
+*Representations:* Mariette  
+*Explanation:* Seryozha’s English governess. She is devoted to the boy and helps raise him after Anna leaves.  
+*See also:* Seryozha  
+*Appearances:* 1.32, 5.18
+
+**Annushka**  
+*Representations:* Annushka  
+*Explanation:* Anna’s maid. She is loyal and travels with Anna.  
+*See also:* Anna  
+*Appearances:* 1.29, 1.32, 7.27
+
+**Pyotr**  
+*Representations:* Pyotr  
+*Explanation:* Anna’s coachman or footman. He appears in scenes of Anna’s travel.  
+*See also:* Anna  
+*Appearances:* 7.27, 7.29
+
+**The English Trainer (Cord)**  
+*Representations:* Cord, the Englishman  
+*Explanation:* Vronsky’s English horse trainer. He advises Vronsky before the race.  
+*See also:* Vronsky, Frou‑Frou  
+*Appearances:* 2.21, 2.25
+
+**Mahotin**  
+*Representations:* Mahotin  
+*Explanation:* Vronsky’s rival in the steeplechase, riding the horse Gladiator.  
+*See also:* Vronsky  
+*Appearances:* 2.25–26
+
+**Kuzovlev**  
+*Representations:* Kuzovlev  
+*Explanation:* An officer who rides in the steeplechase. He is known for his weak nerves and vanity. He falls at the stream.  
+*See also:* Vronsky  
+*Appearances:* 2.25
+
+---
+
+### Places – Additional
+
+**Soden**  
+*Representations:* Soden  
+*Explanation:* A German spa town where Kitty and her mother stay. Kitty meets Varenka and Madame Stahl there.  
+*See also:* Kitty  
+*Appearances:* 2.30–35
+
+**Ems**  
+*Representations:* Ems  
+*Explanation:* A German spa where Anna goes for treatment. She receives the letter from her parents condemning her.  
+*See also:* Anna  
+*Appearances:* 7.25, 7.30
+
+**The Vrede Garden**  
+*Representations:* Vrede garden  
+*Explanation:* A garden in Peterhof (a suburb of Petersburg) where Anna and Vronsky meet secretly.  
+*See also:* Anna, Vronsky  
+*Appearances:* 3.23
+
+**Krasnoe Selo**  
+*Representations:* Krasnoe Selo  
+*Explanation:* The location of the military camp and the racecourse where the steeplechase takes place.  
+*See also:* Vronsky  
+*Appearances:* 2.19, 2.24
+
+---
+
+### Motifs & Concepts – Additional
+
+**The English Governess (Miss Hoole)**  
+*Representations:* Miss Hoole, the English governess  
+*Explanation:* The Oblonskys’ English governess. She appears briefly in the opening chapters. She represents the foreign influence in Russian aristocratic households.  
+*See also:* Dolly, Stiva  
+*Appearances:* 1.1, 1.20
+
+**The French Governess (Mlle. Roland)**  
+*Representations:* Mlle. Roland, the French governess  
+*Explanation:* The governess with whom Stiva had an affair. She is the cause of the opening crisis. She is not directly seen in the novel.  
+*See also:* Stiva, Dolly  
+*Appearances:* 1.1, 1.2
+
+**The Icon (Holy Picture)**  
+*Representations:* holy picture, icon  
+*Explanation:* At Levin and Kitty’s wedding, the priest blesses them with an icon. It represents the religious framework that Levin struggles with but ultimately accepts.  
+*See also:* Levin, Kitty  
+*Appearances:* 5.2
+
+**The Chalk Code**  
+*Representations:* chalk, writing on the table  
+*Explanation:* At the dinner party, Levin and Kitty communicate by writing initial letters on the table with chalk. He asks if her refusal meant “never” or “then.” She replies. They become engaged.  
+*See also:* Levin, Kitty  
+*Appearances:* 4.11
+
+**The Candle (Levin’s prayer)**  
+*Representations:* candle, light  
+*Explanation:* During Kitty’s labor, Levin prays desperately though he is an unbeliever. The candle imagery parallels Anna’s death scene. For Levin, the light is not extinguished but leads to faith.  
+*See also:* Levin, Anna  
+*Appearances:* 7.13–15
+
+**The Railway Station**  
+*Representations:* station, railway station, platform  
+*Explanation:* Key locations: the Moscow station where Anna first meets Vronsky and a guard is killed; the Petersburg station; the small station where Anna commits suicide. Stations are liminal spaces where fate intervenes.  
+*See also:* Anna, The Train  
+*Appearances:* 1.17–18, 1.29–30, 7.27–31
+
+**The Guard’s Death**  
+*Representations:* guard crushed, the man killed by the train  
+*Explanation:* As Anna arrives in Moscow, a railway guard is crushed by the train. She calls it an “omen of evil.” Vronsky gives 200 roubles to the widow. The event foreshadows Anna’s own death.  
+*See also:* Anna, Vronsky, The Train  
+*Appearances:* 1.18
+
+**The Sewing Table**  
+*Representations:* sewing table, writing‑table  
+*Explanation:* In Part 2, Ch 26? Actually, the letters are found in Anna’s sewing table. In the script, Part 2, Ch 26? No – that’s the horse race. The discovery happens in Part 7? The script does not explicitly describe the discovery; it happens off‑stage. But the sewing table is where Anna keeps her private papers.  
+*See also:* Anna  
+*Appearances:* 4.5, 4.6
+
+**The Italian Honeymoon**  
+*Representations:* Italy, Italian tour  
+*Explanation:* Anna and Vronsky travel to Italy after leaving Russia. They visit Venice, Rome, and a small Italian town. This period represents their brief happiness before reality intrudes.  
+*See also:* Anna, Vronsky  
+*Appearances:* 5.3–7
+
+**The Franco‑Prussian War**  
+*Representations:* war of 1870, Franco‑Prussian War  
+*Explanation:* Mentioned as context for Innstetten’s? No – that’s Effi. In *Anna Karenina*, the war is not directly referenced. The script does not mention the Franco‑Prussian War. Remove.
+
+**The Servian War**  
+*Representations:* Servian war, war in Servia, volunteers for Servia  
+*Explanation:* The war between Serbia and Turkey (1876). Russian volunteers go to fight. Vronsky joins them at the end. It represents a futile attempt at redemption.  
+*See also:* Vronsky, Sergey Ivanovitch  
+*Appearances:* 8.1–5
+
+**The Iron Cross**  
+*Representations:* Iron Cross  
+*Explanation:* Innstetten? No – that’s Effi. In *Anna Karenina*, Vronsky wears a medal? The script does not mention the Iron Cross. Remove.
+
+**The Beater (in hunting)**  
+*Representations:* beater, the beater  
+*Explanation:* In the hunting scenes with Levin, Stiva, and Veslovsky, beaters are mentioned. Not a major motif.
+
+**The Snipe (birds)**  
+*Representations:* snipe, grouse  
+*Explanation:* Levin and Stiva shoot snipe and grouse. Hunting represents Levin’s connection to nature and his escape from urban falsity.  
+*See also:* Levin  
+*Appearances:* 2.14–15, 2.17, 3.5, 5.27, 6.9–10
+
+**Krak**  
+*Representations:* Krak  
+*Explanation:* Stiva’s pointer dog. He is a skilled hunting dog.  
+*See also:* Stiva  
+*Appearances:* 2.14–15, 2.17
+
+**The Forest Sale**  
+*Representations:* forest sale, selling the forest  
+*Explanation:* Stiva sells a forest to the merchant Ryabinin at a low price. Levin is angry at the waste of noble property. It illustrates Stiva’s financial carelessness.  
+*See also:* Stiva, Levin, Ryabinin  
+*Appearances:* 2.16
+
+**Ryabinin**  
+*Representations:* Ryabinin  
+*Explanation:* A merchant who buys Stiva’s forest at a bargain price. He represents the new commercial class that is displacing the nobility.  
+*See also:* Stiva, Levin  
+*Appearances:* 2.16
+
+**The District Council**  
+*Representations:* district council, zemstvo  
+*Explanation:* The local government institution. Levin serves on it briefly but resigns, finding it useless. Sergey Ivanovitch urges him to participate.  
+*See also:* Levin, Sergey Ivanovitch  
+*Appearances:* 1.8, 3.3
+
+---
+
+## Major Storylines
+
+| Title | Description | Appearances |
+|-------|-------------|--------------|
+| **Anna and Vronsky’s Affair** | Anna, trapped in a loveless marriage, falls in love with the dashing officer Vronsky. Their affair leads to her social ruin, jealousy, and eventual suicide. This is the novel’s central tragic arc. | 1.18–23, 1.29–31, 2.4–11, 2.22–23, 2.28, 3.16–19, 3.23–25, 4.1–4, 4.17–23, 5.3–7, 5.16–21, 5.30–33, 6.12–22, 6.24–32, 7.23–31 |
+| **Levin and Kitty’s Romance** | Levin proposes to Kitty and is refused. After Kitty’s humiliation by Vronsky and her illness abroad, they reconcile and marry. Their marriage, though difficult at first, becomes a source of happiness and stability. | 1.6, 1.9–15, 1.24, 2.1–3, 2.14–15, 2.30–35, 4.9–16, 5.1–2, 5.8–10, 5.22–29, 6.1–11, 7.1–16, 8.6–19 |
+| **Stiva and Dolly’s Marriage** | Stiva’s infidelity with the French governess throws the Oblonsky household into chaos. Anna reconciles them, but Dolly continues to suffer from Stiva’s carelessness, financial mismanagement, and emotional neglect. | 1.1–4, 1.19–20, 1.28, 2.2–3, 3.7–8, 4.7–10, 5.22, 5.30–33, 6.12–17, 6.23 |
+| **Karenin’s Forgiveness** | After Anna’s near‑death in childbirth, Karenin forgives her and Vronsky, experiencing a spiritual peace. Later, under Countess Lidia Ivanovna’s influence, he refuses divorce, hardening his heart. | 4.18–19, 4.22–23, 5.16–18, 7.17–22 |
+| **Levin’s Spiritual Crisis** | Tormented by thoughts of death and the meaninglessness of life, Levin considers suicide. He reads philosophy but finds no answer. A peasant’s simple words (“to live for God, for the soul”) trigger a sudden faith, though he remains unable to articulate it. | 3.1–3, 3.12, 3.26–28, 5.8, 5.14–15, 8.6–19 |
+| **Levin’s Agricultural Reforms** | Levin tries to modernize his farming and create a cooperative partnership with his peasants. The peasants resist, distrusting his motives. The failure of his scheme illustrates the gap between noble idealism and peasant reality. | 2.12–13, 3.26–29, 5.9–10, 6.1 |
+| **The Horse Race** | Vronsky rides his mare Frou‑Frou in a steeplechase. He makes a fatal mistake; the horse falls and breaks her back. Anna’s public distress during the race leads her to confess her love to Karenin. | 2.24–26, 2.28 |
+| **Anna and Her Son Seryozha** | Anna’s separation from her son Seryozha is one of her deepest pains. She secretly visits him on his birthday, an intensely emotional scene. After the divorce, Seryozha is raised to forget her. | 1.32, 4.5, 5.16–18, 7.19 |
+| **Kitty’s Illness and Recovery Abroad** | After Vronsky’s rejection, Kitty falls into a physical and spiritual illness. The Shtcherbatskys go to a German spa, where she meets Varenka and Madame Stahl. Her father’s skepticism restores her. | 2.1–3, 2.30–35 |
+| **Vronsky’s Attempted Suicide** | After Anna’s confession and Karenin’s forgiveness, Vronsky feels humiliated and worthless. He shoots himself in the chest but survives. The act reveals his despair and his sense of honor. | 4.17 |
+| **The Slavonic Question and Servian War** | In Part 8, Russian society becomes obsessed with helping the Slavs against the Turks. Vronsky volunteers for the war, seeking death. Levin opposes war as murder. Sergey Ivanovitch champions the cause. | 8.1–5, 8.15–16 |
+| **Nikolay Levin’s Death** | Levin’s consumptive brother Nikolay is dying. Levin and Kitty nurse him. His death forces Levin to confront the meaning of life and death. Kitty learns she is pregnant during this episode. | 1.8, 1.24–25, 3.31–32, 5.11–15 |
+| **Anna’s Social Ostracism** | After leaving Karenin, Anna is cut by society. At the opera, Madame Kartasova publicly insults her. She is unable to visit friends or attend events. This isolation fuels her jealousy and despair. | 5.20–21, 6.12–17, 6.22, 7.23–24 |
+| **Levin’s Jealousy of Veslovsky** | Vassenka Veslovsky visits the Levins and flirts with Kitty. Levin becomes insanely jealous and forces Veslovsky to leave. The incident shows Levin’s insecurity and Kitty’s devotion. | 5.25–29, 6.6–11 |
+| **The Train as Death Motif** | Trains bookend the novel: a guard is crushed when Anna first meets Vronsky (an omen); Anna commits suicide by throwing herself under a train. The train represents industrial modernity, fate, and inescapable destruction. | 1.18, 1.29–30, 7.27–31 |
+| **The Peasant Dream** | Anna has a recurring nightmare of a dirty little peasant rummaging in a sack, muttering French words. The dream terrifies her and returns before her suicide, symbolizing guilt and death. | 4.4, 7.29 |
+| **Dolly’s Visit to Anna** | Dolly visits Anna and Vronsky at Vozdvizhenskoe. She sees Anna’s luxury and hears her fears. The visit deepens Dolly’s understanding of Anna’s position and her own marriage. | 5.30–33, 6.12–17 |
+| **Sergey Ivanovitch and Varenka** | Sergey Ivanovitch considers proposing to Varenka during a mushroom‑picking walk. He hesitates, asks a trivial question instead, and the moment passes. He remains faithful to the memory of his dead love. | 5.23–24, 6.1–5 |
+| **Levin’s Mowing with Peasants** | Levin joins his peasants in mowing, experiencing the bliss of physical labor. He envies their simple life and considers renouncing his own. This episode marks a turning point in his search for meaning. | 3.4–6 |
+| **Karenin’s Political Career** | Karenin is a high‑ranking official. He works on a commission, writes reports, and is passed over for promotion. His career contrasts with his domestic misery and represents the hollow public world. | 1.5, 2.27, 4.5–6, 4.7, 7.17–18 |
+
+---
