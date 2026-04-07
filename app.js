@@ -1,33 +1,48 @@
 const BOOKS = {
+  anna_karenina: {
+    label: "Anna Karenina",
+    slug: "anna_karenina",
+    file: "data/Anna_Karenina.txt",
+  },
   effi: {
     label: "Effi Briest",
+    slug: "effi",
     file: "data/Effi_Briest.txt",
   },
   gunnlaug: {
     label: "Sagaen om Gunnlaug Ormstunge",
+    slug: "gunnlaug",
     file: "data/Sagaen_om_Gunnlaug_Ormstunge.txt",
   },
   rider: {
     label: "The Rider on the White Horse",
+    slug: "rider",
     file: "data/The_Rider_on_the_White_Horse.txt",
   },
   worldofyesterday: {
     label: "The World of Yesterday",
+    slug: "worldofyesterday",
     file: "data/The_World_of_Yesterday.txt",
   },
 };
 const DEFAULT_BOOK = "effi";
 
+const appRoot = document.getElementById("app-root");
+const homePage = document.getElementById("home-page");
+const scriptCards = document.getElementById("script-cards");
+const visualizerPage = document.getElementById("visualizer-page");
 const timeline = document.getElementById("timeline");
 const phaseRows = document.getElementById("phase-rows");
 const infoGrid = document.getElementById("info-grid");
 const closeAllButton = document.getElementById("close-all-tooltips");
+const homeButton = document.getElementById("home-button");
 const popupLayer = document.getElementById("popup-layer");
 const titleHelpButton = document.getElementById("title-help");
 const bookSelect = document.getElementById("book-select");
 
 const chapterToNode = new Map();
 const popupStack = [];
+const slugToKey = new Map(Object.entries(BOOKS).map(([key, book]) => [book.slug, key]));
 
 let model = {
   infoboxes: [],
@@ -56,12 +71,27 @@ init();
 async function init() {
   wirePopupControls();
   populateBookSelect();
-  const initialBook = BOOKS[DEFAULT_BOOK] ? DEFAULT_BOOK : Object.keys(BOOKS)[0];
-  bookSelect.value = initialBook;
   bookSelect.addEventListener("change", async () => {
-    await loadSelectedBook(bookSelect.value);
+    await openBook(bookSelect.value, true);
   });
-  await loadSelectedBook(initialBook);
+  homeButton.addEventListener("click", () => {
+    showHomePage(true);
+  });
+  window.addEventListener("popstate", async () => {
+    const initialBook = resolveInitialBookKey();
+    if (initialBook) {
+      await openBook(initialBook, false);
+      return;
+    }
+    showHomePage(false);
+  });
+  renderScriptCards();
+  const initialBook = resolveInitialBookKey();
+  if (initialBook) {
+    await openBook(initialBook, false);
+  } else {
+    showHomePage(false);
+  }
 }
 
 function populateBookSelect() {
@@ -90,6 +120,88 @@ async function loadSelectedBook(bookKey) {
   }
 }
 
+function resolveInitialBookKey() {
+  const fromData = appRoot?.dataset?.bookKey;
+  if (fromData && BOOKS[fromData]) return fromData;
+
+  const fromQuery = new URLSearchParams(window.location.search).get("script");
+  if (fromQuery && BOOKS[fromQuery]) return fromQuery;
+
+  const pathSlug = window.location.pathname.replace(/\/+$/, "").split("/").pop();
+  if (pathSlug && slugToKey.has(pathSlug)) return slugToKey.get(pathSlug);
+
+  return null;
+}
+
+function showHomePage(pushState = true) {
+  visualizerPage.hidden = true;
+  homePage.hidden = false;
+  closeAllPopups();
+  if (pushState) {
+    const basePath = window.location.pathname.replace(/\/[^/]*$/, "/");
+    window.history.pushState({ view: "home" }, "", basePath);
+  }
+}
+
+async function openBook(bookKey, pushState = true) {
+  if (!BOOKS[bookKey]) return;
+  homePage.hidden = true;
+  visualizerPage.hidden = false;
+  bookSelect.value = bookKey;
+  await loadSelectedBook(bookKey);
+  if (pushState) {
+    const { slug } = BOOKS[bookKey];
+    const basePath = window.location.pathname.replace(/\/[^/]*$/, "/");
+    window.history.pushState({ view: "book", bookKey }, "", `${basePath}${slug}`);
+  }
+}
+
+function renderScriptCards() {
+  scriptCards.textContent = "";
+  Object.entries(BOOKS).forEach(([bookKey, book]) => {
+    const card = document.createElement("button");
+    card.type = "button";
+    card.className = "script-card";
+
+    const title = document.createElement("h3");
+    title.textContent = book.label;
+
+    const author = document.createElement("p");
+    author.className = "script-card-author";
+    author.textContent = "Loading author…";
+
+    const summary = document.createElement("p");
+    summary.className = "script-card-summary";
+    summary.textContent = "Loading summary…";
+
+    card.append(title, author, summary);
+    card.addEventListener("click", async () => {
+      await openBook(bookKey, true);
+    });
+
+    scriptCards.append(card);
+    hydrateScriptCard(book, author, summary);
+  });
+}
+
+async function hydrateScriptCard(book, authorNode, summaryNode) {
+  try {
+    const source = await loadSourceText(book.file);
+    const infoboxes = parseInfoboxes(source.split(/\r?\n/));
+    const author = infoboxes.find((box) => box.label === "Author")?.content || "Unknown author";
+    const summary = infoboxes.find((box) => box.label === "Summary")?.content || "No summary available.";
+    authorNode.textContent = `Author: ${collapseWhitespace(stripSimpleMarkdown(author)).slice(0, 180)}`;
+    summaryNode.textContent = collapseWhitespace(stripSimpleMarkdown(summary)).slice(0, 360);
+  } catch (error) {
+    authorNode.textContent = "Author unavailable";
+    summaryNode.textContent = `Could not load script metadata (${error.message}).`;
+  }
+}
+
+function collapseWhitespace(text) {
+  return text.replace(/\s+/g, " ").trim();
+}
+
 async function loadSourceText(path) {
   const response = await fetch(path);
   if (!response.ok) {
@@ -109,8 +221,8 @@ function parseBookData(text) {
   const glossaryMap = new Map(glossary.map((entry) => [entry.name, entry]));
   const termPatterns = buildTermPatterns(glossary);
   const foreshadowingMap = new Map(foreshadowing.map((entry) => [entry.title, entry]));
-  if (foreshadowing.length && !infoboxes.some((box) => box.label === "Foreshadowing")) {
-    infoboxes.push({ label: "Foreshadowing", content: "" });
+  if (foreshadowing.length && !infoboxes.some((box) => box.label === "Foreshadowing" || box.label === "Storylines")) {
+    infoboxes.push({ label: "Storylines", content: "" });
   }
 
   return {
@@ -133,6 +245,7 @@ function parseInfoboxes(lines) {
     { label: "Themes", headings: ["Themes", "Temaer"] },
     { label: "Message", headings: ["Message", "Budskap"] },
     { label: "Foreshadowing", headings: ["Foreshadowing", "Forvarsler"] },
+    { label: "Storylines", headings: ["Storylines"] },
   ];
   const out = [];
   const headerMatches = (line, heading) => {
@@ -169,7 +282,9 @@ function parseInfoboxes(lines) {
 function parseForeshadowing(lines) {
   const headerIndex = lines.findIndex((line) => {
     const trimmed = line.trim();
-    return /^###\s*3\.\s*Foreshadowing in\s*\*/i.test(trimmed) || /^##\s*Forvarsler\b/i.test(trimmed);
+    return /^###\s*3\.\s*Foreshadowing in\s*\*/i.test(trimmed)
+      || /^##\s*Forvarsler\b/i.test(trimmed)
+      || /^##\s*(Major\s+)?Storylines\b/i.test(trimmed);
   });
   if (headerIndex === -1) return [];
 
@@ -177,7 +292,8 @@ function parseForeshadowing(lines) {
   for (let i = headerIndex + 1; i < lines.length; i += 1) {
     const line = lines[i].trim();
     if (!line) continue;
-    if (/^##\s*(Glossary|Ordliste)\b/i.test(line)) break;
+    if (/^##\s*(Glossary|Ordliste)\b/i.test(line)) continue;
+    if (/^##\s+/.test(line)) break;
     if (!line.startsWith("|")) continue;
     if (/^\|\s*-+/.test(line)) continue;
 
@@ -217,17 +333,28 @@ function buildForeshadowingMarker(title) {
 function parsePhases(lines) {
   const phases = [];
   const phaseRegex = /^\|\s*\*\*((Phase|Fase)\s+\d+):\s*([^*]+)\*\*\s*\|\s*(.+)\|$/;
+  const phaseTableRegex = /^\|\s*\*\*(Phase|Fase)\s+(\d+)\*\*\s*\|\s*([^|]+)\|\s*([^|]+)\|\s*(.+)\|$/i;
 
   for (const line of lines) {
     const trimmed = line.trim();
     const match = trimmed.match(phaseRegex);
-    if (!match) continue;
+    if (match) {
+      phases.push({
+        phase: match[1],
+        name: match[3].trim(),
+        description: match[4].trim(),
+      });
+      continue;
+    }
 
-    phases.push({
-      phase: match[1],
-      name: match[3].trim(),
-      description: match[4].trim(),
-    });
+    const tableMatch = trimmed.match(phaseTableRegex);
+    if (tableMatch) {
+      phases.push({
+        phase: `${tableMatch[1]} ${tableMatch[2]}`,
+        name: tableMatch[3].trim(),
+        description: `${tableMatch[4].trim()} — ${tableMatch[5].trim()}`,
+      });
+    }
   }
 
   return phases;
@@ -235,17 +362,8 @@ function parsePhases(lines) {
 
 function parseChapters(lines) {
   const chapters = [];
-  let inChapterSection = false;
-  const chapterTableHeadingRegex = /^##\s*(Chapter-by-Chapter Table|Kapittel-for-kapittel-tabell)\s*$/i;
-
   for (const line of lines) {
     const trimmed = line.trim();
-    if (chapterTableHeadingRegex.test(trimmed)) {
-      inChapterSection = true;
-      continue;
-    }
-    if (!inChapterSection) continue;
-    if (trimmed.startsWith("## ") && !chapterTableHeadingRegex.test(trimmed)) break;
     if (!trimmed.startsWith("|")) continue;
     if (/^\|\s*-+/.test(trimmed)) continue;
 
@@ -257,27 +375,49 @@ function parseChapters(lines) {
 
     if (cells.length >= 5) {
       const [chapter, title, phase, category, ...summaryParts] = cells;
+      if (!/^(phase|fase)\s+\d+$/i.test(phase)) continue;
       chapters.push({
         chapter,
         title,
         phase,
-        category,
+        category: normalizeCategory(category),
         summary: summaryParts.join(" | ").trim(),
       });
       continue;
     }
 
     const [chapter, phase, category, ...summaryParts] = cells;
+    if (!/^(phase|fase)\s+\d+$/i.test(phase)) continue;
     chapters.push({
       chapter,
       title: chapter,
       phase,
-      category,
+      category: normalizeCategory(category),
       summary: summaryParts.join(" | ").trim(),
     });
   }
 
   return chapters;
+}
+
+function normalizeCategory(category) {
+  const normalized = (category || "").trim().toLowerCase();
+  const mapping = {
+    exposition: "exp",
+    exp: "exp",
+    complication: "comp",
+    comp: "comp",
+    introspection: "int",
+    int: "int",
+    "turning point": "turn",
+    turn: "turn",
+    resolution: "res",
+    res: "res",
+    digression: "dig",
+    dig: "dig",
+  };
+
+  return mapping[normalized] || normalized;
 }
 
 function parseGlossary(lines) {
@@ -489,7 +629,7 @@ function renderInfoboxes() {
       button.type = "button";
       button.textContent = box.label;
       button.addEventListener("click", (event) => {
-        if (box.label === "Foreshadowing") {
+        if (box.label === "Foreshadowing" || box.label === "Storylines") {
           openForeshadowingListPopup(event.currentTarget);
           return;
         }
