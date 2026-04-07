@@ -362,8 +362,16 @@ function parsePhases(lines) {
 
 function parseChapters(lines) {
   const chapters = [];
+  let currentPart = null;
+
   for (const line of lines) {
     const trimmed = line.trim();
+    const partMatch = trimmed.match(/^##\s*(Part|Del)\s+(\d+)\b/i);
+    if (partMatch) {
+      currentPart = partMatch[2];
+      continue;
+    }
+
     if (!trimmed.startsWith("|")) continue;
     if (/^\|\s*-+/.test(trimmed)) continue;
 
@@ -377,6 +385,7 @@ function parseChapters(lines) {
       const [chapter, title, phase, category, ...summaryParts] = cells;
       if (!/^(phase|fase)\s+\d+$/i.test(phase)) continue;
       chapters.push({
+        id: buildChapterId(chapter, currentPart),
         chapter,
         title,
         phase,
@@ -389,6 +398,7 @@ function parseChapters(lines) {
     const [chapter, phase, category, ...summaryParts] = cells;
     if (!/^(phase|fase)\s+\d+$/i.test(phase)) continue;
     chapters.push({
+      id: buildChapterId(chapter, currentPart),
       chapter,
       title: chapter,
       phase,
@@ -398,6 +408,14 @@ function parseChapters(lines) {
   }
 
   return chapters;
+}
+
+function buildChapterId(chapter, part = null) {
+  const normalizedChapter = String(chapter).trim().toUpperCase();
+  if (!part || !/^\d+$/.test(normalizedChapter)) {
+    return normalizedChapter;
+  }
+  return `${part}.${normalizedChapter}`;
 }
 
 function normalizeCategory(category) {
@@ -504,8 +522,28 @@ function parseAppearances(text) {
     return chapterSet;
   }
 
-  const tokens = raw.split(/,\s*/).filter(Boolean);
+  const normalized = raw.replace(/(?:part|del)\s*(\d+)\s*,?\s*ch(?:apter)?\s*/gi, "$1.");
+  const tokens = normalized.split(/,\s*/).filter(Boolean);
   for (const token of tokens) {
+    const partRangeMatch = token.match(/^(\d+)\.(\d+)\s*[-–]\s*(\d+)$/);
+    if (partRangeMatch) {
+      const part = partRangeMatch[1];
+      const start = Number.parseInt(partRangeMatch[2], 10);
+      const end = Number.parseInt(partRangeMatch[3], 10);
+      if (Number.isFinite(start) && Number.isFinite(end) && end >= start) {
+        for (let chapter = start; chapter <= end; chapter += 1) {
+          chapterSet.add(`${part}.${chapter}`);
+        }
+      }
+      continue;
+    }
+
+    const partDirectMatch = token.match(/^(\d+)\.(\d+)$/);
+    if (partDirectMatch) {
+      chapterSet.add(`${partDirectMatch[1]}.${Number.parseInt(partDirectMatch[2], 10)}`);
+      continue;
+    }
+
     const rangeMatch = token.match(/^([IVXLCDM]+)\s*[-–]\s*([IVXLCDM]+)$/i);
     if (rangeMatch) {
       expandRomanRange(rangeMatch[1], rangeMatch[2]).forEach((chapter) => chapterSet.add(chapter));
@@ -703,13 +741,13 @@ function renderTimeline() {
         const targetStrip = index < splitIndex ? strip : secondStrip;
         const node = buildChapterNode(chapter);
         targetStrip.append(node);
-        chapterToNode.set(chapter.chapter, node);
+        chapterToNode.set(chapter.id, node);
       });
     } else {
       phaseChapters.forEach((chapter) => {
         const node = buildChapterNode(chapter);
         strip.append(node);
-        chapterToNode.set(chapter.chapter, node);
+        chapterToNode.set(chapter.id, node);
       });
     }
 
@@ -723,7 +761,7 @@ function buildChapterNode(chapter) {
   node.type = "button";
   node.className = "chapter-node";
   node.dataset.category = chapter.category.toLowerCase();
-  node.dataset.chapter = chapter.chapter;
+  node.dataset.chapter = chapter.id;
   node.title = `Chapter ${chapter.chapter}: ${chapter.title} — ${chapter.summary}`;
 
   const chapterNumber = document.createElement("span");
@@ -735,7 +773,7 @@ function buildChapterNode(chapter) {
   title.className = "chapter-title";
   title.textContent = chapter.title;
   node.append(title);
-  const markers = buildForeshadowingMarkers(chapter.chapter);
+  const markers = buildForeshadowingMarkers(chapter.id);
   if (markers) node.append(markers);
 
   node.addEventListener("click", (event) => {
