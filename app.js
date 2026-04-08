@@ -70,6 +70,7 @@ const CATEGORY_LEGEND = [
 ];
 
 const CHAPTER_STRIP_SPLIT_CUTOFF = 10;
+const APP_BASE_URL = new URL(".", document.currentScript?.src || window.location.href);
 
 init();
 
@@ -139,13 +140,21 @@ function resolveInitialBookKey() {
   return null;
 }
 
+function buildViewUrl(bookKey = null) {
+  const url = new URL(APP_BASE_URL);
+  url.search = "";
+  if (bookKey && BOOKS[bookKey]) {
+    url.searchParams.set("script", bookKey);
+  }
+  return `${url.pathname}${url.search}`;
+}
+
 function showHomePage(pushState = true) {
   visualizerPage.hidden = true;
   homePage.hidden = false;
   closeAllPopups();
   if (pushState) {
-    const basePath = window.location.pathname.replace(/\/[^/]*$/, "/");
-    window.history.pushState({ view: "home" }, "", basePath);
+    window.history.pushState({ view: "home" }, "", buildViewUrl());
   }
 }
 
@@ -156,9 +165,7 @@ async function openBook(bookKey, pushState = true) {
   bookSelect.value = bookKey;
   await loadSelectedBook(bookKey);
   if (pushState) {
-    const { slug } = BOOKS[bookKey];
-    const basePath = window.location.pathname.replace(/\/[^/]*$/, "/");
-    window.history.pushState({ view: "book", bookKey }, "", `${basePath}${slug}`);
+    window.history.pushState({ view: "book", bookKey }, "", buildViewUrl(bookKey));
   }
 }
 
@@ -209,7 +216,8 @@ function collapseWhitespace(text) {
 }
 
 async function loadSourceText(path) {
-  const response = await fetch(path);
+  const sourceUrl = new URL(path, APP_BASE_URL);
+  const response = await fetch(sourceUrl);
   if (!response.ok) {
     throw new Error(`HTTP ${response.status}`);
   }
