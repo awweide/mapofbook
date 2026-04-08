@@ -69,7 +69,7 @@ const CATEGORY_LEGEND = [
   { key: "dig", label: "Digression" },
 ];
 
-const CHAPTER_STRIP_SPLIT_CUTOFF = 10;
+const CHAPTERS_PER_ROW_MAX = 10;
 const APP_BASE_URL = new URL(".", document.currentScript?.src || window.location.href);
 
 init();
@@ -739,35 +739,46 @@ function renderTimeline() {
 
     const chaptersWrap = document.createElement("div");
     chaptersWrap.className = "chapter-strips";
-    const strip = document.createElement("div");
-    strip.className = "chapter-strip";
-    chaptersWrap.append(strip);
 
     const phaseChapters = model.chapters.filter((chapter) => chapter.phase === phaseItem.phase);
-    if (phaseChapters.length > CHAPTER_STRIP_SPLIT_CUTOFF) {
-      strip.classList.add("chapter-strip-split");
-      const secondStrip = document.createElement("div");
-      secondStrip.className = "chapter-strip chapter-strip-split";
-      chaptersWrap.append(secondStrip);
+    const chapterRows = splitPhaseChaptersIntoRows(phaseChapters, CHAPTERS_PER_ROW_MAX);
 
-      const splitIndex = Math.ceil(phaseChapters.length / 2);
-      phaseChapters.forEach((chapter, index) => {
-        const targetStrip = index < splitIndex ? strip : secondStrip;
-        const node = buildChapterNode(chapter);
-        targetStrip.append(node);
-        chapterToNode.set(chapter.id, node);
-      });
-    } else {
-      phaseChapters.forEach((chapter) => {
+    chapterRows.forEach((chapterRow) => {
+      const strip = document.createElement("div");
+      strip.className = "chapter-strip";
+      chaptersWrap.append(strip);
+
+      chapterRow.forEach((chapter) => {
         const node = buildChapterNode(chapter);
         strip.append(node);
         chapterToNode.set(chapter.id, node);
       });
-    }
+    });
 
     row.append(phaseLabel, chaptersWrap);
     phaseRows.append(row);
   });
+}
+
+function splitPhaseChaptersIntoRows(chapters, maxChaptersPerRow) {
+  if (chapters.length <= maxChaptersPerRow) {
+    return [chapters];
+  }
+
+  const rows = Math.ceil(chapters.length / maxChaptersPerRow);
+  const chaptersPerRow = Math.ceil(chapters.length / rows);
+  const chapterCounts = Array(rows).fill(chaptersPerRow);
+  const overflow = chapterCounts.reduce((total, count) => total + count, 0) - chapters.length;
+  chapterCounts[chapterCounts.length - 1] -= overflow;
+
+  const chunks = [];
+  let start = 0;
+  chapterCounts.forEach((count) => {
+    chunks.push(chapters.slice(start, start + count));
+    start += count;
+  });
+
+  return chunks;
 }
 
 function buildChapterNode(chapter) {
