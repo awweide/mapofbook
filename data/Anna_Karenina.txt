@@ -258,7 +258,7 @@ Here is the complete chapter‑by‑chapter table for **Part 1** of *Anna Kareni
 | 3 | Levin and Kitty Walk | Phase 6 | Int | Levin and Kitty walk alone in the forest. They talk about Sergey Ivanovitch and Varenka. Levin thinks his brother is too spiritual for marriage. Kitty disagrees. They are happy together. |
 | 4 | Sergey Ivanovitch’s Decision | Phase 6 | Int | Sergey Ivanovitch walks with Varenka in the forest. He wants to propose but instead asks a trivial question about mushrooms. The moment passes. He decides he cannot be false to the memory of his first love. |
 | 5 | The Proposal That Wasn’t | Phase 6 | Int | Kitty sees that Sergey Ivanovitch did not propose. She is disappointed. Varenka is calm. Kitty tells Levin that “it didn’t bite.” Levin laughs. Everyone pretends nothing happened. |
-| 6 | Stiva Arrives | Phase 6 | Comp | Stiva arrives with Vassenka Veslovsky, a cheerful young cousin. Levin is immediately jealous of Veslovsky’s attention to Kitty. He becomes gloomy and irritable. The evening is tense. |
+| 6 | Stiva Arrives with Veslovsky | Phase 6 | Comp | Stiva arrives with Vassenka Veslovsky, a cheerful young cousin. Levin is immediately jealous of Veslovsky’s attention to Kitty. He becomes gloomy and irritable. The evening is tense. |
 | 7 | Levin’s Jealousy | Phase 6 | Int | Levin’s jealousy grows. He sees Veslovsky’s looks at Kitty as flirtation. He tells Kitty he is wounded and humiliated. She reassures him of her love. He decides to be civil to Veslovsky. |
 | 8 | Shooting with Veslovsky | Phase 6 | Exp | Levin, Stiva, and Veslovsky go shooting. Veslovsky is clumsy and excitable. Levin is annoyed but tries to be friendly. They stay overnight at a peasant’s hut. |
 | 9 | The Drive to the Marsh | Phase 6 | Exp | They drive to a larger marsh. Veslovsky accidentally fires his gun in the carriage. They shoot snipe. Levin misses several shots and is frustrated. Stiva shoots well. |
@@ -271,20 +271,20 @@ Here is the complete chapter‑by‑chapter table for **Part 1** of *Anna Kareni
 | 16 | Anna’s Fears | Phase 6 | Int | Anna tells Dolly she cannot have more children. Dolly is shocked. Anna argues that children would be unhappy bearing a stranger’s name. She feels her position is hopeless without a divorce. |
 | 17 | Dolly Drives Home | Phase 6 | Res | Dolly returns home. She feels relieved to leave. The coachman comments that the Vronskys are wealthy but stingy with oats. Dolly defends Anna and Vronsky, saying they are nice people. |
 | 18 | Vronsky and Anna Alone | Phase 6 | Int | Vronsky and Anna spend the autumn alone. Their life is comfortable but monotonous. Vronsky becomes interested in provincial elections. Anna feels isolated and jealous. |
-| 19 | The Elections | Phase 6 | Exp | Vronsky goes to the provincial elections. He is a new figure in the nobility and enjoys the political maneuvering. He supports the liberal candidate Nevyedovsky. |
+| 19 | The Elections Begin | Phase 6 | Exp | Vronsky goes to the provincial elections. He is a new figure in the nobility and enjoys the political maneuvering. He supports the liberal candidate Nevyedovsky. |
 | 20 | Vronsky’s Success | Phase 6 | Exp | Vronsky helps Nevyedovsky win the election. He dines with the successful party. He receives a letter from Anna saying their daughter Annie is ill. He decides to return home immediately. |
 | 21 | Anna’s Letter | Phase 6 | Comp | Anna’s letter is cold and reproachful. She says Annie is ill and she is losing her mind alone. Vronsky feels the contrast between the festive elections and his burdensome love. He returns home. |
 | 22 | Anna’s Jealousy | Phase 6 | Int | Vronsky returns. Anna is both relieved and angry. They have a tense evening. She accuses him of preferring society to her. He reassures her, but she feels a growing estrangement. |
 | 23 | Dolly’s Reflections | Phase 6 | Int | Dolly lies in bed after returning from Vronsky’s. She thinks about her own life, her children, and her unhappy marriage. She wonders if Anna was right to follow her heart. |
 | 24 | Anna and Vronsky Quarrel | Phase 6 | Comp | Anna and Vronsky quarrel again. She accuses him of hiding things from her. He is irritated by her jealousy. The tension between them is palpable. |
-| 25 | Vronsky Leaves | Phase 6 | Comp | Vronsky decides to go to his mother’s to sign some deeds. Anna is suspicious. They part coldly. She feels he no longer loves her. |
-| 26 | Anna’s Nightmare | Phase 6 | Int | Anna lies awake, thinking of death. She remembers her dream of the peasant. She decides she will not let Vronsky destroy her. She goes to his room; he is asleep. |
-| 27 | Anna’s Resolve | Phase 6 | Int | In the morning, Anna sees Vronsky talking to a young woman in a carriage. She is consumed by jealousy. She tells him she will not go to the country with him. He is exasperated. |
-| 28 | Anna’s Ultimatum | Phase 6 | Comp | Anna tells Vronsky she will not stay with him. She says he will be sorry. He leaves for his mother’s. Anna decides to go to the railway station to confront him. |
-| 29 | Anna at the Station | Phase 6 | Int | Anna goes to the station. She sends Vronsky a telegram. She waits, growing more agitated. She remembers the guard crushed by the train when she first met Vronsky. |
-| 30 | Anna on the Train | Phase 6 | Int | Anna takes a train to the station where Vronsky is. She thinks about her life, her hatred of Vronsky, and her desire for revenge. She feels she is going mad. |
-| 31 | Anna’s Thoughts | Phase 6 | Int | On the train, Anna’s thoughts race. She sees everyone as hateful. She decides she will punish Vronsky by dying. She recalls the peasant from her dream. |
-| 32 | Anna’s Decision | Phase 6 | Turn | Anna arrives at the station. She sees Vronsky’s carriage. She decides not to confront him but to end everything. She walks to the edge of the platform. |
+| 25 | Vronsky Leaves for His Mother | Phase 6 | Comp | Vronsky decides to go to his mother’s to sign some deeds. Anna is suspicious. They part coldly. She feels he no longer loves her. |
+| 26 | Anna Writes to Karenin | Phase 6 | Int | Anna writes to Karenin asking for a divorce. She knows it is her only chance for legitimacy and peace. She sends the letter and waits anxiously. |
+| 27 | Waiting for an Answer | Phase 6 | Int | Anna waits for Karenin’s reply. She is restless and cannot concentrate. She feels her life is suspended. Vronsky is still away. |
+| 28 | The Divorce Is Refused | Phase 6 | Comp | Karenin’s answer arrives: he refuses the divorce. Anna is devastated. She realizes she will never be free. Vronsky returns and finds her in despair. |
+| 29 | Anna’s Despair Deepens | Phase 6 | Int | Anna tells Vronsky about Karenin’s refusal. He tries to comfort her, but she pushes him away. She feels trapped and begins to blame Vronsky for her misery. |
+| 30 | Decision to Go to Moscow | Phase 6 | Comp | Anna and Vronsky decide to leave the country and spend the winter in Moscow. Anna hopes the change will distract her. Vronsky agrees reluctantly. |
+| 31 | Preparing for Departure | Phase 6 | Exp | Anna and Vronsky pack for Moscow. Anna is agitated; Vronsky is subdued. The servants sense the tension. They prepare to leave the next day. |
+| 32 | Departure for Moscow | Phase 6 | Turn | Anna and Vronsky set off for Moscow. Anna feels a mixture of hope and dread. She does not know that Moscow will be the place of her final destruction. |
 
 ---
 
