@@ -35,7 +35,7 @@ const timeline = document.getElementById("timeline");
 const phaseRows = document.getElementById("phase-rows");
 const infoGrid = document.getElementById("info-grid");
 const closeAllButton = document.getElementById("close-all-tooltips");
-const homeButton = document.getElementById("home-button");
+const titleHomeLink = document.getElementById("title-home-link");
 const popupLayer = document.getElementById("popup-layer");
 const tooltipViewport = document.getElementById("tooltip-viewport");
 const splitLayout = document.querySelector(".split-layout");
@@ -68,6 +68,7 @@ const CATEGORY_LEGEND = [
   { key: "res", label: "Resolution" },
   { key: "dig", label: "Digression" },
 ];
+const CATEGORY_LABELS = new Map(CATEGORY_LEGEND.map((item) => [item.key, item.label]));
 
 const CHAPTERS_PER_ROW_MAX = 10;
 const APP_BASE_URL = new URL(".", document.currentScript?.src || window.location.href);
@@ -81,7 +82,8 @@ async function init() {
   bookSelect.addEventListener("change", async () => {
     await openBook(bookSelect.value, true);
   });
-  homeButton.addEventListener("click", () => {
+  titleHomeLink.addEventListener("click", (event) => {
+    event.preventDefault();
     showHomePage(true);
   });
   window.addEventListener("popstate", async () => {
@@ -287,7 +289,7 @@ function parseInfoboxes(lines) {
       body.push(current);
     }
 
-    out.push({ label, content: body.join("\n").trim() });
+    out.push({ label, content: sanitizeDisplayText(body.join("\n").trim()) });
   }
 
   return out;
@@ -404,7 +406,7 @@ function parseChapters(lines) {
         title,
         phase,
         category: normalizeCategory(category),
-        summary: summaryParts.join(" | ").trim(),
+        summary: sanitizeDisplayText(summaryParts.join(" | ").trim()),
       });
       continue;
     }
@@ -417,7 +419,7 @@ function parseChapters(lines) {
       title: chapter,
       phase,
       category: normalizeCategory(category),
-      summary: summaryParts.join(" | ").trim(),
+      summary: sanitizeDisplayText(summaryParts.join(" | ").trim()),
     });
   }
 
@@ -496,7 +498,7 @@ function parseGlossary(lines) {
           .map((term) => term.trim())
           .filter(Boolean);
       } else if (detail.startsWith("*Explanation:*") || detail.startsWith("*Forklaring:*")) {
-        explanation = detail.replace("*Explanation:*", "").replace("*Forklaring:*", "").trim();
+        explanation = sanitizeDisplayText(detail.replace("*Explanation:*", "").replace("*Forklaring:*", "").trim());
       } else if (detail.startsWith("*See also:*") || detail.startsWith("*Se også:*")) {
         seeAlso = detail
           .replace("*See also:*", "")
@@ -682,7 +684,7 @@ function renderInfoboxes() {
       button.textContent = box.label;
       button.addEventListener("click", (event) => {
         if (box.label === "Foreshadowing" || box.label === "Storylines") {
-          openForeshadowingListPopup(event.currentTarget);
+          openForeshadowingListPopup(event.currentTarget, box.label);
           return;
         }
         openInfoPopup(box.label, box.content, event.currentTarget);
@@ -803,7 +805,7 @@ function buildChapterNode(chapter) {
 
   node.addEventListener("click", (event) => {
     openInfoPopup(
-      `${chapter.chapter}: ${chapter.title} · ${chapter.category}`,
+      `${chapter.chapter}: ${chapter.title} · ${expandCategoryLabel(chapter.category)}`,
       chapter.summary,
       event.currentTarget,
     );
@@ -948,7 +950,9 @@ function buildPopup(title, content) {
 
 function renderRichText(text) {
   const fragment = document.createDocumentFragment();
-  const blocks = text.split(/\n{2,}/).filter(Boolean);
+  const normalizedText = sanitizeDisplayText(text);
+  const blocks = normalizedText.split(/\n{2,}/).filter(Boolean);
+  const linkedTerms = new Set();
 
   blocks.forEach((block) => {
     const trimmed = block.trim();
@@ -962,7 +966,7 @@ function renderRichText(text) {
         .filter(Boolean)
         .forEach((item) => {
           const li = document.createElement("li");
-          li.append(...linkGlossaryTerms(item));
+          li.append(...linkGlossaryTerms(item, linkedTerms));
           ul.append(li);
         });
       fragment.append(ul);
@@ -972,7 +976,7 @@ function renderRichText(text) {
     const p = document.createElement("p");
     trimmed.split("\n").forEach((line, index) => {
       if (index > 0) p.append(document.createElement("br"));
-      p.append(...linkGlossaryTerms(stripSimpleMarkdown(line)));
+      p.append(...linkGlossaryTerms(stripSimpleMarkdown(line), linkedTerms));
     });
     fragment.append(p);
   });
@@ -987,7 +991,7 @@ function stripSimpleMarkdown(text) {
     .replace(/`(.*?)`/g, "$1");
 }
 
-function linkGlossaryTerms(text) {
+function linkGlossaryTerms(text, linkedTerms = new Set()) {
   const nodes = [];
   let cursor = 0;
   const matches = [];
@@ -1013,6 +1017,8 @@ function linkGlossaryTerms(text) {
   accepted.sort((a, b) => a.start - b.start);
 
   for (const token of accepted) {
+    if (linkedTerms.has(token.canonical)) continue;
+
     if (token.start > cursor) {
       nodes.push(document.createTextNode(text.slice(cursor, token.start)));
     }
@@ -1031,6 +1037,7 @@ function linkGlossaryTerms(text) {
     });
 
     nodes.push(button);
+    linkedTerms.add(token.canonical);
     cursor = token.end;
   }
 
@@ -1064,8 +1071,7 @@ function openGlossaryPopup(canonical, anchor) {
   body.className = "popup-body rich-text";
 
   const expl = document.createElement("p");
-  expl.innerHTML = "<strong>Explanation:</strong> ";
-  expl.append(...linkGlossaryTerms(entry.explanation));
+  expl.append(...linkGlossaryTerms(sanitizeDisplayText(entry.explanation)));
 
   const appears = document.createElement("p");
   appears.textContent = `Appears in: ${entry.appearances}`;
@@ -1088,7 +1094,7 @@ function openGlossaryPopup(canonical, anchor) {
   refreshChapterHighlights();
 }
 
-function openForeshadowingListPopup(anchor) {
+function openForeshadowingListPopup(anchor, sourceLabel = "Foreshadowing") {
   const popup = document.createElement("article");
   popup.className = "popup";
 
@@ -1100,7 +1106,7 @@ function openForeshadowingListPopup(anchor) {
   closeButton.addEventListener("click", () => closeSpecificPopup(popup));
 
   const heading = document.createElement("h4");
-  heading.textContent = "Foreshadowing";
+  heading.textContent = sourceLabel === "Storylines" ? "Main storylines" : "Foreshadowing";
 
   const body = document.createElement("div");
   body.className = "popup-body rich-text foreshadowing-list";
@@ -1150,8 +1156,7 @@ function openForeshadowingPopup(title, anchor) {
   const body = document.createElement("div");
   body.className = "popup-body rich-text";
   const expl = document.createElement("p");
-  expl.innerHTML = "<strong>Description:</strong> ";
-  expl.append(...linkGlossaryTerms(entry.description));
+  expl.append(...linkGlossaryTerms(sanitizeDisplayText(entry.description)));
   const appears = document.createElement("p");
   appears.textContent = `Appears in: ${entry.appearances}`;
   body.append(expl, appears);
@@ -1250,6 +1255,20 @@ function layoutPopups() {
   const leftHeight = leftY + 8;
   const rightHeight = newest ? newest.offsetHeight + 24 : 0;
   popupLayer.style.minHeight = `${Math.max(220, leftHeight, rightHeight)}px`;
+}
+
+function expandCategoryLabel(categoryKey) {
+  return CATEGORY_LABELS.get((categoryKey || "").toLowerCase()) || categoryKey;
+}
+
+function sanitizeDisplayText(text) {
+  if (!text) return "";
+
+  return text
+    .replace(/\/n/g, "\n")
+    .replace(/^\s*---\s*$/gm, "")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
 }
 
 function escapeRegex(value) {

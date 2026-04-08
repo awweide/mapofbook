@@ -20,11 +20,10 @@
         <header class="top-header">
           <div class="title-row">
             <div class="title-controls">
-              <h1>Map of Book <button id="title-help" class="title-help" type="button" aria-label="About this view">(?)</button></h1>
-              <button id="home-button" class="home-button" type="button">All scripts</button>
-              <label class="book-select-label" for="book-select">Script</label>
+              <h1><a id="title-home-link" class="title-home-link" href="/">Map of Book</a> <button id="title-help" class="title-help" type="button" aria-label="About this view">(?)</button></h1>
               <select id="book-select" class="book-select" aria-label="Choose a book script"></select>
             </div>
+            <button id="close-all-tooltips" type="button">Close all tooltips</button>
           </div>
         </header>
 
@@ -43,9 +42,6 @@
           <button id="splitter-handle" class="splitter-handle" type="button" aria-label="Resize tooltips panel" aria-orientation="horizontal"></button>
 
           <div id="tooltip-viewport" class="tooltip-viewport" aria-live="polite">
-            <div class="tooltip-toolbar">
-              <button id="close-all-tooltips" type="button">Close all tooltips</button>
-            </div>
             <section id="popup-layer" class="popup-layer"></section>
           </div>
         </section>
