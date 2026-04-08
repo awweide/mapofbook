@@ -16,7 +16,7 @@
         <div id="script-cards" class="script-cards" aria-label="Available scripts"></div>
       </section>
 
-      <section id="visualizer-page" hidden>
+      <section id="visualizer-page" class="visualizer-page" hidden>
         <header class="top-header">
           <div class="title-row">
             <div class="title-controls">
@@ -25,21 +25,30 @@
               <label class="book-select-label" for="book-select">Script</label>
               <select id="book-select" class="book-select" aria-label="Choose a book script"></select>
             </div>
-            <button id="close-all-tooltips" type="button">Close all tooltips</button>
           </div>
         </header>
 
-        <section class="viz-card">
-          <div class="viz-layout">
-            <div id="timeline" class="timeline" aria-live="polite">
-              <div id="phase-rows" class="phase-rows"></div>
+        <section class="split-layout" aria-label="Chapter map and tooltips">
+          <div id="main-viewport" class="main-viewport">
+            <section id="info-grid" class="info-grid" aria-label="Main infoboxes"></section>
+            <section class="viz-card">
+              <div class="viz-layout">
+                <div id="timeline" class="timeline" aria-live="polite">
+                  <div id="phase-rows" class="phase-rows"></div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <button id="splitter-handle" class="splitter-handle" type="button" aria-label="Resize tooltips panel" aria-orientation="horizontal"></button>
+
+          <div id="tooltip-viewport" class="tooltip-viewport" aria-live="polite">
+            <div class="tooltip-toolbar">
+              <button id="close-all-tooltips" type="button">Close all tooltips</button>
             </div>
+            <section id="popup-layer" class="popup-layer"></section>
           </div>
         </section>
-
-        <section id="popup-layer" class="popup-layer" aria-live="polite"></section>
-
-        <section id="info-grid" class="info-grid" aria-label="Main infoboxes"></section>
       </section>
     </main>
 

@@ -37,12 +37,17 @@ const infoGrid = document.getElementById("info-grid");
 const closeAllButton = document.getElementById("close-all-tooltips");
 const homeButton = document.getElementById("home-button");
 const popupLayer = document.getElementById("popup-layer");
+const tooltipViewport = document.getElementById("tooltip-viewport");
+const splitLayout = document.querySelector(".split-layout");
+const splitterHandle = document.getElementById("splitter-handle");
 const titleHelpButton = document.getElementById("title-help");
 const bookSelect = document.getElementById("book-select");
 
 const chapterToNode = new Map();
 const popupStack = [];
 const slugToKey = new Map(Object.entries(BOOKS).map(([key, book]) => [book.slug, key]));
+
+let activePointerId = null;
 
 let model = {
   infoboxes: [],
@@ -70,6 +75,7 @@ init();
 
 async function init() {
   wirePopupControls();
+  wireSplitLayout();
   populateBookSelect();
   bookSelect.addEventListener("change", async () => {
     await openBook(bookSelect.value, true);
@@ -817,6 +823,45 @@ function markerColor(index) {
   return palette[index % palette.length];
 }
 
+function wireSplitLayout() {
+  if (!splitLayout || !splitterHandle) return;
+
+  const setTopSize = (percent) => {
+    const clamped = Math.max(35, Math.min(80, percent));
+    splitLayout.style.setProperty("--top-pane-size", `${clamped}%`);
+  };
+
+  splitterHandle.addEventListener("pointerdown", (event) => {
+    activePointerId = event.pointerId;
+    splitterHandle.setPointerCapture(activePointerId);
+    splitterHandle.classList.add("is-dragging");
+  });
+
+  splitterHandle.addEventListener("pointermove", (event) => {
+    if (activePointerId !== event.pointerId) return;
+    const rect = splitLayout.getBoundingClientRect();
+    if (!rect.height) return;
+    const topPercent = ((event.clientY - rect.top) / rect.height) * 100;
+    setTopSize(topPercent);
+  });
+
+  const stopDrag = (event) => {
+    if (activePointerId !== event.pointerId) return;
+    splitterHandle.classList.remove("is-dragging");
+    splitterHandle.releasePointerCapture(activePointerId);
+    activePointerId = null;
+  };
+
+  splitterHandle.addEventListener("pointerup", stopDrag);
+  splitterHandle.addEventListener("pointercancel", stopDrag);
+};
+
+function resetTooltipViewportScroll() {
+  if (tooltipViewport) {
+    tooltipViewport.scrollTop = 0;
+  }
+}
+
 function wirePopupControls() {
   titleHelpButton.addEventListener("click", (event) => {
     openInfoPopup(
@@ -854,6 +899,7 @@ function openInfoPopup(title, content, anchor) {
   popupStack.push(popup);
   refreshGlossaryPopupActiveState();
   layoutPopups(anchor);
+  resetTooltipViewportScroll();
   refreshChapterHighlights();
 }
 
@@ -1019,6 +1065,7 @@ function openGlossaryPopup(canonical, anchor) {
   popupStack.push(popup);
   refreshGlossaryPopupActiveState();
   layoutPopups(anchor);
+  resetTooltipViewportScroll();
   refreshChapterHighlights();
 }
 
@@ -1060,6 +1107,7 @@ function openForeshadowingListPopup(anchor) {
   popupStack.push(popup);
   refreshGlossaryPopupActiveState();
   layoutPopups(anchor);
+  resetTooltipViewportScroll();
   refreshChapterHighlights();
 }
 
@@ -1095,6 +1143,7 @@ function openForeshadowingPopup(title, anchor) {
   popupStack.push(popup);
   refreshGlossaryPopupActiveState();
   layoutPopups(anchor);
+  resetTooltipViewportScroll();
   refreshChapterHighlights();
 }
 
