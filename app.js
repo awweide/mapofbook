@@ -24,6 +24,11 @@ const BOOKS = {
     slug: "worldofyesterday",
     file: "data/The_World_of_Yesterday.txt",
   },
+  elantris: {
+    label: "Elantris",
+    slug: "elantris",
+    file: "data/Elantris.txt",
+  },
 };
 const DEFAULT_BOOK = "effi";
 
@@ -58,6 +63,8 @@ let model = {
   termPatterns: [],
   foreshadowing: [],
   foreshadowingMap: new Map(),
+  storylines: [],
+  storylineMap: new Map(),
 };
 
 const CATEGORY_LEGEND = [
@@ -230,14 +237,19 @@ function parseBookData(text) {
   const lines = text.split(/\r?\n/);
   const infoboxes = parseInfoboxes(lines);
   const phases = parsePhases(lines);
-  const chapters = parseChapters(lines);
+  const chapters = parseChapters(lines, phases);
   const foreshadowing = parseForeshadowing(lines);
+  const storylines = parseStorylines(lines);
   const glossary = parseGlossary(lines);
 
   const glossaryMap = new Map(glossary.map((entry) => [entry.name, entry]));
   const termPatterns = buildTermPatterns(glossary);
   const foreshadowingMap = new Map(foreshadowing.map((entry) => [entry.title, entry]));
-  if (foreshadowing.length && !infoboxes.some((box) => box.label === "Foreshadowing" || box.label === "Storylines")) {
+  const storylineMap = new Map(storylines.map((entry) => [entry.title, entry]));
+  if (foreshadowing.length && !infoboxes.some((box) => box.label === "Foreshadowing")) {
+    infoboxes.push({ label: "Foreshadowing", content: "" });
+  }
+  if (storylines.length && !infoboxes.some((box) => box.label === "Storylines")) {
     infoboxes.push({ label: "Storylines", content: "" });
   }
 
@@ -250,6 +262,8 @@ function parseBookData(text) {
     termPatterns,
     foreshadowing,
     foreshadowingMap,
+    storylines,
+    storylineMap,
   };
 }
 
@@ -260,6 +274,7 @@ function parseInfoboxes(lines) {
     { label: "Importance", headings: ["Importance", "Betydning"] },
     { label: "Themes", headings: ["Themes", "Temaer"] },
     { label: "Message", headings: ["Message", "Budskap"] },
+    { label: "Structure", headings: ["Structure", "Struktur"], allowSection: true },
     { label: "Foreshadowing", headings: ["Foreshadowing", "Forvarsler"] },
     { label: "Storylines", headings: ["Storylines"] },
   ];
@@ -268,11 +283,16 @@ function parseInfoboxes(lines) {
     const trimmed = line.trim();
     return trimmed === `**${heading}**` || trimmed === `**${heading}**  `;
   };
+  const sectionMatches = (line, heading) => line.trim().match(new RegExp(`^##\\s+${heading}\\b`, "i"));
   const isSectionBoundary = (trimmed) => /^##\s+/.test(trimmed);
-  const isAnyInfoboxHeading = (line) => labels.some(({ headings }) => headings.some((heading) => headerMatches(line, heading)));
+  const isAnyInfoboxHeading = (line) => labels.some(({ headings, allowSection }) => headings.some(
+    (heading) => headerMatches(line, heading) || (allowSection && sectionMatches(line, heading)),
+  ));
 
-  for (const { label, headings } of labels) {
-    const headerIndex = lines.findIndex((line) => headings.some((heading) => headerMatches(line, heading)));
+  for (const { label, headings, allowSection } of labels) {
+    const headerIndex = lines.findIndex((line) => headings.some(
+      (heading) => headerMatches(line, heading) || (allowSection && sectionMatches(line, heading)),
+    ));
     if (headerIndex === -1) continue;
 
     const body = [];
@@ -296,14 +316,17 @@ function parseInfoboxes(lines) {
 }
 
 function parseForeshadowing(lines) {
-  const headerIndex = lines.findIndex((line) => {
-    const trimmed = line.trim();
-    return /^###\s*3\.\s*Foreshadowing in\s*\*/i.test(trimmed)
-      || /^##\s*Forvarsler\b/i.test(trimmed)
-      || /^##\s*(Major\s+)?Storylines\b/i.test(trimmed);
-  });
-  if (headerIndex === -1) return [];
+  const headerIndex = lines.findIndex((line) => /^##\s*(Foreshadowing|Forvarsler)\b/i.test(line.trim()));
+  return parseEntryTable(lines, headerIndex);
+}
 
+function parseStorylines(lines) {
+  const headerIndex = lines.findIndex((line) => /^##\s*(Major\s+)?Storylines\b/i.test(line.trim()));
+  return parseEntryTable(lines, headerIndex);
+}
+
+function parseEntryTable(lines, headerIndex) {
+  if (headerIndex === -1) return [];
   const rows = [];
   for (let i = headerIndex + 1; i < lines.length; i += 1) {
     const line = lines[i].trim();
@@ -376,9 +399,10 @@ function parsePhases(lines) {
   return phases;
 }
 
-function parseChapters(lines) {
+function parseChapters(lines, phases = []) {
   const chapters = [];
   let currentPart = null;
+  const phaseLabels = phases.map((phase) => phase.phase);
 
   for (const line of lines) {
     const trimmed = line.trim();
@@ -399,12 +423,13 @@ function parseChapters(lines) {
 
     if (cells.length >= 5) {
       const [chapter, title, phase, category, ...summaryParts] = cells;
-      if (!/^(phase|fase)\s+\d+$/i.test(phase)) continue;
+      const resolvedPhase = resolvePhaseLabel(phase, phaseLabels);
+      if (!resolvedPhase) continue;
       chapters.push({
         id: buildChapterId(chapter, currentPart),
         chapter,
         title,
-        phase,
+        phase: resolvedPhase,
         category: normalizeCategory(category),
         summary: sanitizeDisplayText(summaryParts.join(" | ").trim()),
       });
@@ -412,18 +437,33 @@ function parseChapters(lines) {
     }
 
     const [chapter, phase, category, ...summaryParts] = cells;
-    if (!/^(phase|fase)\s+\d+$/i.test(phase)) continue;
+    const resolvedPhase = resolvePhaseLabel(phase, phaseLabels);
+    if (!resolvedPhase) continue;
     chapters.push({
       id: buildChapterId(chapter, currentPart),
       chapter,
       title: chapter,
-      phase,
+      phase: resolvedPhase,
       category: normalizeCategory(category),
       summary: sanitizeDisplayText(summaryParts.join(" | ").trim()),
     });
   }
 
   return chapters;
+}
+
+function resolvePhaseLabel(rawPhase, knownPhaseLabels = []) {
+  const trimmed = (rawPhase || "").trim();
+  if (!trimmed) return null;
+  if (/^(phase|fase)\s+\d+$/i.test(trimmed)) {
+    const existing = knownPhaseLabels.find((label) => label.toLowerCase() === trimmed.toLowerCase());
+    return existing || trimmed;
+  }
+  const plainNumber = trimmed.match(/^(\d+)$/);
+  if (!plainNumber) return null;
+  const index = plainNumber[1];
+  const matched = knownPhaseLabels.find((label) => new RegExp(`^(phase|fase)\\s+${index}\\b`, "i").test(label));
+  return matched || `Phase ${index}`;
 }
 
 function buildChapterId(chapter, part = null) {
@@ -1095,6 +1135,7 @@ function openGlossaryPopup(canonical, anchor) {
 }
 
 function openForeshadowingListPopup(anchor, sourceLabel = "Foreshadowing") {
+  const entries = sourceLabel === "Storylines" ? model.storylines : model.foreshadowing;
   const popup = document.createElement("article");
   popup.className = "popup";
 
@@ -1112,7 +1153,7 @@ function openForeshadowingListPopup(anchor, sourceLabel = "Foreshadowing") {
   body.className = "popup-body rich-text foreshadowing-list";
 
   const list = document.createElement("ul");
-  model.foreshadowing.forEach((entry) => {
+  entries.forEach((entry) => {
     const li = document.createElement("li");
     const button = document.createElement("button");
     button.type = "button";
@@ -1120,7 +1161,7 @@ function openForeshadowingListPopup(anchor, sourceLabel = "Foreshadowing") {
     button.textContent = entry.title;
     button.addEventListener("click", (event) => {
       event.stopPropagation();
-      openForeshadowingPopup(entry.title, event.currentTarget);
+      openForeshadowingPopup(entry.title, event.currentTarget, sourceLabel);
     });
     li.append(button);
     list.append(li);
@@ -1136,8 +1177,9 @@ function openForeshadowingListPopup(anchor, sourceLabel = "Foreshadowing") {
   refreshChapterHighlights();
 }
 
-function openForeshadowingPopup(title, anchor) {
-  const entry = model.foreshadowingMap.get(title);
+function openForeshadowingPopup(title, anchor, sourceLabel = "Foreshadowing") {
+  const map = sourceLabel === "Storylines" ? model.storylineMap : model.foreshadowingMap;
+  const entry = map.get(title);
   if (!entry) return;
 
   const popup = document.createElement("article");
