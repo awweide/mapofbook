@@ -1,0 +1,495 @@
+## Main infoboxes
+
+**Summary**
+Prince Raoden of Arelon awakens one morning to find that the Shaod has taken him, transforming him into an undying, pain‑wracked husk. Thrown into the decaying city of Elantris, he refuses despair and secretly builds a community among the cursed, searching for the lost magic of AonDor. Meanwhile, his betrothed, Princess Sarene of Teod, arrives to discover she is a widow by contract, bound to a dead husband. Thrust into the treacherous Arelene court, she battles the schemes of the Fjordell gyorn Hrathen, who has only three months to convert the kingdom to Shu‑Dereth—or see it annihilated. As Sarene’s Widow’s Trial threatens Elantris’s fragile hope, Raoden unravels the Aons’ connection to the land. When the two worlds collide, Raoden completes the final line and restores the city’s power, defeating the brutal Dakhor monks and securing a future for both Arelon and Teod.
+
+**Author**
+**Brandon Sanderson** (born 1975) is an American epic fantasy author, best known for the Mistborn series, the Stormlight Archive, and for completing Robert Jordan’s The Wheel of Time. Renowned for intricate magic systems and expansive world‑building, he debuted with *Elantris* (2005), the first published work set in his shared Cosmere universe. He teaches creative writing at Brigham Young University.
+
+**Importance**
+*Elantris* launched Sanderson’s career and introduced his signature blend of rigorous magic, political intrigue, and character‑driven storytelling. A cornerstone of the Cosmere, it establishes core concepts—the Dor, AonDor, Investiture—that recur throughout his later works. Beloved by fans, it remains a prime entry point to modern epic fantasy.
+
+**Themes**
+- The power of hope and purpose in the face of overwhelming despair  
+- The corruption of rigid honour codes and institutional religion  
+- Identity, transformation, and what makes a person human  
+- Political manipulation, leadership, and the cost of power  
+- Love transcending physical form and social expectation  
+- The deep connection between language, magic, and geography
+
+**Message**
+Sanderson argues that true strength lies in the refusal to surrender to suffering. Raoden’s revolution in Elantris and Sarene’s defiance of political norms show that even broken systems can be remade by individuals who choose hope. The novel also critiques the use of faith as a tool of control, suggesting that genuine belief cannot be imposed from above.
+
+## Structure
+
+*Elantris* is narrated in the past tense, using third‑person limited perspective that rotates rigidly through three viewpoint characters: **Raoden**, **Sarene**, and **Hrathen**. Each chapter is headed by the name of the character whose consciousness the narrator follows, and the chapters appear in a strict repeating triad (Raoden – Sarene – Hrathen). This pattern is maintained almost without exception from Chapter 1 through Chapter 62, creating a balanced, braided narrative where three simultaneous plots advance in lockstep.
+
+The only significant departure occurs in the **Epilogue**, which shifts to an omniscient perspective and concludes with Sarene’s public eulogy for Hrathen.
+
+The novel is organised into three named parts—*The Shadow of Elantris*, *The Call of Elantris*, and *The Spirit of Elantris*—each ending with a major climax: Hrathen’s exile, Telrii’s death and Sarene’s apparent fall to the Shaod, and finally the restoration of the city and the defeat of Dilaf. Time flows chronologically with no extended analepsis or prolepsis, though brief flashbacks appear in the form of dreams, memories, and quoted letters; the main action spans roughly three months. The tight triadic structure is one of the novel’s most distinctive formal features, reflecting its thematic insistence on the interplay between hope (Raoden), action (Sarene), and ideology (Hrathen).
+
+## Phases
+
+| Phase | Brief Description |
+|-------|-------------------|
+| **Phase 1: The Shadow of Elantris (Chapters 1–27)** | Raoden is taken by the Shaod and thrown into Elantris, where he begins to organise the desperate inhabitants and searches for the secret of AonDor. Sarene arrives in Arelon, learns her betrothed is “dead”, and immerses herself in court politics to oppose Hrathen’s Derethi conversion campaign. Hrathen seeks to unify the nobility behind fear of Elantris while maneuvering to place a sympathetic ruler on the throne. The phase ends with Hrathen’s self‑poisoning and exile into Elantris—a gambit to prove Jaddeth’s power. |
+| **Phase 2: The Call of Elantris (Chapters 28–54)** | Sarene’s Widow’s Trial brings food into Elantris, complicating Raoden’s efforts to make his people self‑sufficient. Raoden and Galladon discover the Aons’ link to Arelon’s geography and the crucial Chasm line. Hrathen’s plan to depose Iadon succeeds, but the new king Telrii proves an unreliable ally. Sarene is artificially “cursed” by the Shaod with a Fjordell poison, and inside Elantris she finally meets Raoden, though she does not recognise him. Raoden perfects an illusion Aon and escapes to Kae as “Kaloo”, working with the nobles to oppose Telrii and the fanatical Dilaf. The phase culminates in Telrii’s assassination, the revelation of Raoden’s true nature, and Dilaf’s devastating surprise attack. |
+| **Phase 3: The Spirit of Elantris (Chapters 55–Epilogue)** | Dilaf’s Dakhor monks massacre New Elantris and capture Sarene. Raoden, broken and nearly delivered to the pool of dissolution, has a final epiphany: Aon Rao is a map of the five cities. He completes the missing Chasm line, restoring Elantris’s power and his own transformation. The Elantrians emerge from the flames and drive out the Fjordell forces. Hrathen, mortally wounded, sacrifices himself to kill Dilaf and save Sarene. Raoden and Sarene marry, and Arelon begins to rebuild under a just monarchy. |
+
+---
+
+## Chapter‑by‑Chapter Table
+
+**Categories legend:**  
+- **Exp** = Exposition  
+- **Comp** = Complication  
+- **Int** = Introspection  
+- **Turn** = Turning point  
+- **Res** = Resolution  
+
+| Ch | Title | Phase | Category | Expanded Summary |
+|----|-------|-------|----------|------------------|
+| P | Prologue: The Fall of Elantris | 1 | Exp | The narrator recalls Elantris’s former glory and the Shaod that once made men into silver‑skinned gods. Ten years ago, the Reod struck, transforming the city and its inhabitants into cursed, decaying wretches. |
+| 1 | Raoden’s Damnation | 1 | Exp | Prince Raoden wakes with the black spots of the Shaod. His father King Iadon orders him cast into Elantris. Inside, Raoden meets the cynical Dula Galladon and learns the brutal rules of survival. |
+| 2 | A Widow Arrives | 1 | Exp | Princess Sarene of Teod arrives in Kae to be told Prince Raoden has died. The marriage contract binds her as his widow. She senses foul play and resolves to stay to protect the Teo‑Arelene alliance. |
+| 3 | Hrathen’s Mission | 1 | Exp | Fjordell high priest Hrathen arrives with orders from Wyrn: convert Arelon to Shu‑Dereth within three months, or face annihilation. He dismisses the lenient head arteth Fjon and takes control of the chapel. |
+| 4 | Gangs of Elantris | 1 | Comp | Galladon shows Raoden the three gangs—Shaor, Karata, Aanden—and how they prey on newcomers. Raoden barters meat for thirty days of guidance and decides to carve out his own place. |
+| 5 | Sarene Meets the King | 1 | Comp | Sarene is presented to Iadon, who dismisses her as a foolish woman. She adopts a mask of empty‑headedness and discovers her uncle Kiin lives in Kae with his family. |
+| 6 | Hrathen’s Speech | 1 | Comp | Hrathen denounces the Elantrians as Svrakiss from atop the wall, aiming to unite the people behind a common enemy. Dilaf’s fanaticism impresses but also unsettles him. |
+| 7 | First Aons | 1 | Int | Raoden learns to draw Aons with Galladon, but the symbols flash and die without effect. He rescues a newcomer (Mareshe) from Shaor’s men and begins to gather followers. |
+| 8 | Court Intrigue | 1 | Comp | Sarene continues her ruse in Iadon’s throne room, learning of the brutal plantation system. She meets Cousin Lukel and the rest of Kiin’s family. |
+| 9 | Hrathen’s Offer | 1 | Comp | Hrathen attempts to convert King Iadon, who rejects him. He begins secretly approaching younger nobles, promising power in exchange for allegiance to Shu‑Dereth. Dilaf demands the Elantrians be destroyed. |
+| 10 | Spirit’s Rescue | 1 | Comp | Raoden, Galladon, and Mareshe lure newcomers away from the gangs. Raoden establishes a base in a ruined Korathi chapel and starts assigning his followers useful tasks. |
+| 11 | The Secret Meeting | 1 | Comp | Sarene attends a clandestine gathering of nobles opposed to Iadon’s policies. She proposes a radical plan: let the peasants work their own land to prove that freedom yields greater productivity. |
+| 12 | Hrathen’s Promise | 1 | Comp | Hrathen convinces Duke Telrii that supporting Shu‑Dereth will make him king. He uses his seon to contact Wyrn and secure funds. |
+| 13 | Raoden’s Deal | 1 | Comp | Raoden befriends Karata by helping her visit her daughter through an underwater passage. She merges her gang with his. |
+| 14 | Fencing Lessons | 1 | Comp | Sarene starts teaching the noblewomen fencing, using the activity to build influence and undermine Iadon’s prohibition on martial training. |
+| 15 | Hrathen’s Gaze | 1 | Int | Hrathen paces the wall of Elantris at night, reflecting on the city’s fall and the burden of using it as a propaganda tool. He feels an uneasy guilt. |
+| 16 | Dor and Seons | 1 | Int | Raoden notices his mad seon Ien. He discusses the nature of the Dor with Galladon and begins translating an AonDor text, searching for clues to the Reod. |
+| 17 | Training | 1 | Comp | Eondel and Shuden join the fencing class, teaching the women proper technique. Sarene realises her isolation and longs for genuine acceptance. |
+| 18 | A New Arteth | 1 | Comp | Hrathen names Dilaf his odiv. Dilaf preaches with frightening passion, turning the crowd against Shu‑Korath. Hrathen secretly contacts a Hroven apothecary, Forton, for a potion. |
+| 19 | Raoden’s Past | 1 | Int | Raoden dreams of his childhood healing in Elantris. He reflects on his mother and his father’s tyranny, drawing strength to continue his work. |
+| 20 | Economic Warfare | 1 | Comp | Sarene proposes a scheme to save Iadon’s finances: a lucrative silk contract with Teod. The nobles reluctantly agree, and she forces Iadon to accept in exchange for permission to enter Elantris. |
+| 21 | Hrathen’s Poison | 1 | Turn | Hrathen receives the potion from Forton. Drinking it, he mimics the symptoms of the Shaod and is cast into Elantris, planning to emerge “healed” as proof of Jaddeth’s power. |
+| 22 | Into Shaor’s Domain | 1 | Comp | Raoden and Galladon infiltrate Shaor’s territory and discover that Shaor is a spoiled child‑goddess worshipped by the feral men. The encounter forces Raoden to rethink how to reach them. |
+| 23 | Business with Telrii | 1 | Comp | Sarene continues her food distributions, and the nobility slowly lose their fear of Elantris. Hrathen, trapped in the city, kneels in prayer, unknowingly watched by Raoden. |
+| 24 | The Widow’s Trial | 1 | Comp | Sarene’s Trial is in full swing; she brings new nobles each day. Raoden, using the alias Spirit, helps acclimate them, hiding his true identity. |
+| 25 | Dilaf’s Sermon | 1 | Comp | Dilaf seizes a Derethi meeting and nearly burns an Elantrian prisoner. Hrathen regains control but realises Dilaf now poses a threat to his own authority. |
+| 26 | Sarene’s Search | 1 | Comp | Sarene investigates the mysterious noises in the palace wall and suspects a secret passage. She arranges for a ball during the lunar eclipse, hoping to catch Iadon’s secret. |
+| 27 | Hrathen’s Despair | 1 | Int | Hrathen, alone in his chapel office, confronts his fading faith. He opens Forton’s poison, drinks it, and collapses—setting his final plan in motion. |
+| 28 | Recovery and Reaction | 2 | Res | Sarene’s food distributions have emptied New Elantris. Saolin is gravely wounded in a skirmish with Shaor’s men. Raoden tries to warn Sarene of the danger. |
+| 29 | Tensions Rise | 2 | Comp | Sarene, traumatised by the attack, confronts Spirit about withholding food. She leaves, and Iadon sends soldiers to purge Elantris; Sarene verbally breaks the king, forcing him to rescind the order. |
+| 30 | Hrathen’s Exile | 2 | Turn | Hrathen is thrown into Elantris. Defeating several wildmen with his martial skill, he kneels in the courtyard, praying aloud for Jaddeth to lift his curse. |
+| 31 | Saolin’s End | 2 | Comp | Saolin, now Hoed, is taken to the pool of dissolution at his own request. He dissolves peacefully, and Raoden makes Galladon swear to do the same for him if he falls. |
+| 32 | The Eclipse Party | 2 | Comp | Sarene organises a ball at Roial’s estate. Using the eclipse as cover, she follows Iadon through the sewers and discovers him leading a Jeskeri Mystery cult in human sacrifice. |
+| 33 | Iadon’s Fall | 2 | Res | Iadon is exposed and arrested. That night he hangs himself in his cell. Telrii begins consolidating power, and the nobility scramble for a new king. |
+| 34 | Shaor’s End | 2 | Turn | Raoden’s band grows; Shaor’s men, desperate, murder their child‑goddess and bring her wig to Raoden, transferring their feral worship to him. |
+| 35 | The Chasm Line | 2 | Turn | Raoden realises the Aons are maps; the Reod was caused by the crack in the earth. Adding the Chasm line to his Aons, he restores limited AonDor and prevents further Dor attacks on himself. |
+| 36 | Hrathen’s “Miracle” | 2 | Res | The potion wears off; Hrathen’s Elantrian symptoms vanish. He emerges from Elantris claiming divine healing, reinvigorating his followers and shocking Dilaf into submission. |
+| 37 | The Dor Strikes | 2 | Int | Raoden suffers a massive Dor attack, glowing uncontrollably. Galladon and Karata fear he will soon become Hoed. Raoden learns that his bond to the Dor is uniquely intense. |
+| 38 | Telrii | 2 | Comp | Sarene, Roial, and the nobles plan to counter Telrii. They decide to execute a swift coup, but Hrathen’s popularity complicates everything. |
+| 39 | Sarene’s Fall | 2 | Turn | Sarene is poisoned with Forton’s Shaod‑mimicking elixir at her wedding to Roial. She collapses, apparently cursed, and is cast into Elantris. |
+| 40 | Inside Elantris Again | 2 | Comp | Sarene wakes in Elantris and is greeted by Spirit (Raoden). He shows her the miraculous, clean community of New Elantris, but she does not recognise him. |
+| 41 | A New Life | 2 | Int | Sarene adapts to life in New Elantris, learning AonDor from Spirit. She bonds with the community and with Spirit himself, though some tension remains. |
+| 42 | Hrathen Consolidates | 2 | Comp | Hrathen reasserts control over the Derethi chapel. Dilaf is forced to step back. Hrathen prepares for the final conversion of Arelon. |
+| 43 | The Library | 2 | Int | Raoden shows Sarene the hidden underground library. He explains his AonDor research, and they grow closer. Ashe (Sarene’s seon) arrives, uncorrupted, and reconnects her to the outside world. |
+| 44 | Telrii Crowned | 2 | Comp | Telrii becomes king, backed by the Elantris City Guard. Sarene, through Ashe, learns that her father has converted to Shu‑Dereth in exchange for her promised “healing.” |
+| 45 | Telrii’s Demand | 2 | Comp | Telrii sends a letter to Wyrn demanding to be made a gyorn in exchange for his conversion. Hrathen realises Telrii has overplayed his hand and that Wyrn’s patience is thin. |
+| 46 | Kaloo | 2 | Turn | Raoden uses an illusion Aon to adopt the Duladen persona “Kaloo” and escapes Elantris with Galladon. They infiltrate Kae to help Sarene and the nobles stop Telrii. |
+| 47 | A Royal Duel | 2 | Comp | Sarene spars with Kaloo (Raoden) at fencing practice, wounding his cheek. She is suspicious but fails to unmask him. |
+| 48 | Telrii’s Rejection | 2 | Comp | Telrii refuses Hrathen’s demands unless he is made gyorn. Hrathen is stunned by the king’s arrogance and starts to see that his political scheme has backfired. |
+| 49 | Sarene’s Return | 2 | Comp | Hrathen, realising Sarene’s symptoms are from the poison, arranges for her “healing” and release from Elantris. She returns to Kae just before Telrii’s coronation. |
+| 50 | Kaloo’s Plans | 2 | Comp | Raoden (as Kaloo) earns Roial’s trust and is admitted into the secret council. He proposes rallying the nobility and the Guard rather than attempting assassination. |
+| 51 | The Perfumer’s Tent | 2 | Comp | Dilaf confronts Hrathen in a perfumer’s tent, gloating that Hrathen has failed and that Wyrn never intended to convert Arelon—only to distract. Hrathen is left shaken. |
+| 52 | The Mask Falls | 2 | Turn | During a council meeting at Kiin’s house, Ahan betrays them to Telrii. Soldiers burst in, and Roial is murdered. Raoden drops his illusion, revealing himself as the prince alive. |
+| 53 | Raoden’s Revelation | 2 | Turn | Telrii’s soldiers flee from the “ghost” of Raoden. The council swears allegiance to Raoden as the true king. His Elantrian nature is temporarily hidden by makeup. |
+| 54 | Eondel’s Vengeance | 2 | Res | Eondel leads a strike on Telrii’s palace, killing the usurper but dying in the process. Kae is thrown into chaos, but the throne is now empty for Raoden. |
+| 55 | A New Dawn | 3 | Res | Raoden stands on Kiin’s roof with Sarene, watching the city. The Elantris City Guard declares for him, and he prepares to be crowned. |
+| 56 | The Coronation | 3 | Turn | At Raoden’s coronation, Dilaf appears and somehow dispels Raoden’s illusion. The crowd sees an Elantrian king—but Sarene’s speech convinces many to kneel anyway. |
+| 57 | Dilaf’s Attack | 3 | Turn | Dilaf reveals himself as the gragdet of Dakhor Monastery. His warrior monks flood Kae, slaughtering indiscriminately. Raoden is beaten and taken, Sarene captured. |
+| 58 | The Monks’ Slave | 3 | Comp | Dilaf transports Sarene and Raoden to Teoras using a sacrifice‑powered Aon. He forces Eventeo to prepare surrender, intending to sacrifice Sarene. |
+| 59 | The Pool | 3 | Int | Raoden, wounded, sinks into the Hoed state. Galladon, believing him lost, carries him toward the pool of dissolution on the mountain. |
+| 60 | Choas and Sacrifice | 3 | Comp | In Teoras, Dilaf prepares to kill Sarene. Hrathen, mortally wounded by a Rathbore assassin, uses the last of his Dakhor‑hardened arm to snap Dilaf’s neck and save her. |
+| 61 | The Final Line | 3 | Turn | Raoden, on the verge of dissolution, realises Aon Rao is a map of Elantris and its four outer cities. He draws the Chasm line, and the entire city complex erupts with power, completing his transformation. |
+| 62 | Restoration | 3 | Res | Raoden arrives in Elantris, fully healed and glowing. The Elantrians step unharmed from the burning pyre. The Fjordell forces are destroyed or driven out, and Kae is saved. |
+| 63 | The Wedding | 3 | Res | Raoden and Sarene marry in the restored Elantris. The novel closes with Sarene playfully warning him not to disappear again. |
+| E | Epilogue: Hrathen’s Grave | 3 | Res | Sarene dedicates a barrow to Hrathen, acknowledging him as the saviour who gave his life for Arelon and Teod. Briest’s spirit of evasion is (in the parallel template) replaced by a final, open‑ended reflection on guilt and heroism. |
+
+---
+
+## Foreshadowing in *Elantris*
+
+| Title | Description | Appearances |
+|-------|-------------|-------------|
+| **The Chasm Line** | Throughout the early chapters, Raoden’s Aons flash and fail without effect. The explanation—that the Aons are maps requiring a new line for the Chasm generated by the Reod—is subtly hinted at by the constant emphasis on geography and the earthquake. | 7, 16, 19, 25, 35, 43, 55, 61 |
+| **The Dor as a Living Force** | The Dor is described as a pressure seeking release. Raoden’s unusually violent Dor attacks foreshadow that his body is a potential conduit, not merely a victim; the final restoration occurs when he becomes the focus for the entire city. | 16, 19, 25, 31, 37, 43, 55, 61 |
+| **The Seon Madness** | The mad seons floating in Elantris, including Raoden’s Ien, are early clues that the Shaod affects not just bodies but also their bond to Investiture. Their eventual restoration parallels the healing of Elantris. | 7, 12, 13, 16, 18, 43 |
+| **Raoden’s Identity** | Spirit’s educated speech, his knowledge of barons, and his determination to help Elantris are constant hints that he is more than a minor noble. The revelation that he is Prince Raoden is heavily foreshadowed. | 1–7, 13, 22, 28, 40–44, 52–53 |
+| **Hrathen’s Arm** | Hrathen’s constant wearing of a cloth sleeve on his right arm, the memory of Dakhor training, and his unusual strength hint at his hidden bone patterns. The arm ultimately becomes the means to kill Dilaf. | 3, 6, 18, 21, 36, 58, 60–61 |
+| **The Pool of Dissolution** | Galladon and Raoden discover a pool on the mountain where the Hoed dissolve peacefully. Raoden makes Galladon swear to bring him there if he falls, foreshadowing his near‑fate in Chapter 61. | 31, 59, 61 |
+| **Aons as Maps** | Sarene, during an AonDor lesson, offhandedly remarks that every Aon begins with a drawing that resembles Arelon. This casual observation becomes the key to restoring AonDor. | 7, 35, 43, 46, 55, 61 |
+| **The Mad Seons** – The aimless, mad seons that float through Elantris are an eerie, ghostly presence that unsettles everyone and foreshadow the fractured connection to the Dor that will later be mended. | 7, 12, 13, 16, 18, 43, 61 |
+| **Dilaf’s True Nature** | Dilaf’s intense hatred of Elantris, his unnatural speed, and the suspicious scars beneath his skin hint that he is something far more dangerous than a simple arteth. His final transformation reveals the bone carvings of Dakhor. | 6, 9, 18, 25, 30, 42, 51, 56–58 |
+| **The Importance of Food** | The initial focus on the Elantrians’ hunger—and Raoden’s decision to stockpile seed corn rather than eat it—foreshadows that self‑sufficient agriculture will be the basis of New Elantris’s survival, independent of outside charity. | 4, 10, 13, 22, 28, 34, 40 |
+| **Sarene’s Political Acumen** | Sarene’s early manipulation of Iadon with feigned stupidity, her skill at fencing, and her boldness in the council all foreshadow that she will be the one to hold the kingdom together when Raoden is incapacitated. | 5, 8, 11, 14, 20, 23, 29, 39, 49 |
+
+---
+
+## Glossary
+
+### Characters
+
+**Raoden**  
+*Representations:* Prince Raoden, Spirit, Lord Spirit, Kaloo, the Elantrian prince  
+*Explanation:* Crown prince of Arelon. Taken by the Shaod, he leads the Elantrians as “Spirit” and later restores the city’s magic. He is kind, brilliant, and determined.  
+*See also:* Sarene, Galladon, Karata, Saolin, Ien  
+*Appearances:* 1–63, Epilogue
+
+**Sarene**  
+*Representations:* Princess Sarene, Lady Sarene, Your Highness, the Teo princess, Sarene  
+*Explanation:* Daughter of King Eventeo of Teod. Married by contract to Raoden, then widowed, she uses her political skill to defend Arelon from Fjorden’s influence and falls in love with Spirit.  
+*See also:* Raoden, Eventeo, Kiin, Ashe  
+*Appearances:* 2–63, Epilogue
+
+**Hrathen**  
+*Representations:* Gyorn Hrathen, High Priest Hrathen, the gyorn, Lord Hrathen  
+*Explanation:* A high priest of Shu‑Dereth sent to convert Arelon within three months. He later questions his mission and sacrifices himself to save Sarene and stop Dilaf.  
+*See also:* Dilaf, Wyrn, Forton, Eventeo  
+*Appearances:* 3, 5–6, 9, 12, 15, 18, 21, 24–27, 30, 33, 36, 38–39, 42, 45, 47–49, 51, 55–57, 60–61, Epilogue
+
+**Galladon**  
+*Representations:* Galladon, the Dula, Dula  
+*Explanation:* A farmer from Duladel who becomes Raoden’s cynical but loyal friend and second‑in‑command in Elantris.  
+*See also:* Raoden, Karata  
+*Appearances:* 1, 4, 7, 10, 13, 16, 19, 22, 25, 29, 31, 35, 37, 40, 43–44, 46, 49–50, 52, 55, 59–61, 63, Epilogue
+
+**Karata**  
+*Representations:* Karata, Lady Karata  
+*Explanation:* Leader of one of the original Elantrian gangs; a former guard‑wife who joins Raoden’s new order and cares for the children.  
+*See also:* Raoden, Dashe, the children  
+*Appearances:* 13, 18, 22, 29, 31, 34, 37, 40, 55, 59–61
+
+**Saolin**  
+*Representations:* Saolin, Captain Saolin  
+*Explanation:* A former soldier in Count Eondel’s legion; becomes Raoden’s chief guard and later falls to the Hoed.  
+*See also:* Raoden, Eondel  
+*Appearances:* 10, 13, 19, 22, 28–29, 31
+
+**Mareshe**  
+*Representations:* Mareshe, the artisan  
+*Explanation:* A jeweller and craftsman; one of the first to join Raoden. He makes shoes, clothing, and tools for New Elantris.  
+*See also:* Raoden  
+*Appearances:* 7, 10, 13, 14, 22, 28, 31, 34, 40, 60
+
+**Taan (Aanden)**  
+*Representations:* Taan, Aanden, the sculptor  
+*Explanation:* A sculptor who became the mad gang‑leader “Aanden”; after Raoden’s intervention, he reclaims his art and identity.  
+*See also:* Raoden  
+*Appearances:* 13–14, 22, 40
+
+**Shaor**  
+*Representations:* Shaor, the child‑goddess  
+*Explanation:* A spoiled child who became the idol of the feral gang in the market district. Killed by her own followers.  
+*See also:* the wildmen  
+*Appearances:* 4, 22, 28, 31, 34
+
+**Dashe**  
+*Representations:* Dashe  
+*Explanation:* Karata’s tall second‑in‑command; later serves as a guard for Raoden’s community.  
+*See also:* Karata, Raoden  
+*Appearances:* 13, 22, 31, 34, 40
+
+**Ien**  
+*Representations:* Ien, Raoden’s seon  
+*Explanation:* Raoden’s seon of healing. He goes mad after Raoden’s transformation but later recovers and serves again.  
+*See also:* Raoden, Ashe, seons  
+*Appearances:* 7, 12–13, 16, 25, 43, 55, 63
+
+**Ashe**  
+*Representations:* Ashe, Sarene’s seon  
+*Explanation:* Sarene’s seon, ancient and wise. He remains lucid after her apparent “curse” and serves as a link between Elantris and the outside world.  
+*See also:* Sarene, Ien, Eventeo  
+*Appearances:* 1–3, 5, 6, 8–10, 13, 14, 24–25, 28, 31–32, 35, 37–41, 43–46, 48, 50–53, 55, 57–58
+
+**Dilaf**  
+*Representations:* Arteth Dilaf, Dilaf, the Arelene priest, the Dakhor gragdet  
+*Explanation:* A Derethi priest and secret leader of Dakhor Monastery. He hates Elantris with pathological intensity and masterminds the massacre.  
+*See also:* Hrathen, Dakhor  
+*Appearances:* 3, 5–6, 9, 18, 24–27, 30, 36, 42, 48, 51, 55–60
+
+**Iadon**  
+*Representations:* King Iadon, His Majesty, the king  
+*Explanation:* First king of Arelon; a merchant who built a tyrannical wealth‑based nobility. He imprisons his own son and later commits suicide after his secret Jeskeri cult is exposed.  
+*See also:* Raoden, Sarene, Telrii  
+*Appearances:* 1–5, 8–9, 11, 20, 25, 27, 29, 33
+
+**Eshen**  
+*Representations:* Queen Eshen, the queen  
+*Explanation:* Iadon’s second wife; flighty and talkative, yet innocent of her husband’s darker crimes. She is killed during the Dakhor attack.  
+*Appearances:* 2, 5, 8, 14, 32, 60
+
+**Kiin**  
+*Representations:* Kiin, Uncle Kiin, Hunkey Kay, Dreok Crushthroat  
+*Explanation:* Sarene’s uncle; a jovial, enormous chef with a hidden past as the pirate Dreok Crushthroat. He is Eventeo’s older brother and a loyal supporter of Raoden.  
+*See also:* Sarene, Eventeo, Lukel  
+*Appearances:* 2, 5, 8, 10–11, 14, 20, 25, 32–33, 35, 40, 44, 47, 50, 53–54, 57–60
+
+**Lukel**  
+*Representations:* Lukel, Cousin Lukel  
+*Explanation:* Kiin’s stepson; a witty, successful merchant who aids Sarene’s schemes and later fights alongside Raoden.  
+*See also:* Kiin, Sarene, Jalla, Shuden  
+*Appearances:* 2, 5, 8, 10–11, 14, 17, 20, 23, 25, 32–33, 35, 38–40, 44, 47, 50, 53, 58, 60, 63
+
+**Shuden**  
+*Representations:* Shuden, Baron Shuden, Lord Shuden  
+*Explanation:* A young JinDo baron, quiet and honest, who becomes one of Sarene’s strongest allies. He practices the martial art ChayShan.  
+*See also:* Sarene, Eondel, Torena  
+*Appearances:* 11, 14, 17, 20, 23, 32–33, 35, 38–40, 44, 47, 50, 53, 55, 58, 60, 63
+
+**Eondel**  
+*Representations:* Eondel, Count Eondel, Lord Eondel, General Eondel  
+*Explanation:* The martial count who trains Sarene’s fencing women and later assassinates Telrii, dying in the process.  
+*See also:* Sarene, Shuden, Roial  
+*Appearances:* 8, 11, 14, 17, 20, 23, 25, 29, 32–33, 35, 38–40, 44, 47, 50, 53–54, 56
+
+**Roial**  
+*Representations:* Duke Roial, Lord Roial, the old duke  
+*Explanation:* The elderly, cunning duke of Ial Plantation; a mentor to Raoden and a suitor to Sarene. Murdered by Telrii’s soldiers.  
+*See also:* Raoden, Sarene, Ahan  
+*Appearances:* 11, 14, 20, 23, 25, 32–33, 35, 38–40, 44–47, 50, 52–53
+
+**Ahan**  
+*Representations:* Ahan, Count Ahan, the fat count  
+*Explanation:* A wealthy, jovial but self‑serving count who betrays the conspiracy to Telrii, inadvertently causing Roial’s death. He later repents.  
+*See also:* Roial, Sarene, Torena, Seaden  
+*Appearances:* 11, 21, 23, 25, 32–33, 35, 40, 44, 50, 53–54, 63
+
+**Telrii**  
+*Representations:* Duke Telrii, King Telrii, Telrii  
+*Explanation:* The vain, extravagant duke who becomes king with Fjorden’s backing, only to be killed by Eondel.  
+*See also:* Hrathen, Iadon, Sarene, Roial  
+*Appearances:* 8, 12, 20, 23, 25, 32–33, 35, 38–39, 42, 44–45, 48, 50, 53–54, 56
+
+**Seinalan**  
+*Representations:* Patriarch Seinalan, His Holiness, the patriarch  
+*Explanation:* The handsome, self‑important head of Shu‑Korath, who arrives to read Iadon’s posthumous proclamation. He is vain but politically useful.  
+*Appearances:* 35, 38, 56
+
+**Omin**  
+*Representations:* Father Omin, the short priest  
+*Explanation:* The wise, absent‑minded Korathi priest of Kae. He befriends Sarene and counsels mercy toward the Elantrians.  
+*Appearances:* 2, 5, 14, 24, 30, 38, 60, 63
+
+**Eventeo**  
+*Representations:* King Eventeo, Eventeo, Father, His Majesty of Teod  
+*Explanation:* Sarene’s father and king of Teod. He converts to Shu‑Dereth to secure Sarene’s “healing,” but later launches the armada at Hrathen’s urging.  
+*See also:* Sarene, Kiin, Hrathen  
+*Appearances:* 2, 20, 35, 39, 44, 47, 58, 60
+
+**Forton**  
+*Representations:* Forton, the apothecary  
+*Explanation:* A Hroven drug‑addict and alchemist who mixes the Shaod‑mimicking poison for Hrathen and later the poison used on Sarene.  
+*See also:* Hrathen  
+*Appearances:* 18, 21, 27, 39
+
+**Wyrn**  
+*Representations:* Wyrn, Wyrn Wulfden the Fourth, the Regent of All Creation, His Holiness  
+*Explanation:* The emperor‑prophet of Fjorden, who decrees the conversion or destruction deadline and commands the Dakhor monks.  
+*See also:* Hrathen, Dilaf, Telrii  
+*Appearances:* 3, 12, 18, 21, 45, 48
+
+**Fjon**  
+*Representations:* Arteth Fjon, Fjon  
+*Explanation:* The original head arteth of Kae, dismissed by Hrathen. He later assassinates Hrathen on Wyrn’s orders.  
+*Appearances:* 3, 62
+
+**Dakhor**  
+*Representations:* Dakhor Monastery, the monks of Dakhor, the twisted warriors  
+*Explanation:* A secret monastery whose monks undergo bone‑carving rituals that grant them superhuman strength and resistance to AonDor.  
+*See also:* Dilaf, Wyrn, Hrathen  
+*Appearances:* 58–61
+
+**Adien**  
+*Representations:* Adien  
+*Explanation:* Lukel’s half‑brother, secretly an Elantrian. He has an extraordinary ability to calculate distances, which proves vital for Raoden’s teleportation.  
+*See also:* Lukel, Raoden  
+*Appearances:* 2, 5, 8, 10, 25, 56, 58, 60–61
+
+**Daora**  
+*Representations:* Daora, Aunt Daora  
+*Explanation:* Kiin’s graceful wife; she gently mentors Sarene in feminine accomplishments and is a skilled needle‑worker.  
+*Appearances:* 2, 5, 8, 10, 14, 17, 25, 58
+
+**Kaise**  
+*Representations:* Kaise  
+*Explanation:* Daora’s precocious young daughter, who speaks multiple languages and idolises Sarene.  
+*Appearances:* 2, 5, 8, 10, 14, 17, 25, 58
+
+**Daorn**  
+*Representations:* Daorn  
+*Explanation:* Kaise’s twin brother, who tries to act mature but is often overshadowed by his sister.  
+*Appearances:* 2, 5, 8, 10, 14, 17, 25, 58
+
+**Jalla**  
+*Representations:* Jalla  
+*Explanation:* Lukel’s Svordish wife; a sharp bargainer who supports him.  
+*See also:* Lukel  
+*Appearances:* 2, 5, 10, 25
+
+**Torena**  
+*Representations:* Torena  
+*Explanation:* Ahan’s quiet, intelligent daughter who joins Sarene’s fencing class and later becomes close to Shuden.  
+*See also:* Sarene, Shuden, Ahan  
+*Appearances:* 14, 17, 23, 32, 38
+
+**Seaden**  
+*Representations:* Seaden, Lady Seaden  
+*Explanation:* Ahan’s overweight wife who loses weight through fencing.  
+*Appearances:* 14, 17, 32
+
+**Hoid**  
+*Representations:* Hoid  
+*Explanation:* A beggar‑informant who delivers supplies for Sarene and later appears in the post‑credits scene, seeking to become Elantrian.  
+*Appearances:* 50, Postscript
+
+### Places
+
+**Elantris**  
+*Representations:* Elantris, the city, the dead city  
+*Explanation:* The fallen city of the gods on Arelon’s northern coast. Its walls, architecture, and magic are central to the novel’s conflict and resolution.  
+*Appearances:* Throughout
+
+**Kae**  
+*Representations:* Kae, the new capital  
+*Explanation:* The city that grew up around Elantris, now the seat of Arelon’s monarchy.  
+*Appearances:* 1–56
+
+**Arelon**  
+*Representations:* Arelon  
+*Explanation:* The kingdom ruled (formerly) by Iadon; home of the Aonic people and land where the Shaod strikes.  
+*Appearances:* Throughout
+
+**Teod**  
+*Representations:* Teod, Teoras (capital)  
+*Explanation:* The island kingdom allied to Arelon; Sarene’s homeland, famed for its navy.  
+*Appearances:* 2, 20, 35, 58
+
+**Fjorden**  
+*Representations:* Fjorden, the Fjordell Empire  
+*Explanation:* The militaristic theocracy that controls much of the East and seeks to absorb all nations into Shu‑Dereth.  
+*Appearances:* 3, 21, 45, 48, 57
+
+**Duladel**  
+*Representations:* Duladel, the Duladen Republic  
+*Explanation:* A formerly democratic nation recently collapsed by a Derethi‑backed revolution. Galladon’s homeland.  
+*Appearances:* 1, 4, 16, 19, 44
+
+**New Elantris**  
+*Representations:* New Elantris, the clean section, the community  
+*Explanation:* The area of Elantris that Raoden’s followers have cleaned and organised into a functional, hopeful settlement.  
+*Appearances:* 28, 30–31, 34, 40, 43, 55
+
+**The Library**  
+*Representations:* the library, the hidden library, the underground collection  
+*Explanation:* A vast, secret underground library in the mountainside where the AonDor tomes are kept. Sacred and slime‑free.  
+*Appearances:* 25, 43, 60
+
+**The Pool**  
+*Representations:* the pool, the lake, the crystalline pool  
+*Explanation:* A small, magical pool on the mountain outside Elantris where the Hoed dissolve into peace.  
+*Appearances:* 31, 59, 61
+
+**Dakhor Monastery**  
+*Representations:* Dakhor Monastery, the Order of Bone  
+*Explanation:* The most feared of the Fjordell monasteries, where monks undergo bone‑carving rites to gain supernatural abilities.  
+*Appearances:* 57–60 (mentioned earlier)
+
+### Concepts and Magical Terms
+
+**AonDor**  
+*Representations:* AonDor, the magic of the Aons, Elantrian magic  
+*Explanation:* The system of drawing precise Aons in the air to produce magical effects; usable only by Elantrians.  
+*Appearances:* 7, 16, 19, 25, 35, 43, 49, 55, 61
+
+**Aons**  
+*Representations:* Aons, the characters  
+*Explanation:* Complex symbols that are both the letters of the Aonic alphabet and the focus for magical power. Each Aon is a map of Arelon with specific modifications.  
+*Appearances:* 7, 16, 19, 25, 35, 43, 55
+
+**The Dor**  
+*Representations:* the Dor, the overspirit, the power  
+*Explanation:* A vast, pressurised, non‑sentient energy source that fuels AonDor. It seeks any release, including through faulty or incomplete Aons.  
+*Appearances:* 16, 19, 25, 35, 37, 43
+
+**The Shaod**  
+*Representations:* the Shaod, the Transformation, the curse  
+*Explanation:* The random, night‑time event that transforms an ordinary person into an Elantrian. Since the Reod, it creates cursed, pain‑afflicted forms.  
+*Appearances:* 1, 4, 7, 16, 25, 33, 39
+
+**The Reod**  
+*Representations:* the Reod, the Punishment, the Fall  
+*Explanation:* The cataclysmic earthquake ten years prior that fractured the land, broke AonDor, and turned Elantris into a prison of pain.  
+*Appearances:* Prologue, 1, 7, 25, 35
+
+**Seons**  
+*Representations:* seons, the glowing balls  
+*Explanation:* Sentient spheres of light with an Aon at their core; they bond to a master and serve as companions and communicators. They go mad if their master is taken by the Shaod.  
+*Appearances:* 1, 5, 7, 12–13, 16, 18, 24, 43, 63
+
+**Svrakiss**  
+*Representations:* Svrakiss, demons, devils  
+*Explanation:* In Derethi theology, the souls of evil men who oppose Jaddeth. Hrathen convinces the populace that Elantrians are Svrakiss.  
+*Appearances:* 6, 30
+
+**Shu‑Dereth**  
+*Representations:* Shu‑Dereth, the Derethi faith, the Fjordell religion  
+*Explanation:* The militaristic, hierarchal religion of Fjorden that seeks to unite all mankind under Wyrn’s rule.  
+*Appearances:* 3, 6, 9, 12, 33, 36, 45
+
+**Shu‑Korath**  
+*Representations:* Shu‑Korath, the Korathi faith, Domi’s church  
+*Explanation:* The gentler, love‑focused religion dominant in Arelon and Teod. Its symbol is Aon Omi.  
+*Appearances:* 2, 5, 14, 24, 30, 38
+
+**Jeskeri Mysteries**  
+*Representations:* the Jeskeri Mysteries, the Mysteries  
+*Explanation:* A dark, syncretic cult involving ritual sacrifice, secretly practised by Iadon.  
+*Appearances:* 33
+
+**The Chasm**  
+*Representations:* the Chasm, the crack, the earthquake rift  
+*Explanation:* The enormous fissure that opened in southern Arelon during the Reod; its existence required a new line in every Aon for the magic to function.  
+*Appearances:* 35, 43, 55, 61
+
+**Hoed**  
+*Representations:* the Hoed, the fallen, the mindless  
+*Explanation:* Elantrians who have succumbed to their accumulated pain and lost all volition. They repeat mantras and are cared for by Raoden’s community.  
+*Appearances:* 1, 4, 10, 25, 28, 31, 59, 61
+
+**The AonDor Book**  
+*Representations:* the AonDor book, the tome  
+*Explanation:* The ancient manual on AonDor that Raoden uses to learn the magic, including illusion and healing Aons.  
+*Appearances:* 16, 25, 35, 43, 55
+
+**Forton’s Potion**  
+*Representations:* the Shaod‑mimicking potion, Forton’s elixir  
+*Explanation:* A concoction that temporarily makes the drinker appear as an Elantrian. Hrathen uses it on himself and later on Sarene.  
+*Appearances:* 18, 21, 27, 39, 49
+
+**“Kolo?”**  
+*Representations:* Kolo?, kolo  
+*Explanation:* A Duladen tag‑question meaning “isn’t that so?” or “right?” Galladon uses it constantly.  
+*Appearances:* 1, 4, 6, 10, 13, 16, etc.
+
+**“Sule”**  
+*Representations:* sule  
+*Explanation:* A Duladen term of endearment and friendship, used by Galladon toward Raoden.  
+*Appearances:* 1, 4, 6, 10, 13, etc.
+
+## Major Storylines
+
+| Title | Description | Appearances |
+|-------|-------------|--------------|
+| **Raoden’s Resurrection of Elantris** | Cursed by the Shaod, Prince Raoden is cast into the decaying city of Elantris, where he refuses to surrender to pain and despair. Under the alias “Spirit”, he organises the desperate inhabitants, builds the thriving community of New Elantris, and tirelessly studies AonDor. His quest to unlock the secret of the Reod drives the novel’s central magical arc, culminating in the restoration of Elantris and his own complete transformation. | 1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49, 52, 55, 58, 61, 63 |
+| **Sarene’s Political Battle and Hidden Love** | Believing herself widowed, Princess Sarene throws herself into the treacherous politics of the Arelene court. She counters Hrathen’s conversion plans, befriends the rebellious nobility, organises a Widow’s Trial to demystify Elantris, and later must lead the kingdom after Iadon’s fall. Simultaneously, she develops a deep, complicated bond with the enigmatic “Spirit” inside Elantris, unaware he is her lost husband. Her storyline merges political intrigue with a slow‑burning romance. | 2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, Epilogue |
+| **Hrathen’s Mission and Crisis of Faith** | Gyorn Hrathen arrives in Kae with a divine deadline: convert Arelon to Shu‑Dereth in three months or watch it be destroyed. A master manipulator, he schemes to topple the monarchy, unify the nobility behind fear of Elantris, and stage a “miracle” to prove his god’s power. Yet as he wrestles with the fanatic Dilaf and his own hollow faith, Hrathen gradually realises he has been used as a distraction for a massacre. His arc ends with self‑sacrifice, saving the woman he secretly loves and the country he was sent to subjugate. | 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60 |
